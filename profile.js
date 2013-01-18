@@ -10,6 +10,17 @@
 		"title" : {
 			"uri" : "<http://purl.org/dc/elements/1.1/title>",
 			"type" : "string"
-		}
+		},  
+			"tags" : {
+				"uri" : "<http://purl.org/dc/terms/subject>",
+				"type" : "string" 
+			},  
+			"extras" : {
+				"type" : "map",
+				"license_id" : {
+					"uri" : "<http://purl.org/dc/terms/license>",
+					"type" : "string" 
+				}
+			}
 	}
 }

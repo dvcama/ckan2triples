@@ -1,0 +1,43 @@
+var a = {
+	"id" : "100488",
+	"name" : "100488",
+	"title" : "Nuovo Grafo ViabilitÃ  - Grafo di sintesi GDF2",
+	"version" : "",
+	"url" : "http://www.dati.piemonte.it/catalogodati/dato/100488-nuovo-grafo-viabilitÃ -grafo-di-sintesi-gdf2.html",
+	"resources" : [ {
+		"id" : "",
+		"url" : "http://gis.csi.it/repertorio/sitad_wgs84/NGV/NuovoGrafoViabilita_GDF2.zip",
+		"format" : "SHP",
+		"description" : "",
+		"hash" : "",
+		"package_id" : "100488"
+	} ],
+	"author" : "Regione Piemonte - Programmazione strategica, Politiche territoriali ed Edilizia - Cartografia e Sistema Informativo Territoriale",
+	"author_email" : "",
+	"maintainer" : "Regione Piemonte - Programmazione strategica, Politiche territoriali ed Edilizia - Cartografia e Sistema Informativo Territoriale",
+	"maintainer_email" : "",
+	"license_id" : "",
+	"license" : "CC-BY",
+	"metadata_created" : "2012-11-15T01:00:00+0100",
+	"tags" : [ "Viabilita", "trasporti", "Strade", "stradario", "sintesi", "NGV", "infrastrutture", "indirizzi", "grafo" ],
+	"notes" : "Il Nuovo Grafo ViabilitÃ  (NGV) Ã¨ la base dati che racchiude tutte le informazioni geografiche ed alfanumeriche relative alla viabilitÃ ,  mobilitÃ  e indirizzi della regione Piemonte.\nNGV comprende la viabilitÃ  stradale principale e secondaria, la viabilitÃ  pedonale e ciclabile, le infrastrutture di trasporto su ferro e la navigazione lacuale.  Il Grafo della viabilitÃ  stradale Ã¨ realizzato a due livelli, secondo lo standard GDF: il livello 1 analitico e il livello 2 di sintesi.  Alla viabilitÃ  stradale sono associati la toponomastica comunale e sovracomunale e la numerazione civica.",
+	"extras" : {
+		"topic" : "Traffico e trasporti",
+		"metadata_created" : "2012-11-15T01:00:00+0100",
+		"hidden_field" : "Traffico e trasporti",
+		"package_modified" : "2012-07-03T02:00:00+0200",
+		"tag" : "Viabilita|trasporti|Strade|stradario|sintesi|NGV|infrastrutture|indirizzi|grafo",
+		"visualization_url" : "http://www.sistemapiemonte.it/sitad/ricercaEntita.do?idEntita=10002871&interfaccia=sispie&ricerca=off&authType=guest",
+		"url" : "http://www.dati.piemonte.it/catalogodati/dato/100488-nuovo-grafo-viabilitÃ -grafo-di-sintesi-gdf2.html",
+		"author" : "Regione Piemonte - Programmazione strategica, Politiche territoriali ed Edilizia - Cartografia e Sistema Informativo Territoriale",
+		"title" : "Nuovo Grafo ViabilitÃ  - Grafo di sintesi GDF2",
+		"package_created" : "2010-01-01T01:00:00+0100",
+		"source" : "SITAD",
+		"description" : "Il Nuovo Grafo ViabilitÃ  (NGV) Ã¨ la base dati che racchiude tutte le informazioni geografiche ed alfanumeriche relative alla viabilitÃ ,  mobilitÃ  e indirizzi della regione Piemonte.\nNGV comprende la viabilitÃ  stradale principale e secondaria, la viabilitÃ  pedonale e ciclabile, le infrastrutture di trasporto su ferro e la navigazione lacuale.  Il Grafo della viabilitÃ  stradale Ã¨ realizzato a due livelli, secondo lo standard GDF: il livello 1 analitico e il livello 2 di sintesi.  Alla viabilitÃ  stradale sono associati la toponomastica comunale e sovracomunale e la numerazione civica.",
+		"package_type" : "Dato geografico",
+		"license_id" : "CC-BY",
+		"package_id" : "100488",
+		"metadata_modified" : "2013-01-16T01:00:00+0100",
+		"metadata_source_modified" : "2012-07-03T02:00:00+0200"
+	}
+}

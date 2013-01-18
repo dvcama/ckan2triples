@@ -46,26 +46,23 @@ function start(jConfig) {
 				resText += chunk;
 			});
 			res.on('end', function() {
+				/* response in json */
 				var resJ = JSON.parse(resText);
 				var map = jConfig.map;
 				$.each(map, function(key, params) {
 					/* genero la uri della nuova risorsa */
-					var resourceUri = res.req.path;
-					if (jConfig.resourceUriSubstitutor && jConfig.resourceUriSubstitutor.replace && jConfig.resourceUriSubstitutor.find) {
-						resourceUri = resourceUri.replace(new RegExp(jConfig.resourceUriSubstitutor.find), jConfig.resourceUriSubstitutor.replace);
-					} 
+					var resourceUri = generateUri(res.req.path, jConfig);
 
-					/* scrivo la tripla */ 
-					var row = "<"+resourceUri + ">\t" + params.uri + "\t";
-					if (params.type == 'string') {
-						row += '"' + resJ[key] + '"';
-					} else {
-						row += resJ[key];
+					/* produco la singola riga */
+					var row = writeRow(resourceUri, key, params, resJ);
+
+					/* scrivo su disco */
+					if ($.trim(row) != '') {
+						fs.appendFile(jConfig.resultFileName, row + ".\n", function(err) {
+							if (err)
+								throw err;
+						});
 					}
-					fs.appendFile(jConfig.resultFileName, row + "\n", function(err) {
-						if (err)
-							throw err;
-					});
 				});
 			});
 		}).on('error', function(e) {
@@ -74,7 +71,39 @@ function start(jConfig) {
 	}
 }
 
-/*
- * if (!dashboard) { dashboard = fs.readFileSync('html/dashboard.html',
- * 'UTF-8'); jDash = $(dashboard); }
- */
+function generateUri(resourceUri, jConfig) {
+	if (jConfig.resourceUriSubstitutor && jConfig.resourceUriSubstitutor.replace && jConfig.resourceUriSubstitutor.find) {
+		resourceUri = resourceUri.replace(new RegExp(jConfig.resourceUriSubstitutor.find), jConfig.resourceUriSubstitutor.replace);
+	}
+	return resourceUri;
+}
+
+function writeRow(resourceUri, key, params, resJ) {
+	var row = "<" + resourceUri + ">\t";
+	if (resJ[key]) {
+		if (params.type == 'string') {
+			if (typeof resJ[key] == "string") {
+				row += params.uri + '\t"' + resJ[key] + '"';
+			} else {
+				for ( var int = 0; int < resJ[key].length; int++) {
+					row += params.uri + '\t"' + resJ[key][int] + '";\t';
+				}
+				row = row.substring(0, row.lastIndexOf(";"));
+			}
+		} else if (params.type == 'map') {
+			row = "";
+			$.each(params, function(innerKey, innerParams) {
+				if (typeof innerParams == typeof {}) {
+					row += writeRow(resourceUri, innerKey, innerParams, resJ[key]) + ".\n";
+				}
+				row = row.substring(0, row.lastIndexOf("."));
+			});
+		} else {
+			row += resJ[key];
+		}
+	} else {
+		row = "";
+	}
+
+	return row;
+}
