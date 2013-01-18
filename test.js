@@ -82,7 +82,7 @@ function writeRow(resourceUri, key, params, resJ) {
 	var row = "<" + resourceUri + ">\t";
 	if (resJ[key]) {
 		if (params.type == 'string') {
-			if (typeof resJ[key] == "string") {
+			if (typeof resJ[key] == typeof "") {
 				row += params.uri + '\t"' + resJ[key] + '"';
 			} else {
 				for ( var int = 0; int < resJ[key].length; int++) {
@@ -99,7 +99,14 @@ function writeRow(resourceUri, key, params, resJ) {
 				row = row.substring(0, row.lastIndexOf("."));
 			});
 		} else {
-			row += resJ[key];
+			if (typeof resJ[key] != typeof []) {
+				row += params.uri + '\t' + resJ[key];
+			} else {
+				for ( var int = 0; int < resJ[key].length; int++) {
+					row += params.uri + '\t' + resJ[key][int] + ';\t';
+				}
+				row = row.substring(0, row.lastIndexOf(";"));
+			}
 		}
 	} else {
 		row = "";
