@@ -3,8 +3,15 @@ var fs = require('fs');
 var $ = require('jquery');
 console.log('starting!');
 
-/* carico il profilo */
+/* carico il profilo 1*/
 fs.readFile("profile.js", "UTF-8", function(err, data) {
+	if (err)
+		throw err;
+	start(JSON.parse(data));
+});
+
+/* carico il profilo 2*/
+fs.readFile("profile.provinciaRoma.js", "UTF-8", function(err, data) {
 	if (err)
 		throw err;
 	start(JSON.parse(data));
@@ -18,8 +25,6 @@ function start(jConfig) {
 
 	/* lista dei package */
 	http.get(jConfig.packageListUrl, function(res) {
-		// console.log('STATUS: ' + res.statusCode);
-		// console.log('HEADERS: ' + JSON.stringify(res.headers));
 		res.setEncoding('utf8');
 		var resText = "";
 		res.on('data', function(chunk) {
@@ -58,7 +63,7 @@ function start(jConfig) {
 
 					/* scrivo su disco */
 					if ($.trim(row) != '') {
-						fs.appendFile(jConfig.resultFileName, row + ".\n", function(err) {
+						fs.appendFile(jConfig.resultFileName, row, function(err) {
 							if (err)
 								throw err;
 						});
@@ -80,55 +85,47 @@ function generateUri(resourceUri, jConfig) {
 
 function writeRow(resourceUri, key, params, resJ) {
 	var row = "<" + resourceUri + ">\t";
+	/* riconduco tutto ad array per limitare il numero dei casi da gestire */
+	if (typeof resJ[key] != typeof []) {
+		resJ[key] = [ resJ[key] ];
+	}
 	if (resJ[key]) {
 		if (params.type == 'map') {
 			row = "";
-			$.each(params, function(innerKey, innerParams) {
-				if (typeof innerParams == typeof {}) {
-					row += writeRow(resourceUri, innerKey, innerParams, resJ[key]) + ".\n";
+			for ( var int = 0; int < resJ[key].length; int++) {
+				if (params.hasOwnUri) {
+					row += "<" + resourceUri + ">\t" + params.uri + "\t<" + resourceUri + (params.hasOwnUri ? (params.suffix ? params.suffix : "") + int : "") + ">.\n";
 				}
-				row = row.substring(0, row.lastIndexOf("."));
-			});
+				$.each(params, function(innerKey, innerParams) {
+					if (typeof innerParams == typeof {}) {
+						if (resJ[key][int]) {
+							row += writeRow(resourceUri + (params.hasOwnUri ? (params.suffix ? params.suffix : "") + int : ""), innerKey, innerParams, resJ[key][int]);
+						}
+					}
+				});
+			}
 		} else {
-			if (typeof resJ[key] != typeof []) {
-				if (params.type == 'string') {
-					row += params.uri + '\t"' + resJ[key] + '"';
-				} else if (params.type == 'uri') {
-					row += params.uri + '\t<' + generateUri((params.prefix?params.prefix:"") + resJ[key], params) + '>';
-				} else {
-					row += params.uri + '\t' + resJ[key];
-				}
-			} else {
-				for ( var int = 0; int < resJ[key].length; int++) {
+			for ( var int = 0; int < resJ[key].length; int++) {
+				if (resJ[key][int]) {
 					if (params.type == 'string') {
-						row += params.uri + '\t"' + resJ[key][int] + '";\t';
+						row += params.uri + '\t"' + $.trim(resJ[key][int]) + '";\t';
 					} else if (params.type == 'uri') {
-						row += params.uri + '\t<' + generateUri((params.prefix?params.prefix:"") + resJ[key][int], params) + '>;\t';
+						row += params.uri + '\t<' + generateUri((params.prefix ? params.prefix : "") + resJ[key][int], params) + '>;\t';
 					} else {
-						row += params.uri + '\t' + resJ[key][int] + ';\t';
+						row += params.uri + '\t' + $.trim(resJ[key][int]) + ';\t';
 					}
 				}
+			}
+			if (row.lastIndexOf(";") > 0) {
 				row = row.substring(0, row.lastIndexOf(";"));
 			}
+			row += ".\n";
 		}
-		/*
-		 * if (params.type == 'string') { if (typeof resJ[key] == typeof "") {
-		 * row += params.uri + '\t"' + resJ[key] + '"'; } else { for ( var int =
-		 * 0; int < resJ[key].length; int++) { row += params.uri + '\t"' +
-		 * resJ[key][int] + '";\t'; } row = row.substring(0,
-		 * row.lastIndexOf(";")); } } else if (params.type == 'map') { row = "";
-		 * $.each(params, function(innerKey, innerParams) { if (typeof
-		 * innerParams == typeof {}) { row += writeRow(resourceUri, innerKey,
-		 * innerParams, resJ[key]) + ".\n"; } row = row.substring(0,
-		 * row.lastIndexOf(".")); }); } else { if (typeof resJ[key] != typeof
-		 * []) { row += params.uri + '\t' + resJ[key]; } else { for ( var int =
-		 * 0; int < resJ[key].length; int++) { row += params.uri + '\t' +
-		 * resJ[key][int] + ';\t'; } row = row.substring(0,
-		 * row.lastIndexOf(";")); } }
-		 */
 	} else {
 		row = "";
 	}
-
+	if (row.split("\t").length < 3) {
+		row = "";
+	}
 	return row;
 }

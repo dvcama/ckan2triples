@@ -23,6 +23,24 @@
 					"uri" : "<http://purl.org/dc/terms/license>",
 					"type" : "string" 
 				}
+			},  
+			"resources" : {
+				"type" : "map",
+				"hasOwnUri":true,
+				"suffix":"/res/",
+				"uri":"<hasResource>",
+				"url" : {
+					"uri" : "<url>",
+					"type" : "string" 
+				},
+				"description" : {
+					"uri" : "<http://purl.org/dc/elements/1.1/title>",
+					"type" : "string" 
+				},
+				"format" : {
+					"uri" : "<format>",
+					"type" : "string" 
+				}
 			}
 	}
 }
