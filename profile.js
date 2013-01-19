@@ -13,7 +13,9 @@
 		},  
 			"tags" : {
 				"uri" : "<http://purl.org/dc/terms/subject>",
-				"type" : "string" 
+				"type" : "uri",
+				"prefix":"http://data.opendataday.it/resource/dati.piemonte/tag/",
+				"resourceUriSubstitutor" : {}
 			},  
 			"extras" : {
 				"type" : "map",

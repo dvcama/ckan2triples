@@ -81,16 +81,7 @@ function generateUri(resourceUri, jConfig) {
 function writeRow(resourceUri, key, params, resJ) {
 	var row = "<" + resourceUri + ">\t";
 	if (resJ[key]) {
-		if (params.type == 'string') {
-			if (typeof resJ[key] == typeof "") {
-				row += params.uri + '\t"' + resJ[key] + '"';
-			} else {
-				for ( var int = 0; int < resJ[key].length; int++) {
-					row += params.uri + '\t"' + resJ[key][int] + '";\t';
-				}
-				row = row.substring(0, row.lastIndexOf(";"));
-			}
-		} else if (params.type == 'map') {
+		if (params.type == 'map') {
 			row = "";
 			$.each(params, function(innerKey, innerParams) {
 				if (typeof innerParams == typeof {}) {
@@ -100,14 +91,41 @@ function writeRow(resourceUri, key, params, resJ) {
 			});
 		} else {
 			if (typeof resJ[key] != typeof []) {
-				row += params.uri + '\t' + resJ[key];
+				if (params.type == 'string') {
+					row += params.uri + '\t"' + resJ[key] + '"';
+				} else if (params.type == 'uri') {
+					row += params.uri + '\t<' + generateUri((params.prefix?params.prefix:"") + resJ[key], params) + '>';
+				} else {
+					row += params.uri + '\t' + resJ[key];
+				}
 			} else {
 				for ( var int = 0; int < resJ[key].length; int++) {
-					row += params.uri + '\t' + resJ[key][int] + ';\t';
+					if (params.type == 'string') {
+						row += params.uri + '\t"' + resJ[key][int] + '";\t';
+					} else if (params.type == 'uri') {
+						row += params.uri + '\t<' + generateUri((params.prefix?params.prefix:"") + resJ[key][int], params) + '>;\t';
+					} else {
+						row += params.uri + '\t' + resJ[key][int] + ';\t';
+					}
 				}
 				row = row.substring(0, row.lastIndexOf(";"));
 			}
 		}
+		/*
+		 * if (params.type == 'string') { if (typeof resJ[key] == typeof "") {
+		 * row += params.uri + '\t"' + resJ[key] + '"'; } else { for ( var int =
+		 * 0; int < resJ[key].length; int++) { row += params.uri + '\t"' +
+		 * resJ[key][int] + '";\t'; } row = row.substring(0,
+		 * row.lastIndexOf(";")); } } else if (params.type == 'map') { row = "";
+		 * $.each(params, function(innerKey, innerParams) { if (typeof
+		 * innerParams == typeof {}) { row += writeRow(resourceUri, innerKey,
+		 * innerParams, resJ[key]) + ".\n"; } row = row.substring(0,
+		 * row.lastIndexOf(".")); }); } else { if (typeof resJ[key] != typeof
+		 * []) { row += params.uri + '\t' + resJ[key]; } else { for ( var int =
+		 * 0; int < resJ[key].length; int++) { row += params.uri + '\t' +
+		 * resJ[key][int] + ';\t'; } row = row.substring(0,
+		 * row.lastIndexOf(";")); } }
+		 */
 	} else {
 		row = "";
 	}
