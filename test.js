@@ -4,18 +4,25 @@ var $ = require('jquery');
 console.log('starting!');
 
 /* carico il profilo 1*/
-fs.readFile("profile.js", "UTF-8", function(err, data) {
+//fs.readFile("profile.piemonte.js", "UTF-8", function(err, data) {
+//	if (err)
+//		throw err;
+//	start(JSON.parse(data));
+//});
+
+/* carico il profilo 2*/
+//fs.readFile("profile.provinciaRoma.js", "UTF-8", function(err, data) {
+//	if (err)
+//		throw err;
+//	start(JSON.parse(data));
+//});
+
+fs.readFile("profile.toscana.js", "UTF-8", function(err, data) {
 	if (err)
 		throw err;
 	start(JSON.parse(data));
 });
 
-/* carico il profilo 2*/
-fs.readFile("profile.provinciaRoma.js", "UTF-8", function(err, data) {
-	if (err)
-		throw err;
-	start(JSON.parse(data));
-});
 
 /* si parte! */
 function start(jConfig) {
