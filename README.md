@@ -1,2 +1,2 @@
-ckan2rdf
+ckan2turtle
 ========
