@@ -2,7 +2,7 @@
 	"catalogInfo" : [ "<http://data.opendataday.it/resource/dati.toscana> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Catalog>" ],
 	"packageListUrl" : "http://dati.toscana.it/api/rest/package",
 	"singlePackageBaseUrl" : "http://dati.toscana.it/api/rest/package/",
-	"resultFileName" : "dati.toscana.turtle",
+	"resultFileName" : "dati.toscana.n3",
 	"resourceUriSubstitutor" : {
 		"find" : "/api/rest/package",
 		"replace" : "http://data.opendataday.it/resource/dati.toscana"
@@ -15,7 +15,9 @@
 		},
 		"tags" : {
 			"uri" : "<http://www.w3.org/ns/dcat#keyword>",
-			"type" : "string"
+			"type" : "uri",
+			"prefix":"http://data.opendataday.it/resource/tag/",
+			"forceLowerCase":true
 		},
 		"extras" : {
 			"type" : "map",
@@ -27,7 +29,7 @@
 		"resources" : {
 			"type" : "map",
 			"hasOwnUri" : true,
-			"suffix" : "/distribution/",
+			"suffix" : "/distribution/dis",
 			"uri" : "<http://www.w3.org/ns/dcat#distribution>",
 			"description" : {
 				"uri" : "<http://purl.org/dc/terms/description>",
