@@ -17,6 +17,10 @@
 			"uri" : "<http://purl.org/dc/terms/description>",
 			"type" : "string" 
 		},
+		"ckan_url" : {
+			"uri" : "<http://purl.org/dc/terms/isReferencedBy>",
+			"type" : "uri"
+		},
 		"license_id" : {
 			"uri" : "<http://purl.org/dc/terms/rights>",
 			"type" : "string" 
@@ -25,7 +29,8 @@
 			"uri" : "<http://www.w3.org/ns/dcat#keyword>",
 			"type" : "uri",
 			"prefix":"http://data.opendataday.it/resource/tag/",
-			"forceLowerCase":true
+			"forceLowerCase":true,
+			"toUri":true
 		},  
 		"resources" : {
 			"type" : "map",

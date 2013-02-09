@@ -13,18 +13,25 @@
 			"uri" : "<http://purl.org/dc/elements/1.1/title>",
 			"type" : "string"
 		},
+		"notes" : {
+			"uri" : "<http://purl.org/dc/terms/description>",
+			"type" : "string"
+		},
+		"ckan_url" : {
+			"uri" : "<http://purl.org/dc/terms/isReferencedBy>",
+			"type" : "uri"
+		},
 		"tags" : {
 			"uri" : "<http://www.w3.org/ns/dcat#keyword>",
 			"type" : "uri",
-			"prefix":"http://data.opendataday.it/resource/tag/",
-			"forceLowerCase":true
+			"prefix" : "http://data.opendataday.it/resource/tag/",
+			"forceLowerCase" : true,
+			"toUri":true
 		},
-		"extras" : {
-			"type" : "map",
-			"license_id" : {
-				"uri" : "<http://purl.org/dc/terms/rights>",
-				"type" : "string"
-			}
+		"type" : "map",
+		"license_id" : {
+			"uri" : "<http://purl.org/dc/terms/rights>",
+			"type" : "string"
 		},
 		"resources" : {
 			"type" : "map",
