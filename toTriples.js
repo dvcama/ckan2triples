@@ -3,6 +3,8 @@ var fs = require('fs');
 var $ = require('jquery');
 console.log('starting!');
 
+var arguments = process.argv.splice(2);
+console.log("starting: " + arguments);
 /* carico il profilo 1 */
 // fs.readFile("profile.piemonte.js", "UTF-8", function(err, data) {
 // if (err)
@@ -15,11 +17,22 @@ console.log('starting!');
 // throw err;
 // start(JSON.parse(data));
 // });
-fs.readFile("profile.toscana.js", "UTF-8", function(err, data) {
-	if (err)
-		throw err;
-	start(JSON.parse(data));
-});
+if (arguments.length > 0) {
+	for ( var int = 0; int < arguments.length; int++) {
+		console.log("starting: " + arguments[int]);
+		fs.readFile(arguments[int], "UTF-8", function(err, data) {
+			if (err)
+				throw err;
+			start(JSON.parse(data));
+		});
+	}
+} else {
+	fs.readFile("profile.toscana.js", "UTF-8", function(err, data) {
+		if (err)
+			throw err;
+		start(JSON.parse(data));
+	});
+}
 
 /* si parte! */
 function start(jConfig) {
@@ -139,6 +152,9 @@ function createRow(resourceUri, key, params, resJ) {
 			for ( var int = 0; int < resJ[key].length; int++) {
 				if (resJ[key][int]) {
 					var val = $.trim(resJ[key][int]);
+					if (params.forceLowerCase) {
+						val = val.toLowerCase();
+					}
 					if (params.type == 'string') {
 						if (val.match(/\n/)) {
 							val = '""' + val + '""';
