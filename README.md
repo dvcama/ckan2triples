@@ -1,2 +1,2 @@
-ckan2turtle
+ckan2triples
 ========
