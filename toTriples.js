@@ -54,8 +54,8 @@ function start(jConfig) {
 			catalogInfo(jConfig);
 
 			for ( var int = 0; int < resArray.length; int++) {
-				singleDataset(resArray[int]);
-				//return;
+				singleDataset(resArray[int], jConfig);
+				// return;
 			}
 		});
 	}).on('error', function(e) {
@@ -63,7 +63,7 @@ function start(jConfig) {
 	});
 
 	/* singolo package */
-	function singleDataset(dataId) {
+	function singleDataset(dataId, jConfig) {
 		console.log("processing " + jConfig.singlePackageBaseUrl + dataId);
 
 		http.get(jConfig.singlePackageBaseUrl + dataId, function(res) {
@@ -83,7 +83,7 @@ function start(jConfig) {
 
 					if (!justOnce) {
 						/* inserisco eventuali triple fisse */
-						datasetInfo(resourceUri, jConfig);
+						writeRow(staticInfo(resourceUri, jConfig), jConfig.resultFileName);
 						justOnce = true;
 					}
 					/* produco la singola riga */
@@ -115,12 +115,14 @@ function catalogInfo(jConfig) {
 	}
 }
 
-function datasetInfo(resourceUri, jConfig) {
-	if (jConfig.datasetInfo) {
-		$.each(jConfig.datasetInfo, function(key, value) {
-			writeRow(value.replace(/\{\{URI\}\}/g, resourceUri) + ".\n", jConfig.resultFileName);
+function staticInfo(resourceUri, jConfig) {
+	var result = "";
+	if (jConfig.staticInfo) {
+		$.each(jConfig.staticInfo, function(key, value) {
+			result += value.replace(/\{\{URI\}\}/g, resourceUri) + ".\n";
 		});
 	}
+	return result;
 }
 
 function writeRow(row, resultFileName) {
@@ -135,7 +137,9 @@ function writeRow(row, resultFileName) {
 function createRow(resourceUri, key, params, resJ) {
 	var row = "<" + resourceUri + ">\t";
 	/* riconduco tutto ad array per limitare il numero dei casi da gestire */
-
+	if (params["splitForChar"]) {
+		resJ[key] = resJ[key].split(params["splitForChar"]);
+	}
 	if (!Array.isArray(resJ[key])) {
 		resJ[key] = [ resJ[key] ];
 	}
@@ -145,13 +149,21 @@ function createRow(resourceUri, key, params, resJ) {
 			// console.log(resJ[key])
 			row = "";
 			for ( var int = 0; int < resJ[key].length; int++) {
+				var val = $.trim(resJ[key][int]);
+				if (params.forceLowerCase) {
+					val = val.toLowerCase();
+				}
+				if (params.toUri) {
+					val = uriCleaner(val);
+				}
 				if (params.hasOwnUri) {
-					row += "<" + resourceUri + ">\t" + params.uri + "\t<" + resourceUri + (params.hasOwnUri ? (params.suffix ? params.suffix : "") + int : "") + ">.\n";
+					row += "<" + resourceUri + ">\t" + params.uri + "\t<" + (params.valueAsUri ? (params.prefix ? params.prefix : "") + val : (resourceUri + (params.hasOwnUri ? (params.suffix ? params.suffix : "") + int : ""))) + ">.\n";
+					row += staticInfo((params.valueAsUri ? (params.prefix ? params.prefix : "") + val : (resourceUri + (params.hasOwnUri ? (params.suffix ? params.suffix : "") + int : ""))), params);
 				}
 				$.each(params, function(innerKey, innerParams) {
 					if (Object.prototype.toString.call(innerParams) == "[object Object]") {
 						if (resJ[key][int]) {
-							row += createRow(resourceUri + (params.hasOwnUri ? (params.suffix ? params.suffix : "") + int : ""), innerKey, innerParams, resJ[key][int]);
+							row += createRow((params.valueAsUri ? (params.prefix ? params.prefix : "") + val : (resourceUri + (params.hasOwnUri ? (params.suffix ? params.suffix : "") + int : ""))), innerKey, innerParams, resJ[key][int]);
 						}
 					}
 				});
@@ -189,9 +201,11 @@ function createRow(resourceUri, key, params, resJ) {
 	if (row.split("\t").length < 3) {
 		row = "";
 	}
+
 	return row;
 }
 function uriCleaner(uri) {
+	uri = $.trim(uri);
 	uri = removeDiacritics(uri);
 	uri = uri.replace(/[^a-zA-Z0-9]/g, '-');
 	while (uri.indexOf("--") > -1) {
