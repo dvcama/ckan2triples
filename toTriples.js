@@ -156,6 +156,7 @@ function createRow(resourceUri, key, params, resJ) {
 				if (params.toUri) {
 					val = uriCleaner(val);
 				}
+				val = val.replace(/"/gi,'\\"');
 				if (params.hasOwnUri) {
 					row += "<" + resourceUri + ">\t" + params.uri + "\t<" + (params.valueAsUri ? (params.prefix ? params.prefix : "") + val : (resourceUri + (params.hasOwnUri ? (params.suffix ? params.suffix : "") + int : ""))) + ">.\n";
 					row += staticInfo((params.valueAsUri ? (params.prefix ? params.prefix : "") + val : (resourceUri + (params.hasOwnUri ? (params.suffix ? params.suffix : "") + int : ""))), params);
@@ -178,6 +179,7 @@ function createRow(resourceUri, key, params, resJ) {
 					if (params.toUri) {
 						val = uriCleaner(val);
 					}
+					val = val.replace(/"/gi,'\\"');
 					if (params.type == 'string') {
 						if (val.match(/\n/)) {
 							val = '""' + val + '""';

@@ -13,6 +13,19 @@
 <http://data.opendataday.it/resource/dati.toscana/universita-e-conservatori/distribution/dis0>	<http://purl.org/dc/terms/description>	"Università pubbliche e conservatori di musica".
 <http://data.opendataday.it/resource/dati.toscana/universita-e-conservatori/distribution/dis0>	<http://www.w3.org/ns/dcat#accessURL>	<http://dati.toscana.it/it/storage/f/2012-07-26T164304/intoscana-scuola-e-universita_universita.csv>.
 <http://data.opendataday.it/resource/dati.toscana/universita-e-conservatori/distribution/dis0>	<http://rdfs.org/ns/void#format>	"csv".
+<http://data.opendataday.it/resource/dati.toscana>	<http://www.w3.org/ns/dcat#dataset>	<http://data.opendataday.it/resource/dati.toscana/corrieri-espresso>.
+<http://data.opendataday.it/resource/dati.toscana/corrieri-espresso>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/ns/dcat#Dataset>.
+<http://data.opendataday.it/resource/dati.toscana/corrieri-espresso>	<http://purl.org/dc/elements/1.1/title>	"Corrieri Espresso".
+<http://data.opendataday.it/resource/dati.toscana/corrieri-espresso>	<http://purl.org/dc/terms/description>	"Uffici dei Corrieri espresso".
+<http://data.opendataday.it/resource/dati.toscana/corrieri-espresso>	<http://purl.org/dc/terms/isReferencedBy>	<http://dati.toscana.it/dataset/corrieri-espresso>.
+<http://data.opendataday.it/resource/dati.toscana/corrieri-espresso>	<http://www.w3.org/ns/dcat#keyword>	<http://data.opendataday.it/resource/tag/corrieri>.
+<http://data.opendataday.it/resource/tag/corrieri>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept>.
+<http://data.opendataday.it/resource/dati.toscana/corrieri-espresso>	<http://purl.org/dc/terms/rights>	"cc-zero".
+<http://data.opendataday.it/resource/dati.toscana/corrieri-espresso>	<http://www.w3.org/ns/dcat#distribution>	<http://data.opendataday.it/resource/dati.toscana/corrieri-espresso/distribution/dis0>.
+<http://data.opendataday.it/resource/dati.toscana/corrieri-espresso/distribution/dis0>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/ns/dcat#Distribution>.
+<http://data.opendataday.it/resource/dati.toscana/corrieri-espresso/distribution/dis0>	<http://purl.org/dc/terms/description>	"Uffici dei Corrieri espresso".
+<http://data.opendataday.it/resource/dati.toscana/corrieri-espresso/distribution/dis0>	<http://www.w3.org/ns/dcat#accessURL>	<http://dati.toscana.it/it/storage/f/2012-07-26T160443/intoscana-commercio_corrieri.csv>.
+<http://data.opendataday.it/resource/dati.toscana/corrieri-espresso/distribution/dis0>	<http://rdfs.org/ns/void#format>	"csv".
 <http://data.opendataday.it/resource/dati.toscana>	<http://www.w3.org/ns/dcat#dataset>	<http://data.opendataday.it/resource/dati.toscana/arte-e-cultura>.
 <http://data.opendataday.it/resource/dati.toscana/arte-e-cultura>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/ns/dcat#Dataset>.
 <http://data.opendataday.it/resource/dati.toscana/arte-e-cultura>	<http://purl.org/dc/elements/1.1/title>	"Arte e cultura".
@@ -38,6 +51,33 @@
 <http://data.opendataday.it/resource/dati.toscana/arte-e-cultura/distribution/dis0>	<http://purl.org/dc/terms/description>	"Musei, gallerie, monumenti, teatri, biblioteche, ...".
 <http://data.opendataday.it/resource/dati.toscana/arte-e-cultura/distribution/dis0>	<http://www.w3.org/ns/dcat#accessURL>	<http://dati.toscana.it/it/storage/f/2012-07-26T160139/intoscana-arte-e-cultura.csv>.
 <http://data.opendataday.it/resource/dati.toscana/arte-e-cultura/distribution/dis0>	<http://rdfs.org/ns/void#format>	"csv".
+<http://data.opendataday.it/resource/dati.toscana>	<http://www.w3.org/ns/dcat#dataset>	<http://data.opendataday.it/resource/dati.toscana/previsioni-meteo-costa-toscana>.
+<http://data.opendataday.it/resource/dati.toscana/previsioni-meteo-costa-toscana>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/ns/dcat#Dataset>.
+<http://data.opendataday.it/resource/dati.toscana/previsioni-meteo-costa-toscana>	<http://purl.org/dc/elements/1.1/title>	"Previsioni meteo per la Costa Toscana".
+<http://data.opendataday.it/resource/dati.toscana/previsioni-meteo-costa-toscana>	<http://purl.org/dc/terms/description>	"Report in PDF con le previsioni meteo della Costa.".
+<http://data.opendataday.it/resource/dati.toscana/previsioni-meteo-costa-toscana>	<http://purl.org/dc/terms/isReferencedBy>	<http://dati.toscana.it/dataset/previsioni-meteo-costa-toscana>.
+<http://data.opendataday.it/resource/dati.toscana/previsioni-meteo-costa-toscana>	<http://www.w3.org/ns/dcat#keyword>	<http://data.opendataday.it/resource/tag/costa-toscana>.
+<http://data.opendataday.it/resource/tag/costa-toscana>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept>.
+<http://data.opendataday.it/resource/dati.toscana/previsioni-meteo-costa-toscana>	<http://www.w3.org/ns/dcat#keyword>	<http://data.opendataday.it/resource/tag/mare>.
+<http://data.opendataday.it/resource/tag/mare>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept>.
+<http://data.opendataday.it/resource/dati.toscana/previsioni-meteo-costa-toscana>	<http://www.w3.org/ns/dcat#keyword>	<http://data.opendataday.it/resource/tag/meteo>.
+<http://data.opendataday.it/resource/tag/meteo>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept>.
+<http://data.opendataday.it/resource/dati.toscana/previsioni-meteo-costa-toscana>	<http://purl.org/dc/terms/rights>	"other-at".
+<http://data.opendataday.it/resource/dati.toscana/previsioni-meteo-costa-toscana>	<http://www.w3.org/ns/dcat#distribution>	<http://data.opendataday.it/resource/dati.toscana/previsioni-meteo-costa-toscana/distribution/dis0>.
+<http://data.opendataday.it/resource/dati.toscana/previsioni-meteo-costa-toscana/distribution/dis0>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/ns/dcat#Distribution>.
+<http://data.opendataday.it/resource/dati.toscana/previsioni-meteo-costa-toscana/distribution/dis0>	<http://purl.org/dc/terms/description>	"Report in PDF aggiornato periodicamente".
+<http://data.opendataday.it/resource/dati.toscana/previsioni-meteo-costa-toscana/distribution/dis0>	<http://www.w3.org/ns/dcat#accessURL>	<http://www.lamma.rete.toscana.it/previ/ita/meteo_versilia.pdf>.
+<http://data.opendataday.it/resource/dati.toscana/previsioni-meteo-costa-toscana/distribution/dis0>	<http://rdfs.org/ns/void#format>	"pdf".
+<http://data.opendataday.it/resource/dati.toscana/previsioni-meteo-costa-toscana>	<http://www.w3.org/ns/dcat#distribution>	<http://data.opendataday.it/resource/dati.toscana/previsioni-meteo-costa-toscana/distribution/dis1>.
+<http://data.opendataday.it/resource/dati.toscana/previsioni-meteo-costa-toscana/distribution/dis1>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/ns/dcat#Distribution>.
+<http://data.opendataday.it/resource/dati.toscana/previsioni-meteo-costa-toscana/distribution/dis1>	<http://purl.org/dc/terms/description>	"Report in PDF aggiornato periodicamente".
+<http://data.opendataday.it/resource/dati.toscana/previsioni-meteo-costa-toscana/distribution/dis1>	<http://www.w3.org/ns/dcat#accessURL>	<http://www.lamma.rete.toscana.it/previ/ita/meteo_costa_etruschi.pdf>.
+<http://data.opendataday.it/resource/dati.toscana/previsioni-meteo-costa-toscana/distribution/dis1>	<http://rdfs.org/ns/void#format>	"pdf".
+<http://data.opendataday.it/resource/dati.toscana/previsioni-meteo-costa-toscana>	<http://www.w3.org/ns/dcat#distribution>	<http://data.opendataday.it/resource/dati.toscana/previsioni-meteo-costa-toscana/distribution/dis2>.
+<http://data.opendataday.it/resource/dati.toscana/previsioni-meteo-costa-toscana/distribution/dis2>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/ns/dcat#Distribution>.
+<http://data.opendataday.it/resource/dati.toscana/previsioni-meteo-costa-toscana/distribution/dis2>	<http://purl.org/dc/terms/description>	"Report in PDF aggiornato periodicamente".
+<http://data.opendataday.it/resource/dati.toscana/previsioni-meteo-costa-toscana/distribution/dis2>	<http://www.w3.org/ns/dcat#accessURL>	<http://www.lamma.rete.toscana.it/previ/ita/meteo_maremma.pdf>.
+<http://data.opendataday.it/resource/dati.toscana/previsioni-meteo-costa-toscana/distribution/dis2>	<http://rdfs.org/ns/void#format>	"pdf".
 <http://data.opendataday.it/resource/dati.toscana>	<http://www.w3.org/ns/dcat#dataset>	<http://data.opendataday.it/resource/dati.toscana/emergenze>.
 <http://data.opendataday.it/resource/dati.toscana/emergenze>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/ns/dcat#Dataset>.
 <http://data.opendataday.it/resource/dati.toscana/emergenze>	<http://purl.org/dc/elements/1.1/title>	"Le emergenze".
@@ -69,65 +109,27 @@
 <http://data.opendataday.it/resource/dati.toscana/emergenze/distribution/dis0>	<http://purl.org/dc/terms/description>	"Commissariato, Carabinieri, Vigili del Fuoco, Protezione civile, Polizia, Guardia di finanza...".
 <http://data.opendataday.it/resource/dati.toscana/emergenze/distribution/dis0>	<http://www.w3.org/ns/dcat#accessURL>	<http://dati.toscana.it/it/storage/f/2012-07-26T160657/intoscana-emergenze.csv>.
 <http://data.opendataday.it/resource/dati.toscana/emergenze/distribution/dis0>	<http://rdfs.org/ns/void#format>	"csv".
-<http://data.opendataday.it/resource/dati.toscana>	<http://www.w3.org/ns/dcat#dataset>	<http://data.opendataday.it/resource/dati.toscana/corrieri-espresso>.
-<http://data.opendataday.it/resource/dati.toscana/corrieri-espresso>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/ns/dcat#Dataset>.
-<http://data.opendataday.it/resource/dati.toscana/corrieri-espresso>	<http://purl.org/dc/elements/1.1/title>	"Corrieri Espresso".
-<http://data.opendataday.it/resource/dati.toscana/corrieri-espresso>	<http://purl.org/dc/terms/description>	"Uffici dei Corrieri espresso".
-<http://data.opendataday.it/resource/dati.toscana/corrieri-espresso>	<http://purl.org/dc/terms/isReferencedBy>	<http://dati.toscana.it/dataset/corrieri-espresso>.
-<http://data.opendataday.it/resource/dati.toscana/corrieri-espresso>	<http://www.w3.org/ns/dcat#keyword>	<http://data.opendataday.it/resource/tag/corrieri>.
-<http://data.opendataday.it/resource/tag/corrieri>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept>.
-<http://data.opendataday.it/resource/dati.toscana/corrieri-espresso>	<http://purl.org/dc/terms/rights>	"cc-zero".
-<http://data.opendataday.it/resource/dati.toscana/corrieri-espresso>	<http://www.w3.org/ns/dcat#distribution>	<http://data.opendataday.it/resource/dati.toscana/corrieri-espresso/distribution/dis0>.
-<http://data.opendataday.it/resource/dati.toscana/corrieri-espresso/distribution/dis0>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/ns/dcat#Distribution>.
-<http://data.opendataday.it/resource/dati.toscana/corrieri-espresso/distribution/dis0>	<http://purl.org/dc/terms/description>	"Uffici dei Corrieri espresso".
-<http://data.opendataday.it/resource/dati.toscana/corrieri-espresso/distribution/dis0>	<http://www.w3.org/ns/dcat#accessURL>	<http://dati.toscana.it/it/storage/f/2012-07-26T160443/intoscana-commercio_corrieri.csv>.
-<http://data.opendataday.it/resource/dati.toscana/corrieri-espresso/distribution/dis0>	<http://rdfs.org/ns/void#format>	"csv".
-<http://data.opendataday.it/resource/dati.toscana>	<http://www.w3.org/ns/dcat#dataset>	<http://data.opendataday.it/resource/dati.toscana/previsioni-meteo-costa-toscana>.
-<http://data.opendataday.it/resource/dati.toscana/previsioni-meteo-costa-toscana>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/ns/dcat#Dataset>.
-<http://data.opendataday.it/resource/dati.toscana/previsioni-meteo-costa-toscana>	<http://purl.org/dc/elements/1.1/title>	"Previsioni meteo per la Costa Toscana".
-<http://data.opendataday.it/resource/dati.toscana/previsioni-meteo-costa-toscana>	<http://purl.org/dc/terms/description>	"Report in PDF con le previsioni meteo della Costa.".
-<http://data.opendataday.it/resource/dati.toscana/previsioni-meteo-costa-toscana>	<http://purl.org/dc/terms/isReferencedBy>	<http://dati.toscana.it/dataset/previsioni-meteo-costa-toscana>.
-<http://data.opendataday.it/resource/dati.toscana/previsioni-meteo-costa-toscana>	<http://www.w3.org/ns/dcat#keyword>	<http://data.opendataday.it/resource/tag/costa-toscana>.
-<http://data.opendataday.it/resource/tag/costa-toscana>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept>.
-<http://data.opendataday.it/resource/dati.toscana/previsioni-meteo-costa-toscana>	<http://www.w3.org/ns/dcat#keyword>	<http://data.opendataday.it/resource/tag/mare>.
-<http://data.opendataday.it/resource/tag/mare>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept>.
-<http://data.opendataday.it/resource/dati.toscana/previsioni-meteo-costa-toscana>	<http://www.w3.org/ns/dcat#keyword>	<http://data.opendataday.it/resource/tag/meteo>.
-<http://data.opendataday.it/resource/tag/meteo>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept>.
-<http://data.opendataday.it/resource/dati.toscana/previsioni-meteo-costa-toscana>	<http://purl.org/dc/terms/rights>	"other-at".
-<http://data.opendataday.it/resource/dati.toscana/previsioni-meteo-costa-toscana>	<http://www.w3.org/ns/dcat#distribution>	<http://data.opendataday.it/resource/dati.toscana/previsioni-meteo-costa-toscana/distribution/dis0>.
-<http://data.opendataday.it/resource/dati.toscana/previsioni-meteo-costa-toscana/distribution/dis0>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/ns/dcat#Distribution>.
-<http://data.opendataday.it/resource/dati.toscana/previsioni-meteo-costa-toscana/distribution/dis0>	<http://purl.org/dc/terms/description>	"Report in PDF aggiornato periodicamente".
-<http://data.opendataday.it/resource/dati.toscana/previsioni-meteo-costa-toscana/distribution/dis0>	<http://www.w3.org/ns/dcat#accessURL>	<http://www.lamma.rete.toscana.it/previ/ita/meteo_versilia.pdf>.
-<http://data.opendataday.it/resource/dati.toscana/previsioni-meteo-costa-toscana/distribution/dis0>	<http://rdfs.org/ns/void#format>	"pdf".
-<http://data.opendataday.it/resource/dati.toscana/previsioni-meteo-costa-toscana>	<http://www.w3.org/ns/dcat#distribution>	<http://data.opendataday.it/resource/dati.toscana/previsioni-meteo-costa-toscana/distribution/dis1>.
-<http://data.opendataday.it/resource/dati.toscana/previsioni-meteo-costa-toscana/distribution/dis1>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/ns/dcat#Distribution>.
-<http://data.opendataday.it/resource/dati.toscana/previsioni-meteo-costa-toscana/distribution/dis1>	<http://purl.org/dc/terms/description>	"Report in PDF aggiornato periodicamente".
-<http://data.opendataday.it/resource/dati.toscana/previsioni-meteo-costa-toscana/distribution/dis1>	<http://www.w3.org/ns/dcat#accessURL>	<http://www.lamma.rete.toscana.it/previ/ita/meteo_costa_etruschi.pdf>.
-<http://data.opendataday.it/resource/dati.toscana/previsioni-meteo-costa-toscana/distribution/dis1>	<http://rdfs.org/ns/void#format>	"pdf".
-<http://data.opendataday.it/resource/dati.toscana/previsioni-meteo-costa-toscana>	<http://www.w3.org/ns/dcat#distribution>	<http://data.opendataday.it/resource/dati.toscana/previsioni-meteo-costa-toscana/distribution/dis2>.
-<http://data.opendataday.it/resource/dati.toscana/previsioni-meteo-costa-toscana/distribution/dis2>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/ns/dcat#Distribution>.
-<http://data.opendataday.it/resource/dati.toscana/previsioni-meteo-costa-toscana/distribution/dis2>	<http://purl.org/dc/terms/description>	"Report in PDF aggiornato periodicamente".
-<http://data.opendataday.it/resource/dati.toscana/previsioni-meteo-costa-toscana/distribution/dis2>	<http://www.w3.org/ns/dcat#accessURL>	<http://www.lamma.rete.toscana.it/previ/ita/meteo_maremma.pdf>.
-<http://data.opendataday.it/resource/dati.toscana/previsioni-meteo-costa-toscana/distribution/dis2>	<http://rdfs.org/ns/void#format>	"pdf".
-<http://data.opendataday.it/resource/dati.toscana>	<http://www.w3.org/ns/dcat#dataset>	<http://data.opendataday.it/resource/dati.toscana/infrastrutture-nautiche>.
-<http://data.opendataday.it/resource/dati.toscana/infrastrutture-nautiche>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/ns/dcat#Dataset>.
-<http://data.opendataday.it/resource/dati.toscana/infrastrutture-nautiche>	<http://purl.org/dc/elements/1.1/title>	"Infrastrutture nautiche".
-<http://data.opendataday.it/resource/dati.toscana/infrastrutture-nautiche>	<http://purl.org/dc/terms/isReferencedBy>	<http://dati.toscana.it/dataset/infrastrutture-nautiche>.
 <http://data.opendataday.it/resource/dati.toscana/infrastrutture-nautiche>	<http://www.w3.org/ns/dcat#keyword>	<http://data.opendataday.it/resource/tag/mobilita>.
 <http://data.opendataday.it/resource/tag/mobilita>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept>.
 <http://data.opendataday.it/resource/dati.toscana/infrastrutture-nautiche>	<http://www.w3.org/ns/dcat#keyword>	<http://data.opendataday.it/resource/tag/trasporto>.
 <http://data.opendataday.it/resource/tag/trasporto>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept>.
-<http://data.opendataday.it/resource/dati.toscana/infrastrutture-nautiche>	<http://purl.org/dc/terms/rights>	"cc-zero".
+<http://data.opendataday.it/resource/dati.toscana/infrastrutture-nautiche>	<http://purl.org/dc/terms/isReferencedBy>	<http://dati.toscana.it/dataset/infrastrutture-nautiche>.
 <http://data.opendataday.it/resource/dati.toscana/infrastrutture-nautiche>	<http://www.w3.org/ns/dcat#distribution>	<http://data.opendataday.it/resource/dati.toscana/infrastrutture-nautiche/distribution/dis0>.
 <http://data.opendataday.it/resource/dati.toscana/infrastrutture-nautiche/distribution/dis0>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/ns/dcat#Distribution>.
 <http://data.opendataday.it/resource/dati.toscana/infrastrutture-nautiche/distribution/dis0>	<http://purl.org/dc/terms/description>	"Porti, Darsene, Lega navale, Noleggio barche, Officine barche".
 <http://data.opendataday.it/resource/dati.toscana/infrastrutture-nautiche/distribution/dis0>	<http://www.w3.org/ns/dcat#accessURL>	<http://dati.toscana.it/it/storage/f/2012-07-26T161529/intoscana-mobilita_navale.csv>.
 <http://data.opendataday.it/resource/dati.toscana/infrastrutture-nautiche/distribution/dis0>	<http://rdfs.org/ns/void#format>	"csv".
+<http://data.opendataday.it/resource/dati.toscana/infrastrutture-nautiche>	<http://purl.org/dc/elements/1.1/title>	"Infrastrutture nautiche".
+<http://data.opendataday.it/resource/dati.toscana/infrastrutture-nautiche>	<http://purl.org/dc/terms/rights>	"cc-zero".
+<http://data.opendataday.it/resource/dati.toscana>	<http://www.w3.org/ns/dcat#dataset>	<http://data.opendataday.it/resource/dati.toscana/infrastrutture-nautiche>.
+<http://data.opendataday.it/resource/dati.toscana/infrastrutture-nautiche>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/ns/dcat#Dataset>.
 <http://data.opendataday.it/resource/dati.toscana>	<http://www.w3.org/ns/dcat#dataset>	<http://data.opendataday.it/resource/dati.toscana/giustizia>.
 <http://data.opendataday.it/resource/dati.toscana/giustizia>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/ns/dcat#Dataset>.
 <http://data.opendataday.it/resource/dati.toscana/giustizia>	<http://purl.org/dc/elements/1.1/title>	"La giustizia".
 <http://data.opendataday.it/resource/dati.toscana/giustizia>	<http://purl.org/dc/terms/description>	"I dati dei Tribunali e dei Giudici di Pace".
 <http://data.opendataday.it/resource/dati.toscana/giustizia>	<http://purl.org/dc/terms/isReferencedBy>	<http://dati.toscana.it/dataset/giustizia>.
+<http://data.opendataday.it/resource/dati.toscana/giustizia>	<http://www.w3.org/ns/dcat#keyword>	<http://data.opendataday.it/resource/tag/giustizia>.
+<http://data.opendataday.it/resource/tag/giustizia>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept>.
 <http://data.opendataday.it/resource/dati.toscana/giustizia>	<http://purl.org/dc/terms/rights>	"cc-zero".
 <http://data.opendataday.it/resource/dati.toscana/giustizia>	<http://www.w3.org/ns/dcat#distribution>	<http://data.opendataday.it/resource/dati.toscana/giustizia/distribution/dis0>.
 <http://data.opendataday.it/resource/dati.toscana/giustizia/distribution/dis0>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/ns/dcat#Distribution>.
@@ -155,23 +157,8 @@
 <http://data.opendataday.it/resource/dati.toscana/associazioni/distribution/dis0>	<http://purl.org/dc/terms/description>	"Ambiente, Cooperative di servizi e produzione, Cultura, Organizzazioni non governative, Solidarietà, ...".
 <http://data.opendataday.it/resource/dati.toscana/associazioni/distribution/dis0>	<http://www.w3.org/ns/dcat#accessURL>	<http://dati.toscana.it/it/storage/f/2012-07-25T121500/intoscana-associazioni.csv>.
 <http://data.opendataday.it/resource/dati.toscana/associazioni/distribution/dis0>	<http://rdfs.org/ns/void#format>	"csv".
-<http://data.opendataday.it/resource/dati.toscana>	<http://www.w3.org/ns/dcat#dataset>	<http://data.opendataday.it/resource/dati.toscana/centri-termali>.
-<http://data.opendataday.it/resource/dati.toscana/centri-termali>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/ns/dcat#Dataset>.
-<http://data.opendataday.it/resource/dati.toscana/centri-termali>	<http://purl.org/dc/elements/1.1/title>	"Centri termali".
-<http://data.opendataday.it/resource/dati.toscana/centri-termali>	<http://purl.org/dc/terms/description>	"Le Terme Toscane sono da sempre accreditate tra le più importanti per la qualità e la molteplicità delle loro acque naturali che le hanno rese famose in tutto il mondo per la prevenzione ed il trattamento di numerose patologie".
-<http://data.opendataday.it/resource/dati.toscana/giustizia>	<http://www.w3.org/ns/dcat#keyword>	<http://data.opendataday.it/resource/tag/giustizia>.
-<http://data.opendataday.it/resource/tag/giustizia>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept>.
-<http://data.opendataday.it/resource/dati.toscana/centri-termali>	<http://purl.org/dc/terms/isReferencedBy>	<http://dati.toscana.it/dataset/centri-termali>.
-<http://data.opendataday.it/resource/dati.toscana/centri-termali>	<http://www.w3.org/ns/dcat#keyword>	<http://data.opendataday.it/resource/tag/tempo-libero>.
-<http://data.opendataday.it/resource/tag/tempo-libero>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept>.
-<http://data.opendataday.it/resource/dati.toscana/centri-termali>	<http://www.w3.org/ns/dcat#keyword>	<http://data.opendataday.it/resource/tag/terme>.
-<http://data.opendataday.it/resource/tag/terme>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept>.
-<http://data.opendataday.it/resource/dati.toscana/centri-termali>	<http://purl.org/dc/terms/rights>	"cc-zero".
-<http://data.opendataday.it/resource/dati.toscana/centri-termali>	<http://www.w3.org/ns/dcat#distribution>	<http://data.opendataday.it/resource/dati.toscana/centri-termali/distribution/dis0>.
-<http://data.opendataday.it/resource/dati.toscana/centri-termali/distribution/dis0>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/ns/dcat#Distribution>.
-<http://data.opendataday.it/resource/dati.toscana/centri-termali/distribution/dis0>	<http://purl.org/dc/terms/description>	"I centri termali in Regione".
-<http://data.opendataday.it/resource/dati.toscana/centri-termali/distribution/dis0>	<http://www.w3.org/ns/dcat#accessURL>	<http://dati.toscana.it/it/storage/f/2012-07-25T115323/intoscana-wellness-e-fitness.csv>.
-<http://data.opendataday.it/resource/dati.toscana/centri-termali/distribution/dis0>	<http://rdfs.org/ns/void#format>	"csv".
+<http://data.opendataday.it/resource/dati.toscana>	<http://www.w3.org/ns/dcat#dataset>	<http://data.opendataday.it/resource/dati.toscana/salute-e-sanita>.
+<http://data.opendataday.it/resource/dati.toscana/salute-e-sanita>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/ns/dcat#Dataset>.
 <http://data.opendataday.it/resource/dati.toscana/salute-e-sanita>	<http://purl.org/dc/elements/1.1/title>	"Salute e sanità".
 <http://data.opendataday.it/resource/dati.toscana/salute-e-sanita>	<http://purl.org/dc/terms/description>	"I dati sulle strutture e sui servizi sanitari in Regione.".
 <http://data.opendataday.it/resource/dati.toscana/salute-e-sanita>	<http://purl.org/dc/terms/isReferencedBy>	<http://dati.toscana.it/dataset/salute-e-sanita>.
@@ -209,6 +196,37 @@
 <http://data.opendataday.it/resource/dati.toscana/infrastrutture-aeree/distribution/dis0>	<http://purl.org/dc/terms/description>	"Aeroporti civili, Aviosuperfici, Elisuperfici".
 <http://data.opendataday.it/resource/dati.toscana/infrastrutture-aeree/distribution/dis0>	<http://www.w3.org/ns/dcat#accessURL>	<http://dati.toscana.it/it/storage/f/2012-07-26T161435/intoscana-mobilita_aerea.csv>.
 <http://data.opendataday.it/resource/dati.toscana/infrastrutture-aeree/distribution/dis0>	<http://rdfs.org/ns/void#format>	"csv".
+<http://data.opendataday.it/resource/dati.toscana>	<http://www.w3.org/ns/dcat#dataset>	<http://data.opendataday.it/resource/dati.toscana/centri-termali>.
+<http://data.opendataday.it/resource/dati.toscana/centri-termali>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/ns/dcat#Dataset>.
+<http://data.opendataday.it/resource/dati.toscana/centri-termali>	<http://purl.org/dc/elements/1.1/title>	"Centri termali".
+<http://data.opendataday.it/resource/dati.toscana/centri-termali>	<http://purl.org/dc/terms/description>	"Le Terme Toscane sono da sempre accreditate tra le più importanti per la qualità e la molteplicità delle loro acque naturali che le hanno rese famose in tutto il mondo per la prevenzione ed il trattamento di numerose patologie".
+<http://data.opendataday.it/resource/dati.toscana/centri-termali>	<http://purl.org/dc/terms/isReferencedBy>	<http://dati.toscana.it/dataset/centri-termali>.
+<http://data.opendataday.it/resource/dati.toscana/centri-termali>	<http://www.w3.org/ns/dcat#keyword>	<http://data.opendataday.it/resource/tag/tempo-libero>.
+<http://data.opendataday.it/resource/tag/tempo-libero>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept>.
+<http://data.opendataday.it/resource/dati.toscana/centri-termali>	<http://www.w3.org/ns/dcat#keyword>	<http://data.opendataday.it/resource/tag/terme>.
+<http://data.opendataday.it/resource/tag/terme>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept>.
+<http://data.opendataday.it/resource/dati.toscana/centri-termali>	<http://purl.org/dc/terms/rights>	"cc-zero".
+<http://data.opendataday.it/resource/dati.toscana/centri-termali>	<http://www.w3.org/ns/dcat#distribution>	<http://data.opendataday.it/resource/dati.toscana/centri-termali/distribution/dis0>.
+<http://data.opendataday.it/resource/dati.toscana/centri-termali/distribution/dis0>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/ns/dcat#Distribution>.
+<http://data.opendataday.it/resource/dati.toscana/centri-termali/distribution/dis0>	<http://purl.org/dc/terms/description>	"I centri termali in Regione".
+<http://data.opendataday.it/resource/dati.toscana/centri-termali/distribution/dis0>	<http://www.w3.org/ns/dcat#accessURL>	<http://dati.toscana.it/it/storage/f/2012-07-25T115323/intoscana-wellness-e-fitness.csv>.
+<http://data.opendataday.it/resource/dati.toscana/centri-termali/distribution/dis0>	<http://rdfs.org/ns/void#format>	"csv".
+<http://data.opendataday.it/resource/dati.toscana>	<http://www.w3.org/ns/dcat#dataset>	<http://data.opendataday.it/resource/dati.toscana/la-scuola-superiore>.
+<http://data.opendataday.it/resource/dati.toscana/la-scuola-superiore>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/ns/dcat#Dataset>.
+<http://data.opendataday.it/resource/dati.toscana/la-scuola-superiore>	<http://purl.org/dc/elements/1.1/title>	"La scuola superiore".
+<http://data.opendataday.it/resource/dati.toscana/la-scuola-superiore>	<http://purl.org/dc/terms/isReferencedBy>	<http://dati.toscana.it/dataset/la-scuola-superiore>.
+<http://data.opendataday.it/resource/dati.toscana/la-scuola-superiore>	<http://www.w3.org/ns/dcat#keyword>	<http://data.opendataday.it/resource/tag/istituti-superiori>.
+<http://data.opendataday.it/resource/tag/istituti-superiori>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept>.
+<http://data.opendataday.it/resource/dati.toscana/la-scuola-superiore>	<http://www.w3.org/ns/dcat#keyword>	<http://data.opendataday.it/resource/tag/licei>.
+<http://data.opendataday.it/resource/tag/licei>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept>.
+<http://data.opendataday.it/resource/dati.toscana/la-scuola-superiore>	<http://www.w3.org/ns/dcat#keyword>	<http://data.opendataday.it/resource/tag/scuola>.
+<http://data.opendataday.it/resource/tag/scuola>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept>.
+<http://data.opendataday.it/resource/dati.toscana/la-scuola-superiore>	<http://purl.org/dc/terms/rights>	"cc-zero".
+<http://data.opendataday.it/resource/dati.toscana/la-scuola-superiore>	<http://www.w3.org/ns/dcat#distribution>	<http://data.opendataday.it/resource/dati.toscana/la-scuola-superiore/distribution/dis0>.
+<http://data.opendataday.it/resource/dati.toscana/la-scuola-superiore/distribution/dis0>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/ns/dcat#Distribution>.
+<http://data.opendataday.it/resource/dati.toscana/la-scuola-superiore/distribution/dis0>	<http://purl.org/dc/terms/description>	"Istituti d'arte, Istituti magistrali, Istituti professionali e tecnici, pubblici e privati, Licei pubblici e privati".
+<http://data.opendataday.it/resource/dati.toscana/la-scuola-superiore/distribution/dis0>	<http://www.w3.org/ns/dcat#accessURL>	<http://dati.toscana.it/it/storage/f/2012-07-26T164213/intoscana-scuola-e-universita_superiori.csv>.
+<http://data.opendataday.it/resource/dati.toscana/la-scuola-superiore/distribution/dis0>	<http://rdfs.org/ns/void#format>	"csv".
 <http://data.opendataday.it/resource/dati.toscana>	<http://www.w3.org/ns/dcat#dataset>	<http://data.opendataday.it/resource/dati.toscana/archivi>.
 <http://data.opendataday.it/resource/dati.toscana/archivi>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/ns/dcat#Dataset>.
 <http://data.opendataday.it/resource/dati.toscana/archivi>	<http://purl.org/dc/elements/1.1/title>	"Archivi".
@@ -222,6 +240,20 @@
 <http://data.opendataday.it/resource/dati.toscana/archivi/distribution/dis0>	<http://purl.org/dc/terms/description>	"Sedi dell'archivio di stato, archivi comunali e archivi notarili distrettuale".
 <http://data.opendataday.it/resource/dati.toscana/archivi/distribution/dis0>	<http://www.w3.org/ns/dcat#accessURL>	<http://dati.toscana.it/it/storage/f/2012-07-25T122851/intoscana-pubblica-amministrazione_archivi.csv>.
 <http://data.opendataday.it/resource/dati.toscana/archivi/distribution/dis0>	<http://rdfs.org/ns/void#format>	"csv".
+<http://data.opendataday.it/resource/dati.toscana>	<http://www.w3.org/ns/dcat#dataset>	<http://data.opendataday.it/resource/dati.toscana/lingue-e-formazione>.
+<http://data.opendataday.it/resource/dati.toscana/lingue-e-formazione>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/ns/dcat#Dataset>.
+<http://data.opendataday.it/resource/dati.toscana/lingue-e-formazione>	<http://purl.org/dc/elements/1.1/title>	"Corsi di lingue e scuole di formazione".
+<http://data.opendataday.it/resource/dati.toscana/lingue-e-formazione>	<http://purl.org/dc/terms/isReferencedBy>	<http://dati.toscana.it/dataset/lingue-e-formazione>.
+<http://data.opendataday.it/resource/dati.toscana/lingue-e-formazione>	<http://www.w3.org/ns/dcat#keyword>	<http://data.opendataday.it/resource/tag/formazione>.
+<http://data.opendataday.it/resource/tag/formazione>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept>.
+<http://data.opendataday.it/resource/dati.toscana/lingue-e-formazione>	<http://www.w3.org/ns/dcat#keyword>	<http://data.opendataday.it/resource/tag/lingue-straniere>.
+<http://data.opendataday.it/resource/tag/lingue-straniere>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept>.
+<http://data.opendataday.it/resource/dati.toscana/lingue-e-formazione>	<http://purl.org/dc/terms/rights>	"cc-zero".
+<http://data.opendataday.it/resource/dati.toscana/lingue-e-formazione>	<http://www.w3.org/ns/dcat#distribution>	<http://data.opendataday.it/resource/dati.toscana/lingue-e-formazione/distribution/dis0>.
+<http://data.opendataday.it/resource/dati.toscana/lingue-e-formazione/distribution/dis0>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/ns/dcat#Distribution>.
+<http://data.opendataday.it/resource/dati.toscana/lingue-e-formazione/distribution/dis0>	<http://purl.org/dc/terms/description>	"Le scuole di lingue e i centri per la formazione".
+<http://data.opendataday.it/resource/dati.toscana/lingue-e-formazione/distribution/dis0>	<http://www.w3.org/ns/dcat#accessURL>	<http://dati.toscana.it/it/storage/f/2012-07-25T115933/intoscana-formazione.csv>.
+<http://data.opendataday.it/resource/dati.toscana/lingue-e-formazione/distribution/dis0>	<http://rdfs.org/ns/void#format>	"csv".
 <http://data.opendataday.it/resource/dati.toscana>	<http://www.w3.org/ns/dcat#dataset>	<http://data.opendataday.it/resource/dati.toscana/welfare>.
 <http://data.opendataday.it/resource/dati.toscana/welfare>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/ns/dcat#Dataset>.
 <http://data.opendataday.it/resource/dati.toscana/welfare>	<http://purl.org/dc/elements/1.1/title>	"Welfare".
@@ -259,24 +291,6 @@
 <http://data.opendataday.it/resource/dati.toscana/welfare/distribution/dis0>	<http://purl.org/dc/terms/description>	"Assistenti sociali, case di riposo, centri di accoglienza e riabilitazione, centri diurni, mense, comunità, ...".
 <http://data.opendataday.it/resource/dati.toscana/welfare/distribution/dis0>	<http://www.w3.org/ns/dcat#accessURL>	<http://dati.toscana.it/it/storage/f/2012-07-25T120818/intoscana-welfare.csv>.
 <http://data.opendataday.it/resource/dati.toscana/welfare/distribution/dis0>	<http://rdfs.org/ns/void#format>	"csv".
-<http://data.opendataday.it/resource/dati.toscana>	<http://www.w3.org/ns/dcat#dataset>	<http://data.opendataday.it/resource/dati.toscana/la-scuola-superiore>.
-<http://data.opendataday.it/resource/dati.toscana/la-scuola-superiore>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/ns/dcat#Dataset>.
-<http://data.opendataday.it/resource/dati.toscana/la-scuola-superiore>	<http://purl.org/dc/elements/1.1/title>	"La scuola superiore".
-<http://data.opendataday.it/resource/dati.toscana/la-scuola-superiore>	<http://purl.org/dc/terms/isReferencedBy>	<http://dati.toscana.it/dataset/la-scuola-superiore>.
-<http://data.opendataday.it/resource/dati.toscana/la-scuola-superiore>	<http://www.w3.org/ns/dcat#keyword>	<http://data.opendataday.it/resource/tag/istituti-superiori>.
-<http://data.opendataday.it/resource/tag/istituti-superiori>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept>.
-<http://data.opendataday.it/resource/dati.toscana/la-scuola-superiore>	<http://www.w3.org/ns/dcat#keyword>	<http://data.opendataday.it/resource/tag/licei>.
-<http://data.opendataday.it/resource/tag/licei>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept>.
-<http://data.opendataday.it/resource/dati.toscana/la-scuola-superiore>	<http://www.w3.org/ns/dcat#keyword>	<http://data.opendataday.it/resource/tag/scuola>.
-<http://data.opendataday.it/resource/tag/scuola>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept>.
-<http://data.opendataday.it/resource/dati.toscana/la-scuola-superiore>	<http://purl.org/dc/terms/rights>	"cc-zero".
-<http://data.opendataday.it/resource/dati.toscana/la-scuola-superiore>	<http://www.w3.org/ns/dcat#distribution>	<http://data.opendataday.it/resource/dati.toscana/la-scuola-superiore/distribution/dis0>.
-<http://data.opendataday.it/resource/dati.toscana/la-scuola-superiore/distribution/dis0>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/ns/dcat#Distribution>.
-<http://data.opendataday.it/resource/dati.toscana/la-scuola-superiore/distribution/dis0>	<http://purl.org/dc/terms/description>	"Istituti d'arte, Istituti magistrali, Istituti professionali e tecnici, pubblici e privati, Licei pubblici e privati".
-<http://data.opendataday.it/resource/dati.toscana/la-scuola-superiore/distribution/dis0>	<http://www.w3.org/ns/dcat#accessURL>	<http://dati.toscana.it/it/storage/f/2012-07-26T164213/intoscana-scuola-e-universita_superiori.csv>.
-<http://data.opendataday.it/resource/dati.toscana/la-scuola-superiore/distribution/dis0>	<http://rdfs.org/ns/void#format>	"csv".
-<http://data.opendataday.it/resource/dati.toscana>	<http://www.w3.org/ns/dcat#dataset>	<http://data.opendataday.it/resource/dati.toscana/salute-e-sanita>.
-<http://data.opendataday.it/resource/dati.toscana/salute-e-sanita>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/ns/dcat#Dataset>.
 <http://data.opendataday.it/resource/dati.toscana>	<http://www.w3.org/ns/dcat#dataset>	<http://data.opendataday.it/resource/dati.toscana/tempo-libero>.
 <http://data.opendataday.it/resource/dati.toscana/tempo-libero>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/ns/dcat#Dataset>.
 <http://data.opendataday.it/resource/dati.toscana/tempo-libero>	<http://purl.org/dc/elements/1.1/title>	"Tempo libero".
@@ -306,25 +320,11 @@
 <http://data.opendataday.it/resource/dati.toscana/tempo-libero/distribution/dis0>	<http://purl.org/dc/terms/description>	"Dai cinema alle discoteche e ai parchi naturali: i luoghi di svago per ogni età".
 <http://data.opendataday.it/resource/dati.toscana/tempo-libero/distribution/dis0>	<http://www.w3.org/ns/dcat#accessURL>	<http://dati.toscana.it/it/storage/f/2012-07-26T164701/intoscana-tempo-libero.csv>.
 <http://data.opendataday.it/resource/dati.toscana/tempo-libero/distribution/dis0>	<http://rdfs.org/ns/void#format>	"csv".
-<http://data.opendataday.it/resource/dati.toscana/lingue-e-formazione>	<http://purl.org/dc/elements/1.1/title>	"Corsi di lingue e scuole di formazione".
-<http://data.opendataday.it/resource/dati.toscana/lingue-e-formazione>	<http://purl.org/dc/terms/isReferencedBy>	<http://dati.toscana.it/dataset/lingue-e-formazione>.
-<http://data.opendataday.it/resource/dati.toscana/lingue-e-formazione>	<http://www.w3.org/ns/dcat#keyword>	<http://data.opendataday.it/resource/tag/formazione>.
-<http://data.opendataday.it/resource/tag/formazione>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept>.
-<http://data.opendataday.it/resource/dati.toscana/lingue-e-formazione>	<http://www.w3.org/ns/dcat#keyword>	<http://data.opendataday.it/resource/tag/lingue-straniere>.
-<http://data.opendataday.it/resource/tag/lingue-straniere>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept>.
-<http://data.opendataday.it/resource/dati.toscana/lingue-e-formazione>	<http://www.w3.org/ns/dcat#distribution>	<http://data.opendataday.it/resource/dati.toscana/lingue-e-formazione/distribution/dis0>.
-<http://data.opendataday.it/resource/dati.toscana/lingue-e-formazione/distribution/dis0>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/ns/dcat#Distribution>.
-<http://data.opendataday.it/resource/dati.toscana/lingue-e-formazione/distribution/dis0>	<http://purl.org/dc/terms/description>	"Le scuole di lingue e i centri per la formazione".
-<http://data.opendataday.it/resource/dati.toscana/lingue-e-formazione/distribution/dis0>	<http://www.w3.org/ns/dcat#accessURL>	<http://dati.toscana.it/it/storage/f/2012-07-25T115933/intoscana-formazione.csv>.
-<http://data.opendataday.it/resource/dati.toscana/lingue-e-formazione/distribution/dis0>	<http://rdfs.org/ns/void#format>	"csv".
-<http://data.opendataday.it/resource/dati.toscana>	<http://www.w3.org/ns/dcat#dataset>	<http://data.opendataday.it/resource/dati.toscana/lingue-e-formazione>.
-<http://data.opendataday.it/resource/dati.toscana/lingue-e-formazione>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/ns/dcat#Dataset>.
-<http://data.opendataday.it/resource/dati.toscana/lingue-e-formazione>	<http://purl.org/dc/terms/rights>	"cc-zero".
 <http://data.opendataday.it/resource/dati.toscana>	<http://www.w3.org/ns/dcat#dataset>	<http://data.opendataday.it/resource/dati.toscana/camere-di-commercio-lavoro>.
 <http://data.opendataday.it/resource/dati.toscana/camere-di-commercio-lavoro>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/ns/dcat#Dataset>.
 <http://data.opendataday.it/resource/dati.toscana/camere-di-commercio-lavoro>	<http://purl.org/dc/elements/1.1/title>	"Camere di commercio, industria, artigianato e del lavoro".
+<http://data.opendataday.it/resource/dati.toscana/camere-di-commercio-lavoro>	<http://purl.org/dc/terms/description>	"I dati del \"mondo camerale\" toscana".
 <http://data.opendataday.it/resource/dati.toscana/camere-di-commercio-lavoro>	<http://purl.org/dc/terms/isReferencedBy>	<http://dati.toscana.it/dataset/camere-di-commercio-lavoro>.
-<http://data.opendataday.it/resource/dati.toscana/camere-di-commercio-lavoro>	<http://purl.org/dc/terms/description>	"I dati del "mondo camerale" toscana".
 <http://data.opendataday.it/resource/dati.toscana/camere-di-commercio-lavoro>	<http://www.w3.org/ns/dcat#keyword>	<http://data.opendataday.it/resource/tag/artigianato>.
 <http://data.opendataday.it/resource/tag/artigianato>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept>.
 <http://data.opendataday.it/resource/dati.toscana/camere-di-commercio-lavoro>	<http://www.w3.org/ns/dcat#keyword>	<http://data.opendataday.it/resource/tag/commercio>.
@@ -344,7 +344,7 @@
 <http://data.opendataday.it/resource/dati.toscana/strutture-ricettive-della-toscana-parz-geo>	<http://purl.org/dc/elements/1.1/title>	"Strutture ricettive della Toscana (parziali, georeferenziate)".
 <http://data.opendataday.it/resource/dati.toscana/strutture-ricettive-della-toscana-parz-geo>	<http://purl.org/dc/terms/description>	"""Un estratto parziale ma georeferenziato delle informazioni sulle strutture ricettive toscane, dagli alberghi ai campeggi, in città, al mare, in montagna o in campagna.
 
-Per visualizzare i dati sulla mappa cliccare sull'opzione "Map/Mappe" di "Anteprima".""".
+Per visualizzare i dati sulla mappa cliccare sull'opzione \"Map/Mappe\" di \"Anteprima\".""".
 <http://data.opendataday.it/resource/dati.toscana/strutture-ricettive-della-toscana-parz-geo>	<http://purl.org/dc/terms/isReferencedBy>	<http://dati.toscana.it/dataset/strutture-ricettive-della-toscana-parz-geo>.
 <http://data.opendataday.it/resource/dati.toscana/strutture-ricettive-della-toscana-parz-geo>	<http://www.w3.org/ns/dcat#keyword>	<http://data.opendataday.it/resource/tag/alberghi>.
 <http://data.opendataday.it/resource/tag/alberghi>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept>.
@@ -366,64 +366,6 @@ Per visualizzare i dati sulla mappa cliccare sull'opzione "Map/Mappe" di "Antepr
 <http://data.opendataday.it/resource/dati.toscana/strutture-ricettive-della-toscana-parz-geo/distribution/dis0>	<http://purl.org/dc/terms/description>	"Dati sulle strutture ricettive toscane".
 <http://data.opendataday.it/resource/dati.toscana/strutture-ricettive-della-toscana-parz-geo/distribution/dis0>	<http://www.w3.org/ns/dcat#accessURL>	<http://dati.toscana.it/storage/f/2012-07-25T125939/intoscana-turismo-accoglienza.csv>.
 <http://data.opendataday.it/resource/dati.toscana/strutture-ricettive-della-toscana-parz-geo/distribution/dis0>	<http://rdfs.org/ns/void#format>	"csv".
-<http://data.opendataday.it/resource/dati.toscana>	<http://www.w3.org/ns/dcat#dataset>	<http://data.opendataday.it/resource/dati.toscana/bollettini-meteo-toscana-lingua>.
-<http://data.opendataday.it/resource/dati.toscana/bollettini-meteo-toscana-lingua>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/ns/dcat#Dataset>.
-<http://data.opendataday.it/resource/dati.toscana/bollettini-meteo-toscana-lingua>	<http://purl.org/dc/elements/1.1/title>	"Bollettini meteo in lingua della Toscana".
-<http://data.opendataday.it/resource/dati.toscana/bollettini-meteo-toscana-lingua>	<http://purl.org/dc/terms/description>	"Bollettini Meteo della Toscana in lingua elaborati dal Consorzio LaMMA ed aggiornati due volte al giorno (mattina entro le 10; pomeriggio entro le 16)".
-<http://data.opendataday.it/resource/dati.toscana/bollettini-meteo-toscana-lingua>	<http://purl.org/dc/terms/isReferencedBy>	<http://dati.toscana.it/dataset/bollettini-meteo-toscana-lingua>.
-<http://data.opendataday.it/resource/dati.toscana/bollettini-meteo-toscana-lingua>	<http://www.w3.org/ns/dcat#keyword>	<http://data.opendataday.it/resource/tag/meteo>.
-<http://data.opendataday.it/resource/tag/meteo>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept>.
-<http://data.opendataday.it/resource/dati.toscana/bollettini-meteo-toscana-lingua>	<http://purl.org/dc/terms/rights>	"cc-by".
-<http://data.opendataday.it/resource/dati.toscana/bollettini-meteo-toscana-lingua>	<http://www.w3.org/ns/dcat#distribution>	<http://data.opendataday.it/resource/dati.toscana/bollettini-meteo-toscana-lingua/distribution/dis0>.
-<http://data.opendataday.it/resource/dati.toscana/bollettini-meteo-toscana-lingua/distribution/dis0>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/ns/dcat#Distribution>.
-<http://data.opendataday.it/resource/dati.toscana/bollettini-meteo-toscana-lingua/distribution/dis0>	<http://purl.org/dc/terms/description>	"Bollettino meteo Toscana in Inglese".
-<http://data.opendataday.it/resource/dati.toscana/bollettini-meteo-toscana-lingua/distribution/dis0>	<http://www.w3.org/ns/dcat#accessURL>	<http://www.lamma.rete.toscana.it/previ/ita/bollettino_en.pdf>.
-<http://data.opendataday.it/resource/dati.toscana/bollettini-meteo-toscana-lingua/distribution/dis0>	<http://rdfs.org/ns/void#format>	"pdf".
-<http://data.opendataday.it/resource/dati.toscana/bollettini-meteo-toscana-lingua>	<http://www.w3.org/ns/dcat#distribution>	<http://data.opendataday.it/resource/dati.toscana/bollettini-meteo-toscana-lingua/distribution/dis1>.
-<http://data.opendataday.it/resource/dati.toscana/bollettini-meteo-toscana-lingua/distribution/dis1>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/ns/dcat#Distribution>.
-<http://data.opendataday.it/resource/dati.toscana/bollettini-meteo-toscana-lingua/distribution/dis1>	<http://purl.org/dc/terms/description>	"Bollettino meteo Toscana in Francese".
-<http://data.opendataday.it/resource/dati.toscana/bollettini-meteo-toscana-lingua/distribution/dis1>	<http://www.w3.org/ns/dcat#accessURL>	<http://www.lamma.rete.toscana.it/previ/ita/bollettino_fr.pdf>.
-<http://data.opendataday.it/resource/dati.toscana/bollettini-meteo-toscana-lingua/distribution/dis1>	<http://rdfs.org/ns/void#format>	"pdf".
-<http://data.opendataday.it/resource/dati.toscana>	<http://www.w3.org/ns/dcat#dataset>	<http://data.opendataday.it/resource/dati.toscana/servizi-trasporto-strada>.
-<http://data.opendataday.it/resource/dati.toscana/servizi-trasporto-strada>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/ns/dcat#Dataset>.
-<http://data.opendataday.it/resource/dati.toscana/servizi-trasporto-strada>	<http://purl.org/dc/terms/isReferencedBy>	<http://dati.toscana.it/dataset/servizi-trasporto-strada>.
-<http://data.opendataday.it/resource/dati.toscana/servizi-trasporto-strada>	<http://www.w3.org/ns/dcat#keyword>	<http://data.opendataday.it/resource/tag/mobilita>.
-<http://data.opendataday.it/resource/tag/mobilita>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept>.
-<http://data.opendataday.it/resource/dati.toscana/servizi-trasporto-strada>	<http://www.w3.org/ns/dcat#keyword>	<http://data.opendataday.it/resource/tag/trasporto>.
-<http://data.opendataday.it/resource/tag/trasporto>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept>.
-<http://data.opendataday.it/resource/dati.toscana/servizi-trasporto-strada>	<http://purl.org/dc/terms/rights>	"cc-zero".
-<http://data.opendataday.it/resource/dati.toscana/servizi-trasporto-strada>	<http://www.w3.org/ns/dcat#distribution>	<http://data.opendataday.it/resource/dati.toscana/servizi-trasporto-strada/distribution/dis0>.
-<http://data.opendataday.it/resource/dati.toscana/servizi-trasporto-strada/distribution/dis0>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/ns/dcat#Distribution>.
-<http://data.opendataday.it/resource/dati.toscana/servizi-trasporto-strada/distribution/dis0>	<http://purl.org/dc/terms/description>	"Aree di sosta, Autogrill, Camper service, Noleggio veicoli, Officina moto, Autobus urbani.".
-<http://data.opendataday.it/resource/dati.toscana/servizi-trasporto-strada/distribution/dis0>	<http://www.w3.org/ns/dcat#accessURL>	<http://dati.toscana.it/it/storage/f/2012-07-26T161628/intoscana-mobilita_auto.csv>.
-<http://data.opendataday.it/resource/dati.toscana/servizi-trasporto-strada/distribution/dis0>	<http://rdfs.org/ns/void#format>	"csv".
-<http://data.opendataday.it/resource/dati.toscana/servizi-trasporto-strada>	<http://purl.org/dc/elements/1.1/title>	"Servizi per il trasporto su strada".
-<http://data.opendataday.it/resource/dati.toscana>	<http://www.w3.org/ns/dcat#dataset>	<http://data.opendataday.it/resource/dati.toscana/bollettini-meteo-toscana>.
-<http://data.opendataday.it/resource/dati.toscana/bollettini-meteo-toscana>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/ns/dcat#Dataset>.
-<http://data.opendataday.it/resource/dati.toscana/bollettini-meteo-toscana>	<http://purl.org/dc/elements/1.1/title>	"Bollettini meteo della Toscana".
-<http://data.opendataday.it/resource/dati.toscana/bollettini-meteo-toscana>	<http://purl.org/dc/terms/description>	"Bollettini Meteo della Toscana (Regione, Mare, Montagna)  elaborati dal Consorzio LaMMA ed aggiornati due volte al giorno (mattina entro le 10; pomeriggio entro le 16)".
-<http://data.opendataday.it/resource/dati.toscana/bollettini-meteo-toscana>	<http://purl.org/dc/terms/isReferencedBy>	<http://dati.toscana.it/dataset/bollettini-meteo-toscana>.
-<http://data.opendataday.it/resource/dati.toscana/bollettini-meteo-toscana>	<http://www.w3.org/ns/dcat#keyword>	<http://data.opendataday.it/resource/tag/mare>.
-<http://data.opendataday.it/resource/tag/mare>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept>.
-<http://data.opendataday.it/resource/dati.toscana/bollettini-meteo-toscana>	<http://www.w3.org/ns/dcat#keyword>	<http://data.opendataday.it/resource/tag/meteo>.
-<http://data.opendataday.it/resource/tag/meteo>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept>.
-<http://data.opendataday.it/resource/dati.toscana/bollettini-meteo-toscana>	<http://purl.org/dc/terms/rights>	"cc-by".
-<http://data.opendataday.it/resource/dati.toscana/bollettini-meteo-toscana>	<http://www.w3.org/ns/dcat#distribution>	<http://data.opendataday.it/resource/dati.toscana/bollettini-meteo-toscana/distribution/dis0>.
-<http://data.opendataday.it/resource/dati.toscana/bollettini-meteo-toscana/distribution/dis0>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/ns/dcat#Distribution>.
-<http://data.opendataday.it/resource/dati.toscana/bollettini-meteo-toscana/distribution/dis0>	<http://www.w3.org/ns/dcat#accessURL>	<http://www.lamma.rete.toscana.it/previ/ita/bollettino.pdf>.
-<http://data.opendataday.it/resource/dati.toscana/bollettini-meteo-toscana/distribution/dis0>	<http://rdfs.org/ns/void#format>	"pdf".
-<http://data.opendataday.it/resource/dati.toscana/bollettini-meteo-toscana>	<http://www.w3.org/ns/dcat#distribution>	<http://data.opendataday.it/resource/dati.toscana/bollettini-meteo-toscana/distribution/dis1>.
-<http://data.opendataday.it/resource/dati.toscana/bollettini-meteo-toscana/distribution/dis1>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/ns/dcat#Distribution>.
-<http://data.opendataday.it/resource/dati.toscana/bollettini-meteo-toscana/distribution/dis1>	<http://www.w3.org/ns/dcat#accessURL>	<http://www.lamma.rete.toscana.it/previ/ita/meteo_elba_nord.pd>.
-<http://data.opendataday.it/resource/dati.toscana/bollettini-meteo-toscana/distribution/dis1>	<http://rdfs.org/ns/void#format>	"pdf".
-<http://data.opendataday.it/resource/dati.toscana/bollettini-meteo-toscana>	<http://www.w3.org/ns/dcat#distribution>	<http://data.opendataday.it/resource/dati.toscana/bollettini-meteo-toscana/distribution/dis2>.
-<http://data.opendataday.it/resource/dati.toscana/bollettini-meteo-toscana/distribution/dis2>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/ns/dcat#Distribution>.
-<http://data.opendataday.it/resource/dati.toscana/bollettini-meteo-toscana/distribution/dis2>	<http://www.w3.org/ns/dcat#accessURL>	<http://www.lamma.rete.toscana.it/previ/ita/meteo_elba_sud.pdf>.
-<http://data.opendataday.it/resource/dati.toscana/bollettini-meteo-toscana/distribution/dis2>	<http://rdfs.org/ns/void#format>	"pdf".
-<http://data.opendataday.it/resource/dati.toscana/bollettini-meteo-toscana>	<http://www.w3.org/ns/dcat#distribution>	<http://data.opendataday.it/resource/dati.toscana/bollettini-meteo-toscana/distribution/dis3>.
-<http://data.opendataday.it/resource/dati.toscana/bollettini-meteo-toscana/distribution/dis3>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/ns/dcat#Distribution>.
-<http://data.opendataday.it/resource/dati.toscana/bollettini-meteo-toscana/distribution/dis3>	<http://www.w3.org/ns/dcat#accessURL>	<http://www.lamma.rete.toscana.it/previ/ita/boll_monti.pdf>.
-<http://data.opendataday.it/resource/dati.toscana/bollettini-meteo-toscana/distribution/dis3>	<http://rdfs.org/ns/void#format>	"pdf".
 <http://data.opendataday.it/resource/dati.toscana>	<http://www.w3.org/ns/dcat#dataset>	<http://data.opendataday.it/resource/dati.toscana/uffici-vari>.
 <http://data.opendataday.it/resource/dati.toscana/uffici-vari>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/ns/dcat#Dataset>.
 <http://data.opendataday.it/resource/dati.toscana/uffici-vari>	<http://purl.org/dc/elements/1.1/title>	"Uffici vari".
@@ -443,8 +385,64 @@ Per visualizzare i dati sulla mappa cliccare sull'opzione "Map/Mappe" di "Antepr
 <http://data.opendataday.it/resource/dati.toscana/uffici-vari/distribution/dis0>	<http://purl.org/dc/terms/description>	"Dati di Consolati, Albo pretorio, Anagrafe e uffici vari, Prefetturea, Questure".
 <http://data.opendataday.it/resource/dati.toscana/uffici-vari/distribution/dis0>	<http://www.w3.org/ns/dcat#accessURL>	<http://dati.toscana.it/it/storage/f/2012-07-25T125615/intoscana-pubblica-amministrazione_prefetture.csv>.
 <http://data.opendataday.it/resource/dati.toscana/uffici-vari/distribution/dis0>	<http://rdfs.org/ns/void#format>	"csv".
-<http://data.opendataday.it/resource/dati.toscana>	<http://www.w3.org/ns/dcat#dataset>	<http://data.opendataday.it/resource/dati.toscana/lo-sport-in-toscana>.
-<http://data.opendataday.it/resource/dati.toscana/lo-sport-in-toscana>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/ns/dcat#Dataset>.
+<http://data.opendataday.it/resource/dati.toscana>	<http://www.w3.org/ns/dcat#dataset>	<http://data.opendataday.it/resource/dati.toscana/bollettini-meteo-toscana-lingua>.
+<http://data.opendataday.it/resource/dati.toscana/bollettini-meteo-toscana-lingua>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/ns/dcat#Dataset>.
+<http://data.opendataday.it/resource/dati.toscana/bollettini-meteo-toscana-lingua>	<http://purl.org/dc/elements/1.1/title>	"Bollettini meteo in lingua della Toscana".
+<http://data.opendataday.it/resource/dati.toscana/bollettini-meteo-toscana-lingua>	<http://purl.org/dc/terms/description>	"Bollettini Meteo della Toscana in lingua elaborati dal Consorzio LaMMA ed aggiornati due volte al giorno (mattina entro le 10; pomeriggio entro le 16)".
+<http://data.opendataday.it/resource/dati.toscana/bollettini-meteo-toscana-lingua>	<http://purl.org/dc/terms/isReferencedBy>	<http://dati.toscana.it/dataset/bollettini-meteo-toscana-lingua>.
+<http://data.opendataday.it/resource/dati.toscana/bollettini-meteo-toscana-lingua>	<http://purl.org/dc/terms/rights>	"cc-by".
+<http://data.opendataday.it/resource/dati.toscana/bollettini-meteo-toscana-lingua>	<http://www.w3.org/ns/dcat#distribution>	<http://data.opendataday.it/resource/dati.toscana/bollettini-meteo-toscana-lingua/distribution/dis0>.
+<http://data.opendataday.it/resource/dati.toscana/bollettini-meteo-toscana-lingua/distribution/dis0>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/ns/dcat#Distribution>.
+<http://data.opendataday.it/resource/dati.toscana/bollettini-meteo-toscana-lingua/distribution/dis0>	<http://purl.org/dc/terms/description>	"Bollettino meteo Toscana in Inglese".
+<http://data.opendataday.it/resource/dati.toscana/bollettini-meteo-toscana-lingua/distribution/dis0>	<http://www.w3.org/ns/dcat#accessURL>	<http://www.lamma.rete.toscana.it/previ/ita/bollettino_en.pdf>.
+<http://data.opendataday.it/resource/dati.toscana/bollettini-meteo-toscana-lingua/distribution/dis0>	<http://rdfs.org/ns/void#format>	"pdf".
+<http://data.opendataday.it/resource/dati.toscana/bollettini-meteo-toscana-lingua>	<http://www.w3.org/ns/dcat#distribution>	<http://data.opendataday.it/resource/dati.toscana/bollettini-meteo-toscana-lingua/distribution/dis1>.
+<http://data.opendataday.it/resource/dati.toscana/bollettini-meteo-toscana-lingua/distribution/dis1>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/ns/dcat#Distribution>.
+<http://data.opendataday.it/resource/dati.toscana/bollettini-meteo-toscana-lingua/distribution/dis1>	<http://purl.org/dc/terms/description>	"Bollettino meteo Toscana in Francese".
+<http://data.opendataday.it/resource/dati.toscana/bollettini-meteo-toscana-lingua/distribution/dis1>	<http://www.w3.org/ns/dcat#accessURL>	<http://www.lamma.rete.toscana.it/previ/ita/bollettino_fr.pdf>.
+<http://data.opendataday.it/resource/dati.toscana/bollettini-meteo-toscana-lingua/distribution/dis1>	<http://rdfs.org/ns/void#format>	"pdf".
+<http://data.opendataday.it/resource/dati.toscana/bollettini-meteo-toscana-lingua>	<http://www.w3.org/ns/dcat#keyword>	<http://data.opendataday.it/resource/tag/meteo>.
+<http://data.opendataday.it/resource/tag/meteo>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept>.
+<http://data.opendataday.it/resource/dati.toscana/servizi-trasporto-strada>	<http://purl.org/dc/elements/1.1/title>	"Servizi per il trasporto su strada".
+<http://data.opendataday.it/resource/dati.toscana/servizi-trasporto-strada>	<http://purl.org/dc/terms/isReferencedBy>	<http://dati.toscana.it/dataset/servizi-trasporto-strada>.
+<http://data.opendataday.it/resource/dati.toscana/servizi-trasporto-strada>	<http://www.w3.org/ns/dcat#keyword>	<http://data.opendataday.it/resource/tag/mobilita>.
+<http://data.opendataday.it/resource/tag/mobilita>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept>.
+<http://data.opendataday.it/resource/dati.toscana/servizi-trasporto-strada>	<http://www.w3.org/ns/dcat#keyword>	<http://data.opendataday.it/resource/tag/trasporto>.
+<http://data.opendataday.it/resource/tag/trasporto>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept>.
+<http://data.opendataday.it/resource/dati.toscana/servizi-trasporto-strada>	<http://purl.org/dc/terms/rights>	"cc-zero".
+<http://data.opendataday.it/resource/dati.toscana/servizi-trasporto-strada>	<http://www.w3.org/ns/dcat#distribution>	<http://data.opendataday.it/resource/dati.toscana/servizi-trasporto-strada/distribution/dis0>.
+<http://data.opendataday.it/resource/dati.toscana/servizi-trasporto-strada/distribution/dis0>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/ns/dcat#Distribution>.
+<http://data.opendataday.it/resource/dati.toscana/servizi-trasporto-strada/distribution/dis0>	<http://purl.org/dc/terms/description>	"Aree di sosta, Autogrill, Camper service, Noleggio veicoli, Officina moto, Autobus urbani.".
+<http://data.opendataday.it/resource/dati.toscana/servizi-trasporto-strada/distribution/dis0>	<http://www.w3.org/ns/dcat#accessURL>	<http://dati.toscana.it/it/storage/f/2012-07-26T161628/intoscana-mobilita_auto.csv>.
+<http://data.opendataday.it/resource/dati.toscana/servizi-trasporto-strada/distribution/dis0>	<http://rdfs.org/ns/void#format>	"csv".
+<http://data.opendataday.it/resource/dati.toscana>	<http://www.w3.org/ns/dcat#dataset>	<http://data.opendataday.it/resource/dati.toscana/bollettini-meteo-toscana>.
+<http://data.opendataday.it/resource/dati.toscana/bollettini-meteo-toscana>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/ns/dcat#Dataset>.
+<http://data.opendataday.it/resource/dati.toscana/bollettini-meteo-toscana>	<http://purl.org/dc/elements/1.1/title>	"Bollettini meteo della Toscana".
+<http://data.opendataday.it/resource/dati.toscana/bollettini-meteo-toscana>	<http://purl.org/dc/terms/isReferencedBy>	<http://dati.toscana.it/dataset/bollettini-meteo-toscana>.
+<http://data.opendataday.it/resource/dati.toscana/bollettini-meteo-toscana>	<http://purl.org/dc/terms/description>	"Bollettini Meteo della Toscana (Regione, Mare, Montagna)  elaborati dal Consorzio LaMMA ed aggiornati due volte al giorno (mattina entro le 10; pomeriggio entro le 16)".
+<http://data.opendataday.it/resource/dati.toscana/bollettini-meteo-toscana>	<http://purl.org/dc/terms/rights>	"cc-by".
+<http://data.opendataday.it/resource/dati.toscana/bollettini-meteo-toscana>	<http://www.w3.org/ns/dcat#keyword>	<http://data.opendataday.it/resource/tag/mare>.
+<http://data.opendataday.it/resource/tag/mare>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept>.
+<http://data.opendataday.it/resource/dati.toscana/bollettini-meteo-toscana>	<http://www.w3.org/ns/dcat#keyword>	<http://data.opendataday.it/resource/tag/meteo>.
+<http://data.opendataday.it/resource/tag/meteo>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept>.
+<http://data.opendataday.it/resource/dati.toscana/bollettini-meteo-toscana>	<http://www.w3.org/ns/dcat#distribution>	<http://data.opendataday.it/resource/dati.toscana/bollettini-meteo-toscana/distribution/dis0>.
+<http://data.opendataday.it/resource/dati.toscana/bollettini-meteo-toscana/distribution/dis0>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/ns/dcat#Distribution>.
+<http://data.opendataday.it/resource/dati.toscana/bollettini-meteo-toscana/distribution/dis0>	<http://www.w3.org/ns/dcat#accessURL>	<http://www.lamma.rete.toscana.it/previ/ita/bollettino.pdf>.
+<http://data.opendataday.it/resource/dati.toscana/bollettini-meteo-toscana/distribution/dis0>	<http://rdfs.org/ns/void#format>	"pdf".
+<http://data.opendataday.it/resource/dati.toscana/bollettini-meteo-toscana>	<http://www.w3.org/ns/dcat#distribution>	<http://data.opendataday.it/resource/dati.toscana/bollettini-meteo-toscana/distribution/dis1>.
+<http://data.opendataday.it/resource/dati.toscana/bollettini-meteo-toscana/distribution/dis1>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/ns/dcat#Distribution>.
+<http://data.opendataday.it/resource/dati.toscana/bollettini-meteo-toscana/distribution/dis1>	<http://www.w3.org/ns/dcat#accessURL>	<http://www.lamma.rete.toscana.it/previ/ita/meteo_elba_nord.pd>.
+<http://data.opendataday.it/resource/dati.toscana/bollettini-meteo-toscana/distribution/dis1>	<http://rdfs.org/ns/void#format>	"pdf".
+<http://data.opendataday.it/resource/dati.toscana/bollettini-meteo-toscana>	<http://www.w3.org/ns/dcat#distribution>	<http://data.opendataday.it/resource/dati.toscana/bollettini-meteo-toscana/distribution/dis2>.
+<http://data.opendataday.it/resource/dati.toscana/bollettini-meteo-toscana/distribution/dis2>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/ns/dcat#Distribution>.
+<http://data.opendataday.it/resource/dati.toscana/bollettini-meteo-toscana/distribution/dis2>	<http://www.w3.org/ns/dcat#accessURL>	<http://www.lamma.rete.toscana.it/previ/ita/meteo_elba_sud.pdf>.
+<http://data.opendataday.it/resource/dati.toscana/bollettini-meteo-toscana/distribution/dis2>	<http://rdfs.org/ns/void#format>	"pdf".
+<http://data.opendataday.it/resource/dati.toscana/bollettini-meteo-toscana>	<http://www.w3.org/ns/dcat#distribution>	<http://data.opendataday.it/resource/dati.toscana/bollettini-meteo-toscana/distribution/dis3>.
+<http://data.opendataday.it/resource/dati.toscana/bollettini-meteo-toscana/distribution/dis3>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/ns/dcat#Distribution>.
+<http://data.opendataday.it/resource/dati.toscana/bollettini-meteo-toscana/distribution/dis3>	<http://www.w3.org/ns/dcat#accessURL>	<http://www.lamma.rete.toscana.it/previ/ita/boll_monti.pdf>.
+<http://data.opendataday.it/resource/dati.toscana/bollettini-meteo-toscana/distribution/dis3>	<http://rdfs.org/ns/void#format>	"pdf".
+<http://data.opendataday.it/resource/dati.toscana>	<http://www.w3.org/ns/dcat#dataset>	<http://data.opendataday.it/resource/dati.toscana/servizi-trasporto-strada>.
+<http://data.opendataday.it/resource/dati.toscana/servizi-trasporto-strada>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/ns/dcat#Dataset>.
 <http://data.opendataday.it/resource/dati.toscana/lo-sport-in-toscana>	<http://purl.org/dc/elements/1.1/title>	"Lo sport in Toscana".
 <http://data.opendataday.it/resource/dati.toscana/lo-sport-in-toscana>	<http://purl.org/dc/terms/description>	"I dati sugli impianti sportivi, le associazioni e più in generale su tutte le occasioni per praticare sport, a livello amatoriale o agonistico in Toscana.".
 <http://data.opendataday.it/resource/dati.toscana/lo-sport-in-toscana>	<http://purl.org/dc/terms/isReferencedBy>	<http://dati.toscana.it/dataset/lo-sport-in-toscana>.
@@ -488,33 +486,8 @@ Per visualizzare i dati sulla mappa cliccare sull'opzione "Map/Mappe" di "Antepr
 <http://data.opendataday.it/resource/dati.toscana/lo-sport-in-toscana/distribution/dis0>	<http://purl.org/dc/terms/description>	"Impianti sportivi, palestre, ippodromi, scuole sportive, sci, vela, golf, alpinismo, ...".
 <http://data.opendataday.it/resource/dati.toscana/lo-sport-in-toscana/distribution/dis0>	<http://www.w3.org/ns/dcat#accessURL>	<http://dati.toscana.it/it/storage/f/2012-07-26T164559/intoscana-sport.csv>.
 <http://data.opendataday.it/resource/dati.toscana/lo-sport-in-toscana/distribution/dis0>	<http://rdfs.org/ns/void#format>	"csv".
-<http://data.opendataday.it/resource/dati.toscana>	<http://www.w3.org/ns/dcat#dataset>	<http://data.opendataday.it/resource/dati.toscana/dump-stazioni-meteo>.
-<http://data.opendataday.it/resource/dati.toscana/dump-stazioni-meteo>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/ns/dcat#Dataset>.
-<http://data.opendataday.it/resource/dati.toscana/dump-stazioni-meteo>	<http://purl.org/dc/elements/1.1/title>	"Dump Stazioni Meteo".
-<http://data.opendataday.it/resource/dati.toscana/dump-stazioni-meteo>	<http://purl.org/dc/terms/description>	"Dati stazioni meteo mediati sulla mezz'ora (dump da stazione).".
-<http://data.opendataday.it/resource/dati.toscana/dump-stazioni-meteo>	<http://purl.org/dc/terms/isReferencedBy>	<http://dati.toscana.it/dataset/dump-stazioni-meteo>.
-<http://data.opendataday.it/resource/dati.toscana/dump-stazioni-meteo>	<http://www.w3.org/ns/dcat#keyword>	<http://data.opendataday.it/resource/tag/meteo>.
-<http://data.opendataday.it/resource/tag/meteo>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept>.
-<http://data.opendataday.it/resource/dati.toscana/dump-stazioni-meteo>	<http://purl.org/dc/terms/rights>	"cc-zero".
-<http://data.opendataday.it/resource/dati.toscana/dump-stazioni-meteo>	<http://www.w3.org/ns/dcat#distribution>	<http://data.opendataday.it/resource/dati.toscana/dump-stazioni-meteo/distribution/dis0>.
-<http://data.opendataday.it/resource/dati.toscana/dump-stazioni-meteo/distribution/dis0>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/ns/dcat#Distribution>.
-<http://data.opendataday.it/resource/dati.toscana/dump-stazioni-meteo/distribution/dis0>	<http://purl.org/dc/terms/description>	"""Stazione installata c/o la sede della Porto di Carrara S.p.A. 
-Viale G. Da Verrazzano,  Varco Portuale Levante 
-54036 Marina di Carrara (MS)
-
-UBICAZIONE
-Terrazzo palazzo (m): 10
-Quota su livello terrazzo (m): 1.6
-Quota stazione s.l.m. (m): 11.6 
-Data installazione/Prima acquisizione: 24/03/2005 
-
-NOTE:
-1. Dati mancanti: dal 16/12/2009 al 15/10/2010 causa problemi alla stazione
-2. La stazione è ferma dal 22 aprile 2011 per problema elettronico della scheda 
-3. Header esteso dei dati 
-Data(gg/mm/aa),Ora(solare),Temp_aria_media(C),Temp_aria_max(C),Temp_aria_min(C),Umid_media(%),Umid_aria_max(%),Umid_aria_min(%),Rad_glob_media(Wm-2),Rad_glob_max(Wm-2),Vento_medio(deg),Vento_max(deg),Direzione_vento_prevalente(deg),Direzione_raffica(),Tot_pioggia(mm),Volt""".
-<http://data.opendataday.it/resource/dati.toscana/dump-stazioni-meteo/distribution/dis0>	<http://www.w3.org/ns/dcat#accessURL>	<http://dati.toscana.it/storage/f/2012-09-26T142847/dump.h.carrara.csv>.
-<http://data.opendataday.it/resource/dati.toscana/dump-stazioni-meteo/distribution/dis0>	<http://rdfs.org/ns/void#format>	"csv".
+<http://data.opendataday.it/resource/dati.toscana>	<http://www.w3.org/ns/dcat#dataset>	<http://data.opendataday.it/resource/dati.toscana/lo-sport-in-toscana>.
+<http://data.opendataday.it/resource/dati.toscana/lo-sport-in-toscana>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/ns/dcat#Dataset>.
 <http://data.opendataday.it/resource/dati.toscana>	<http://www.w3.org/ns/dcat#dataset>	<http://data.opendataday.it/resource/dati.toscana/imprese-commercio>.
 <http://data.opendataday.it/resource/dati.toscana/imprese-commercio>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/ns/dcat#Dataset>.
 <http://data.opendataday.it/resource/dati.toscana/imprese-commercio>	<http://purl.org/dc/elements/1.1/title>	"Le imprese del Commercio".
@@ -544,6 +517,33 @@ Data(gg/mm/aa),Ora(solare),Temp_aria_media(C),Temp_aria_max(C),Temp_aria_min(C),
 <http://data.opendataday.it/resource/dati.toscana/imprese-commercio/distribution/dis0>	<http://purl.org/dc/terms/description>	"Informazioni sulle imprese commerciali, dalla grande distribuzione al negozio monomarca".
 <http://data.opendataday.it/resource/dati.toscana/imprese-commercio/distribution/dis0>	<http://www.w3.org/ns/dcat#accessURL>	<http://dati.toscana.it/it/storage/f/2012-07-26T160538/intoscana-commercio.csv>.
 <http://data.opendataday.it/resource/dati.toscana/imprese-commercio/distribution/dis0>	<http://rdfs.org/ns/void#format>	"csv".
+<http://data.opendataday.it/resource/dati.toscana>	<http://www.w3.org/ns/dcat#dataset>	<http://data.opendataday.it/resource/dati.toscana/dump-stazioni-meteo>.
+<http://data.opendataday.it/resource/dati.toscana/dump-stazioni-meteo>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/ns/dcat#Dataset>.
+<http://data.opendataday.it/resource/dati.toscana/dump-stazioni-meteo>	<http://purl.org/dc/elements/1.1/title>	"Dump Stazioni Meteo".
+<http://data.opendataday.it/resource/dati.toscana/dump-stazioni-meteo>	<http://purl.org/dc/terms/description>	"Dati stazioni meteo mediati sulla mezz'ora (dump da stazione).".
+<http://data.opendataday.it/resource/dati.toscana/dump-stazioni-meteo>	<http://purl.org/dc/terms/isReferencedBy>	<http://dati.toscana.it/dataset/dump-stazioni-meteo>.
+<http://data.opendataday.it/resource/dati.toscana/dump-stazioni-meteo>	<http://www.w3.org/ns/dcat#keyword>	<http://data.opendataday.it/resource/tag/meteo>.
+<http://data.opendataday.it/resource/tag/meteo>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept>.
+<http://data.opendataday.it/resource/dati.toscana/dump-stazioni-meteo>	<http://purl.org/dc/terms/rights>	"cc-zero".
+<http://data.opendataday.it/resource/dati.toscana/dump-stazioni-meteo>	<http://www.w3.org/ns/dcat#distribution>	<http://data.opendataday.it/resource/dati.toscana/dump-stazioni-meteo/distribution/dis0>.
+<http://data.opendataday.it/resource/dati.toscana/dump-stazioni-meteo/distribution/dis0>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/ns/dcat#Distribution>.
+<http://data.opendataday.it/resource/dati.toscana/dump-stazioni-meteo/distribution/dis0>	<http://purl.org/dc/terms/description>	"""Stazione installata c/o la sede della Porto di Carrara S.p.A. 
+Viale G. Da Verrazzano,  Varco Portuale Levante 
+54036 Marina di Carrara (MS)
+
+UBICAZIONE
+Terrazzo palazzo (m): 10
+Quota su livello terrazzo (m): 1.6
+Quota stazione s.l.m. (m): 11.6 
+Data installazione/Prima acquisizione: 24/03/2005 
+
+NOTE:
+1. Dati mancanti: dal 16/12/2009 al 15/10/2010 causa problemi alla stazione
+2. La stazione è ferma dal 22 aprile 2011 per problema elettronico della scheda 
+3. Header esteso dei dati 
+Data(gg/mm/aa),Ora(solare),Temp_aria_media(C),Temp_aria_max(C),Temp_aria_min(C),Umid_media(%),Umid_aria_max(%),Umid_aria_min(%),Rad_glob_media(Wm-2),Rad_glob_max(Wm-2),Vento_medio(deg),Vento_max(deg),Direzione_vento_prevalente(deg),Direzione_raffica(),Tot_pioggia(mm),Volt""".
+<http://data.opendataday.it/resource/dati.toscana/dump-stazioni-meteo/distribution/dis0>	<http://www.w3.org/ns/dcat#accessURL>	<http://dati.toscana.it/storage/f/2012-09-26T142847/dump.h.carrara.csv>.
+<http://data.opendataday.it/resource/dati.toscana/dump-stazioni-meteo/distribution/dis0>	<http://rdfs.org/ns/void#format>	"csv".
 <http://data.opendataday.it/resource/dati.toscana>	<http://www.w3.org/ns/dcat#dataset>	<http://data.opendataday.it/resource/dati.toscana/la-scuola-dell-infanzia>.
 <http://data.opendataday.it/resource/dati.toscana/la-scuola-dell-infanzia>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/ns/dcat#Dataset>.
 <http://data.opendataday.it/resource/dati.toscana/la-scuola-dell-infanzia>	<http://purl.org/dc/elements/1.1/title>	"La scuola dell'infanzia".
@@ -581,6 +581,17 @@ Data(gg/mm/aa),Ora(solare),Temp_aria_media(C),Temp_aria_max(C),Temp_aria_min(C),
 <http://data.opendataday.it/resource/dati.toscana/strutture-ricettive-della-toscana/distribution/dis0>	<http://purl.org/dc/terms/description>	"Strutture ricettive (più ricco, no georeferenziazione)".
 <http://data.opendataday.it/resource/dati.toscana/strutture-ricettive-della-toscana/distribution/dis0>	<http://www.w3.org/ns/dcat#accessURL>	<http://dati.toscana.it/it/storage/f/2012-07-25T114451/intoscana-accoglienza.csv>.
 <http://data.opendataday.it/resource/dati.toscana/strutture-ricettive-della-toscana/distribution/dis0>	<http://rdfs.org/ns/void#format>	"csv".
+<http://data.opendataday.it/resource/dati.toscana>	<http://www.w3.org/ns/dcat#dataset>	<http://data.opendataday.it/resource/dati.toscana/servizi-vari>.
+<http://data.opendataday.it/resource/dati.toscana/servizi-vari>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/ns/dcat#Dataset>.
+<http://data.opendataday.it/resource/dati.toscana/servizi-vari>	<http://purl.org/dc/elements/1.1/title>	"Servizi vari".
+<http://data.opendataday.it/resource/dati.toscana/servizi-vari>	<http://purl.org/dc/terms/description>	"Dagli \"Informa giovani\" alle sedi della Motorizzazione, passando per CAF, Agenzia delle Entrate e Centri per l'impiego".
+<http://data.opendataday.it/resource/dati.toscana/servizi-vari>	<http://purl.org/dc/terms/isReferencedBy>	<http://dati.toscana.it/dataset/servizi-vari>.
+<http://data.opendataday.it/resource/dati.toscana/servizi-vari>	<http://purl.org/dc/terms/rights>	"cc-zero".
+<http://data.opendataday.it/resource/dati.toscana/servizi-vari>	<http://www.w3.org/ns/dcat#distribution>	<http://data.opendataday.it/resource/dati.toscana/servizi-vari/distribution/dis0>.
+<http://data.opendataday.it/resource/dati.toscana/servizi-vari/distribution/dis0>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/ns/dcat#Distribution>.
+<http://data.opendataday.it/resource/dati.toscana/servizi-vari/distribution/dis0>	<http://purl.org/dc/terms/description>	"Informa Giovani, Agenzia delle entrate, Centro per l'impiego, Caf, Ufficio INPS, Motorizzazione civile".
+<http://data.opendataday.it/resource/dati.toscana/servizi-vari/distribution/dis0>	<http://www.w3.org/ns/dcat#accessURL>	<http://dati.toscana.it/it/storage/f/2012-07-25T123235/intoscana-pubblica-amministrazione_agenzia-entrate.csv>.
+<http://data.opendataday.it/resource/dati.toscana/servizi-vari/distribution/dis0>	<http://rdfs.org/ns/void#format>	"csv".
 <http://data.opendataday.it/resource/dati.toscana>	<http://www.w3.org/ns/dcat#dataset>	<http://data.opendataday.it/resource/dati.toscana/visite-guidate>.
 <http://data.opendataday.it/resource/dati.toscana/visite-guidate>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/ns/dcat#Dataset>.
 <http://data.opendataday.it/resource/dati.toscana/visite-guidate>	<http://purl.org/dc/elements/1.1/title>	"Visite guidate".
@@ -632,17 +643,6 @@ Il report viene pubblicato entro le ore 16 del giorno seguente.""".
 <http://data.opendataday.it/resource/dati.toscana/report-meteo-giornaliero/distribution/dis0>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/ns/dcat#Distribution>.
 <http://data.opendataday.it/resource/dati.toscana/report-meteo-giornaliero/distribution/dis0>	<http://www.w3.org/ns/dcat#accessURL>	<http://www.lamma.rete.toscana.it/clima/report/giornaliero/report_giornaliero.pdf>.
 <http://data.opendataday.it/resource/dati.toscana/report-meteo-giornaliero/distribution/dis0>	<http://rdfs.org/ns/void#format>	"pdf".
-<http://data.opendataday.it/resource/dati.toscana>	<http://www.w3.org/ns/dcat#dataset>	<http://data.opendataday.it/resource/dati.toscana/servizi-vari>.
-<http://data.opendataday.it/resource/dati.toscana/servizi-vari>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/ns/dcat#Dataset>.
-<http://data.opendataday.it/resource/dati.toscana/servizi-vari>	<http://purl.org/dc/elements/1.1/title>	"Servizi vari".
-<http://data.opendataday.it/resource/dati.toscana/servizi-vari>	<http://purl.org/dc/terms/description>	"Dagli "Informa giovani" alle sedi della Motorizzazione, passando per CAF, Agenzia delle Entrate e Centri per l'impiego".
-<http://data.opendataday.it/resource/dati.toscana/servizi-vari>	<http://purl.org/dc/terms/rights>	"cc-zero".
-<http://data.opendataday.it/resource/dati.toscana/servizi-vari>	<http://www.w3.org/ns/dcat#distribution>	<http://data.opendataday.it/resource/dati.toscana/servizi-vari/distribution/dis0>.
-<http://data.opendataday.it/resource/dati.toscana/servizi-vari/distribution/dis0>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/ns/dcat#Distribution>.
-<http://data.opendataday.it/resource/dati.toscana/servizi-vari/distribution/dis0>	<http://purl.org/dc/terms/description>	"Informa Giovani, Agenzia delle entrate, Centro per l'impiego, Caf, Ufficio INPS, Motorizzazione civile".
-<http://data.opendataday.it/resource/dati.toscana/servizi-vari/distribution/dis0>	<http://www.w3.org/ns/dcat#accessURL>	<http://dati.toscana.it/it/storage/f/2012-07-25T123235/intoscana-pubblica-amministrazione_agenzia-entrate.csv>.
-<http://data.opendataday.it/resource/dati.toscana/servizi-vari/distribution/dis0>	<http://rdfs.org/ns/void#format>	"csv".
-<http://data.opendataday.it/resource/dati.toscana/servizi-vari>	<http://purl.org/dc/terms/isReferencedBy>	<http://dati.toscana.it/dataset/servizi-vari>.
 <http://data.opendataday.it/resource/dati.toscana>	<http://www.w3.org/ns/dcat#dataset>	<http://data.opendataday.it/resource/dati.toscana/la-scuola-media>.
 <http://data.opendataday.it/resource/dati.toscana/la-scuola-media>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/ns/dcat#Dataset>.
 <http://data.opendataday.it/resource/dati.toscana/la-scuola-media>	<http://purl.org/dc/elements/1.1/title>	"La scuola media".
@@ -655,18 +655,6 @@ Il report viene pubblicato entro le ore 16 del giorno seguente.""".
 <http://data.opendataday.it/resource/dati.toscana/la-scuola-media/distribution/dis0>	<http://purl.org/dc/terms/description>	"Scuole medie pubbliche e private".
 <http://data.opendataday.it/resource/dati.toscana/la-scuola-media/distribution/dis0>	<http://www.w3.org/ns/dcat#accessURL>	<http://dati.toscana.it/it/storage/f/2012-07-26T164125/intoscana-scuola-e-universita_medie.csv>.
 <http://data.opendataday.it/resource/dati.toscana/la-scuola-media/distribution/dis0>	<http://rdfs.org/ns/void#format>	"csv".
-<http://data.opendataday.it/resource/dati.toscana>	<http://www.w3.org/ns/dcat#dataset>	<http://data.opendataday.it/resource/dati.toscana/la-scuola-elementare>.
-<http://data.opendataday.it/resource/dati.toscana/la-scuola-elementare>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/ns/dcat#Dataset>.
-<http://data.opendataday.it/resource/dati.toscana/la-scuola-elementare>	<http://purl.org/dc/elements/1.1/title>	"La scuola elementare".
-<http://data.opendataday.it/resource/dati.toscana/la-scuola-elementare>	<http://purl.org/dc/terms/isReferencedBy>	<http://dati.toscana.it/dataset/la-scuola-elementare>.
-<http://data.opendataday.it/resource/dati.toscana/la-scuola-elementare>	<http://www.w3.org/ns/dcat#keyword>	<http://data.opendataday.it/resource/tag/scuola>.
-<http://data.opendataday.it/resource/tag/scuola>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept>.
-<http://data.opendataday.it/resource/dati.toscana/la-scuola-elementare>	<http://purl.org/dc/terms/rights>	"cc-zero".
-<http://data.opendataday.it/resource/dati.toscana/la-scuola-elementare>	<http://www.w3.org/ns/dcat#distribution>	<http://data.opendataday.it/resource/dati.toscana/la-scuola-elementare/distribution/dis0>.
-<http://data.opendataday.it/resource/dati.toscana/la-scuola-elementare/distribution/dis0>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/ns/dcat#Distribution>.
-<http://data.opendataday.it/resource/dati.toscana/la-scuola-elementare/distribution/dis0>	<http://purl.org/dc/terms/description>	"Scuole elementari pubbliche e private".
-<http://data.opendataday.it/resource/dati.toscana/la-scuola-elementare/distribution/dis0>	<http://www.w3.org/ns/dcat#accessURL>	<http://dati.toscana.it/it/storage/f/2012-07-26T164031/intoscana-scuola-e-universita_elementari.csv>.
-<http://data.opendataday.it/resource/dati.toscana/la-scuola-elementare/distribution/dis0>	<http://rdfs.org/ns/void#format>	"csv".
 <http://data.opendataday.it/resource/dati.toscana>	<http://www.w3.org/ns/dcat#dataset>	<http://data.opendataday.it/resource/dati.toscana/stabilimenti-balneari>.
 <http://data.opendataday.it/resource/dati.toscana/stabilimenti-balneari>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/ns/dcat#Dataset>.
 <http://data.opendataday.it/resource/dati.toscana/stabilimenti-balneari>	<http://purl.org/dc/elements/1.1/title>	"Stabilimenti Balneari".
@@ -699,6 +687,32 @@ Il report viene pubblicato entro le ore 16 del giorno seguente.""".
 <http://data.opendataday.it/resource/dati.toscana/banche/distribution/dis0>	<http://purl.org/dc/terms/description>	"Le filiali delle Banche nel territorio regionale".
 <http://data.opendataday.it/resource/dati.toscana/banche/distribution/dis0>	<http://www.w3.org/ns/dcat#accessURL>	<http://dati.toscana.it/it/storage/f/2012-07-26T160324/intoscana-commercio_banche.csv>.
 <http://data.opendataday.it/resource/dati.toscana/banche/distribution/dis0>	<http://rdfs.org/ns/void#format>	"csv".
+<http://data.opendataday.it/resource/dati.toscana>	<http://www.w3.org/ns/dcat#dataset>	<http://data.opendataday.it/resource/dati.toscana/la-scuola-elementare>.
+<http://data.opendataday.it/resource/dati.toscana/la-scuola-elementare>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/ns/dcat#Dataset>.
+<http://data.opendataday.it/resource/dati.toscana/la-scuola-elementare>	<http://purl.org/dc/elements/1.1/title>	"La scuola elementare".
+<http://data.opendataday.it/resource/dati.toscana/la-scuola-elementare>	<http://purl.org/dc/terms/isReferencedBy>	<http://dati.toscana.it/dataset/la-scuola-elementare>.
+<http://data.opendataday.it/resource/dati.toscana/la-scuola-elementare>	<http://www.w3.org/ns/dcat#keyword>	<http://data.opendataday.it/resource/tag/scuola>.
+<http://data.opendataday.it/resource/tag/scuola>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept>.
+<http://data.opendataday.it/resource/dati.toscana/la-scuola-elementare>	<http://purl.org/dc/terms/rights>	"cc-zero".
+<http://data.opendataday.it/resource/dati.toscana/la-scuola-elementare>	<http://www.w3.org/ns/dcat#distribution>	<http://data.opendataday.it/resource/dati.toscana/la-scuola-elementare/distribution/dis0>.
+<http://data.opendataday.it/resource/dati.toscana/la-scuola-elementare/distribution/dis0>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/ns/dcat#Distribution>.
+<http://data.opendataday.it/resource/dati.toscana/la-scuola-elementare/distribution/dis0>	<http://purl.org/dc/terms/description>	"Scuole elementari pubbliche e private".
+<http://data.opendataday.it/resource/dati.toscana/la-scuola-elementare/distribution/dis0>	<http://www.w3.org/ns/dcat#accessURL>	<http://dati.toscana.it/it/storage/f/2012-07-26T164031/intoscana-scuola-e-universita_elementari.csv>.
+<http://data.opendataday.it/resource/dati.toscana/la-scuola-elementare/distribution/dis0>	<http://rdfs.org/ns/void#format>	"csv".
+<http://data.opendataday.it/resource/dati.toscana>	<http://www.w3.org/ns/dcat#dataset>	<http://data.opendataday.it/resource/dati.toscana/farmacie>.
+<http://data.opendataday.it/resource/dati.toscana/farmacie>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/ns/dcat#Dataset>.
+<http://data.opendataday.it/resource/dati.toscana/farmacie>	<http://purl.org/dc/elements/1.1/title>	"Farmacie".
+<http://data.opendataday.it/resource/dati.toscana/farmacie>	<http://purl.org/dc/terms/isReferencedBy>	<http://dati.toscana.it/dataset/farmacie>.
+<http://data.opendataday.it/resource/dati.toscana/farmacie>	<http://www.w3.org/ns/dcat#keyword>	<http://data.opendataday.it/resource/tag/farmacie>.
+<http://data.opendataday.it/resource/tag/farmacie>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept>.
+<http://data.opendataday.it/resource/dati.toscana/farmacie>	<http://www.w3.org/ns/dcat#keyword>	<http://data.opendataday.it/resource/tag/servizi-sanitari>.
+<http://data.opendataday.it/resource/tag/servizi-sanitari>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept>.
+<http://data.opendataday.it/resource/dati.toscana/farmacie>	<http://purl.org/dc/terms/rights>	"cc-zero".
+<http://data.opendataday.it/resource/dati.toscana/farmacie>	<http://www.w3.org/ns/dcat#distribution>	<http://data.opendataday.it/resource/dati.toscana/farmacie/distribution/dis0>.
+<http://data.opendataday.it/resource/dati.toscana/farmacie/distribution/dis0>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/ns/dcat#Distribution>.
+<http://data.opendataday.it/resource/dati.toscana/farmacie/distribution/dis0>	<http://purl.org/dc/terms/description>	"Gli indirizzi delle farmacie in Regione".
+<http://data.opendataday.it/resource/dati.toscana/farmacie/distribution/dis0>	<http://www.w3.org/ns/dcat#accessURL>	<http://dati.toscana.it/it/storage/f/2012-07-26T161731/intoscana-salute-e-sanita_farmacie.csv>.
+<http://data.opendataday.it/resource/dati.toscana/farmacie/distribution/dis0>	<http://rdfs.org/ns/void#format>	"csv".
 <http://data.opendataday.it/resource/dati.toscana>	<http://www.w3.org/ns/dcat#dataset>	<http://data.opendataday.it/resource/dati.toscana/enogastronomia>.
 <http://data.opendataday.it/resource/dati.toscana/enogastronomia>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/ns/dcat#Dataset>.
 <http://data.opendataday.it/resource/dati.toscana/enogastronomia>	<http://purl.org/dc/elements/1.1/title>	"Enogastronomia".
@@ -718,20 +732,8 @@ Il report viene pubblicato entro le ore 16 del giorno seguente.""".
 <http://data.opendataday.it/resource/dati.toscana/enogastronomia/distribution/dis0>	<http://purl.org/dc/terms/description>	"Dati su ristoranti, trattorie, pub, pizzerie, etc.".
 <http://data.opendataday.it/resource/dati.toscana/enogastronomia/distribution/dis0>	<http://www.w3.org/ns/dcat#accessURL>	<http://dati.toscana.it/it/storage/f/2012-07-26T161302/intoscana-enogastronomia.csv>.
 <http://data.opendataday.it/resource/dati.toscana/enogastronomia/distribution/dis0>	<http://rdfs.org/ns/void#format>	"csv".
-<http://data.opendataday.it/resource/dati.toscana>	<http://www.w3.org/ns/dcat#dataset>	<http://data.opendataday.it/resource/dati.toscana/farmacie>.
-<http://data.opendataday.it/resource/dati.toscana/farmacie>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/ns/dcat#Dataset>.
-<http://data.opendataday.it/resource/dati.toscana/farmacie>	<http://purl.org/dc/elements/1.1/title>	"Farmacie".
-<http://data.opendataday.it/resource/dati.toscana/farmacie>	<http://purl.org/dc/terms/isReferencedBy>	<http://dati.toscana.it/dataset/farmacie>.
-<http://data.opendataday.it/resource/dati.toscana/farmacie>	<http://www.w3.org/ns/dcat#keyword>	<http://data.opendataday.it/resource/tag/farmacie>.
-<http://data.opendataday.it/resource/tag/farmacie>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept>.
-<http://data.opendataday.it/resource/dati.toscana/farmacie>	<http://www.w3.org/ns/dcat#keyword>	<http://data.opendataday.it/resource/tag/servizi-sanitari>.
-<http://data.opendataday.it/resource/tag/servizi-sanitari>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept>.
-<http://data.opendataday.it/resource/dati.toscana/farmacie>	<http://purl.org/dc/terms/rights>	"cc-zero".
-<http://data.opendataday.it/resource/dati.toscana/farmacie>	<http://www.w3.org/ns/dcat#distribution>	<http://data.opendataday.it/resource/dati.toscana/farmacie/distribution/dis0>.
-<http://data.opendataday.it/resource/dati.toscana/farmacie/distribution/dis0>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/ns/dcat#Distribution>.
-<http://data.opendataday.it/resource/dati.toscana/farmacie/distribution/dis0>	<http://purl.org/dc/terms/description>	"Gli indirizzi delle farmacie in Regione".
-<http://data.opendataday.it/resource/dati.toscana/farmacie/distribution/dis0>	<http://www.w3.org/ns/dcat#accessURL>	<http://dati.toscana.it/it/storage/f/2012-07-26T161731/intoscana-salute-e-sanita_farmacie.csv>.
-<http://data.opendataday.it/resource/dati.toscana/farmacie/distribution/dis0>	<http://rdfs.org/ns/void#format>	"csv".
+<http://data.opendataday.it/resource/dati.toscana>	<http://www.w3.org/ns/dcat#dataset>	<http://data.opendataday.it/resource/dati.toscana/servizi-veterinari>.
+<http://data.opendataday.it/resource/dati.toscana/servizi-veterinari>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/ns/dcat#Dataset>.
 <http://data.opendataday.it/resource/dati.toscana/servizi-veterinari>	<http://purl.org/dc/elements/1.1/title>	"Servizi veterinari".
 <http://data.opendataday.it/resource/dati.toscana/servizi-veterinari>	<http://purl.org/dc/terms/isReferencedBy>	<http://dati.toscana.it/dataset/servizi-veterinari>.
 <http://data.opendataday.it/resource/dati.toscana/servizi-veterinari>	<http://www.w3.org/ns/dcat#keyword>	<http://data.opendataday.it/resource/tag/animali-domestici>.
@@ -746,8 +748,6 @@ Il report viene pubblicato entro le ore 16 del giorno seguente.""".
 <http://data.opendataday.it/resource/dati.toscana/servizi-veterinari/distribution/dis0>	<http://purl.org/dc/terms/description>	"Anagrafe canina, Associazione animalista, Canile, Medicina veterinaria".
 <http://data.opendataday.it/resource/dati.toscana/servizi-veterinari/distribution/dis0>	<http://www.w3.org/ns/dcat#accessURL>	<http://dati.toscana.it/it/storage/f/2012-07-26T163341/intoscana-salute-e-sanita_veterinari.csv>.
 <http://data.opendataday.it/resource/dati.toscana/servizi-veterinari/distribution/dis0>	<http://rdfs.org/ns/void#format>	"csv".
-<http://data.opendataday.it/resource/dati.toscana>	<http://www.w3.org/ns/dcat#dataset>	<http://data.opendataday.it/resource/dati.toscana/servizi-veterinari>.
-<http://data.opendataday.it/resource/dati.toscana/servizi-veterinari>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/ns/dcat#Dataset>.
 <http://data.opendataday.it/resource/dati.toscana>	<http://www.w3.org/ns/dcat#dataset>	<http://data.opendataday.it/resource/dati.toscana/previ-meteo-localita>.
 <http://data.opendataday.it/resource/dati.toscana/previ-meteo-localita>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/ns/dcat#Dataset>.
 <http://data.opendataday.it/resource/dati.toscana/previ-meteo-localita>	<http://purl.org/dc/elements/1.1/title>	"Previ-meteo località della Toscana".
