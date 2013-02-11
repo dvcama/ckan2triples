@@ -7,7 +7,7 @@
 		"find" : "/api/rest/package",
 		"replace" : "http://data.opendataday.it/resource/dati.provinciaRoma"
 	},
-	"datasetInfo" : [ "<http://data.opendataday.it/resource/dati.provinciaRoma>\t<http://www.w3.org/ns/dcat#dataset>\t<{{URI}}>" ,  "<{{URI}}>\t<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>\t<http://www.w3.org/ns/dcat#Dataset>"],
+	"staticInfo" : [ "<http://data.opendataday.it/resource/dati.provinciaRoma>\t<http://www.w3.org/ns/dcat#dataset>\t<{{URI}}>" ,  "<{{URI}}>\t<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>\t<http://www.w3.org/ns/dcat#Dataset>"],
 	"datasetMap" : {
 		"title" : {
 			"uri" : "<http://purl.org/dc/elements/1.1/title>",
