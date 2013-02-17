@@ -83,7 +83,7 @@ function start(jConfig) {
 
 					if (!justOnce) {
 						/* inserisco eventuali triple fisse */
-						writeRow(staticInfo(resourceUri, jConfig), jConfig.resultFileName);
+						writeRow(staticInfo(resourceUri, '', jConfig), jConfig.resultFileName);
 						justOnce = true;
 					}
 					/* produco la singola riga */
@@ -101,12 +101,33 @@ function start(jConfig) {
 }
 
 function generateUri(resourceUri, jConfig) {
-	if (jConfig.resourceUriSubstitutor && jConfig.resourceUriSubstitutor.replace && jConfig.resourceUriSubstitutor.find) {
-		resourceUri = resourceUri.replace(new RegExp(jConfig.resourceUriSubstitutor.find), jConfig.resourceUriSubstitutor.replace);
+	var resourceUriSubstitutor = jConfig.resourceUriSubstitutor;
+	if (resourceUriSubstitutor) {
+		if (!Array.isArray(resourceUriSubstitutor)) {
+			resourceUriSubstitutor = [ resourceUriSubstitutor ];
+		}
+		for ( var int2 = 0; int2 < resourceUriSubstitutor.length; int2++) {
+			if (resourceUriSubstitutor[int2] && resourceUriSubstitutor[int2].find) {
+				resourceUri = resourceUri.replace(new RegExp(resourceUriSubstitutor[int2].find), resourceUriSubstitutor[int2].replace);
+			}
+		}
 	}
 	return resourceUri;
 }
-
+function dataCleaner(row, jConfig) {
+	var dataCleaner = jConfig.dataCleaner;
+	if (dataCleaner) {
+		if (!Array.isArray(dataCleaner)) {
+			dataCleaner = [ dataCleaner ];
+		}
+		for ( var int2 = 0; int2 < dataCleaner.length; int2++) {
+			if (dataCleaner[int2] && dataCleaner[int2].find) {
+				row = row.replace(new RegExp(dataCleaner[int2].find), dataCleaner[int2].replace);
+			}
+		}
+	}
+	return row;
+}
 function catalogInfo(jConfig) {
 	if (jConfig.catalogInfo) {
 		$.each(jConfig.catalogInfo, function(key, value) {
@@ -115,11 +136,11 @@ function catalogInfo(jConfig) {
 	}
 }
 
-function staticInfo(resourceUri, jConfig) {
+function staticInfo(resourceUri, originalValue, jConfig) {
 	var result = "";
 	if (jConfig.staticInfo) {
 		$.each(jConfig.staticInfo, function(key, value) {
-			result += value.replace(/\{\{URI\}\}/g, resourceUri) + ".\n";
+			result += value.replace(/\{\{URI\}\}/g, resourceUri).replace(/\{\{VALUE\}\}/g, originalValue) + ".\n";
 		});
 	}
 	return result;
@@ -150,16 +171,19 @@ function createRow(resourceUri, key, params, resJ) {
 			row = "";
 			for ( var int = 0; int < resJ[key].length; int++) {
 				var val = $.trim(resJ[key][int]);
+				val = dataCleaner(val,params);
+				var originalValue = val;
 				if (params.forceLowerCase) {
 					val = val.toLowerCase();
+					originalValue = val;
 				}
 				if (params.toUri) {
 					val = uriCleaner(val);
 				}
-				val = val.replace(/"/gi,'\\"');
+				val = val.replace(/"/gi, '\\"');
 				if (params.hasOwnUri) {
 					row += "<" + resourceUri + ">\t" + params.uri + "\t<" + (params.valueAsUri ? (params.prefix ? params.prefix : "") + val : (resourceUri + (params.hasOwnUri ? (params.suffix ? params.suffix : "") + int : ""))) + ">.\n";
-					row += staticInfo((params.valueAsUri ? (params.prefix ? params.prefix : "") + val : (resourceUri + (params.hasOwnUri ? (params.suffix ? params.suffix : "") + int : ""))), params);
+					row += staticInfo((params.valueAsUri ? (params.prefix ? params.prefix : "") + val : (resourceUri + (params.hasOwnUri ? (params.suffix ? params.suffix : "") + int : ""))), originalValue, params);
 				}
 				$.each(params, function(innerKey, innerParams) {
 					if (Object.prototype.toString.call(innerParams) == "[object Object]") {
@@ -173,13 +197,14 @@ function createRow(resourceUri, key, params, resJ) {
 			for ( var int = 0; int < resJ[key].length; int++) {
 				if (resJ[key][int]) {
 					var val = $.trim(resJ[key][int]);
+					val = dataCleaner(val,params);
 					if (params.forceLowerCase) {
 						val = val.toLowerCase();
 					}
 					if (params.toUri) {
 						val = uriCleaner(val);
 					}
-					val = val.replace(/"/gi,'\\"');
+					val = val.replace(/"/gi, '\\"');
 					if (params.type == 'string') {
 						if (val.match(/\n/)) {
 							val = '""' + val + '""';
@@ -212,6 +237,9 @@ function uriCleaner(uri) {
 	uri = uri.replace(/[^a-zA-Z0-9]/g, '-');
 	while (uri.indexOf("--") > -1) {
 		uri = uri.replace(/--/g, '-');
+	}
+	if (uri.length > 60) {
+		uri = uri.substring(0, 50);
 	}
 	return uri;
 }

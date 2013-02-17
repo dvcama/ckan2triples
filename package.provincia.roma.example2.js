@@ -9,7 +9,6 @@ var a = {
 	"metadata_modified" : "2012-10-11T13:12:44.477583",
 	"author" : "Provincia di Roma",
 	"author_email" : "",
-	"download_url" : "http://85.18.173.117/opendata/UltimoRilevamento.xml",
 	"state" : "active",
 	"version" : "",
 	"license_id" : "cc-zero",
@@ -116,7 +115,7 @@ var a = {
 		"total" : 0,
 		"recent" : 0
 	},
-	"groups" : [ "mobilit" ],
+	"groups" : [ "f6e44298-baae-4762-b31d-2971e566a40c" ],
 	"name" : "monitoraggio-traffico-stradale",
 	"isopen" : true,
 	"notes_rendered" : "<p>La Provincia di Roma ha sviluppato una piattaforma per il monitoraggio del traffico della rete stradale attraverso l'integrazione tra sistemi di rilevazione tradizionali (spire, telecamere, sorpassometri, dissuasori) e sistemi di tracciamento satellitare di flotte di veicoli (floating car data). \n   I dati del traffico vengono rilevati ed elaborati ogni 10 minuti.\n   Il dataset presenta l'ultimo rilevamento disponibile sulla piattaforma.\n</p>\n<p>FORMATO DEI DATI: I dati sono forniti in 4 formati differenti: xml, csv, csv separato da ';' (apribile direttamente da Excel localizzato in italiano) e tsv.\n</p>\n<p>FREQUENZA DI AGGIORNAMENTO: Ogni 10 minuti\n</p>",
