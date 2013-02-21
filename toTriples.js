@@ -171,7 +171,7 @@ function createRow(resourceUri, key, params, resJ) {
 			row = "";
 			for ( var int = 0; int < resJ[key].length; int++) {
 				var val = $.trim(resJ[key][int]);
-				val = dataCleaner(val,params);
+				val = dataCleaner(val, params);
 				var originalValue = val;
 				if (params.forceLowerCase) {
 					val = val.toLowerCase();
@@ -181,6 +181,9 @@ function createRow(resourceUri, key, params, resJ) {
 					val = uriCleaner(val);
 				}
 				val = val.replace(/"/gi, '\\"');
+				if (val == '') {
+					continue;
+				}
 				if (params.hasOwnUri) {
 					row += "<" + resourceUri + ">\t" + params.uri + "\t<" + (params.valueAsUri ? (params.prefix ? params.prefix : "") + val : (resourceUri + (params.hasOwnUri ? (params.suffix ? params.suffix : "") + int : ""))) + ">.\n";
 					row += staticInfo((params.valueAsUri ? (params.prefix ? params.prefix : "") + val : (resourceUri + (params.hasOwnUri ? (params.suffix ? params.suffix : "") + int : ""))), originalValue, params);
@@ -197,7 +200,7 @@ function createRow(resourceUri, key, params, resJ) {
 			for ( var int = 0; int < resJ[key].length; int++) {
 				if (resJ[key][int]) {
 					var val = $.trim(resJ[key][int]);
-					val = dataCleaner(val,params);
+					val = dataCleaner(val, params);
 					if (params.forceLowerCase) {
 						val = val.toLowerCase();
 					}
@@ -205,6 +208,9 @@ function createRow(resourceUri, key, params, resJ) {
 						val = uriCleaner(val);
 					}
 					val = val.replace(/"/gi, '\\"');
+					if (val == '') {
+						continue;
+					}
 					if (params.type == 'string') {
 						if (val.match(/\n/)) {
 							val = '""' + val + '""';
@@ -240,6 +246,9 @@ function uriCleaner(uri) {
 	}
 	if (uri.length > 60) {
 		uri = uri.substring(0, 50);
+	}
+	while(uri.length == uri.lastIndexOf("-")){
+		uri= uri.substring(0, uri.lastIndexOf("-"));
 	}
 	return uri;
 }
