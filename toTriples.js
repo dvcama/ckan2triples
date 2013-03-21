@@ -104,7 +104,7 @@ function start(jConfig) {
 			console.log("Got error: " + e.message);
 		});
 	}
-}
+} 
 
 function generateUri(resourceUri, jConfig) {
 	var resourceUriSubstitutor = jConfig.resourceUriSubstitutor;
