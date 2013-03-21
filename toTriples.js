@@ -73,26 +73,32 @@ function start(jConfig) {
 				resText += chunk;
 			});
 			res.on('end', function() {
-				/* response in json */
-				var resJ = JSON.parse(resText);
-				var map = jConfig.datasetMap;
-				var justOnce = false;
-				$.each(map, function(key, params) {
-					/* genero la uri della nuova risorsa */
-					var resourceUri = generateUri(res.req.path, jConfig);
+				try {
 
-					if (!justOnce) {
-						/* inserisco eventuali triple fisse */
-						writeRow(staticInfo(resourceUri, '', jConfig), jConfig.resultFileName);
-						justOnce = true;
-					}
-					/* produco la singola riga */
-					// console.log(key )
-					var row = createRow(resourceUri, key, params, resJ);
+					/* response in json */
+					var resJ = JSON.parse(resText);
+					var map = jConfig.datasetMap;
+					var justOnce = false;
+					$.each(map, function(key, params) {
+						/* genero la uri della nuova risorsa */
+						var resourceUri = generateUri(res.req.path, jConfig);
 
-					/* scrivo su disco */
-					writeRow(row, jConfig.resultFileName);
-				});
+						if (!justOnce) {
+							/* inserisco eventuali triple fisse */
+							writeRow(staticInfo(resourceUri, '', jConfig), jConfig.resultFileName);
+							justOnce = true;
+						}
+						/* produco la singola riga */
+						// console.log(key )
+						var row = createRow(resourceUri, key, params, resJ);
+
+						/* scrivo su disco */
+						writeRow(row, jConfig.resultFileName);
+					});
+				
+				} catch (e) {
+					console.log("Got error: 404 on "+jConfig.singlePackageBaseUrl + dataId);
+				}
 			});
 		}).on('error', function(e) {
 			console.log("Got error: " + e.message);
