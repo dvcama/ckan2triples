@@ -1,0 +1,710 @@
+<http://data.opendataday.it/resource/dati.bari>	<http://purl.org/dc/elements/1.1/title>	"Catalogo OpenData del Comune di Bari".
+<http://data.opendataday.it/resource/dati.bari>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/ns/dcat#Catalog>.
+<http://data.opendataday.it/resource/dati.bari>	<http://www.w3.org/ns/dcat#dataset>	<http://data.opendataday.it/resource/dati.bari/pratiche-edilizie>.
+<http://data.opendataday.it/resource/dati.bari/pratiche-edilizie>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/ns/dcat#Dataset>.
+<http://data.opendataday.it/resource/dati.bari/pratiche-edilizie>	<http://purl.org/dc/elements/1.1/title>	"Pratiche Edilizie".
+<http://data.opendataday.it/resource/dati.bari/pratiche-edilizie>	<http://purl.org/dc/terms/description>	"Elenco pratiche per la denuncia di inizio attività, l'autirizzazione, la denuncia, la concessione, ecc, di attività di edilizia nel Comune di Bari".
+<http://data.opendataday.it/resource/dati.bari/pratiche-edilizie>	<http://purl.org/dc/terms/license>	<http://www.opendefinition.org/licenses/cc-zero>.
+<http://data.opendataday.it/resource/dati.bari/pratiche-edilizie>	<http://purl.org/dc/terms/publisher>	"Ripartizione Urbanistica ed Edilizia Privata".
+<http://data.opendataday.it/resource/dati.bari/pratiche-edilizie>	<http://purl.org/dc/terms/modified>	"2012-12-18T14:49:26.705393".
+<http://data.opendataday.it/resource/dati.bari/pratiche-edilizie>	<http://purl.org/dc/terms/created>	"2012-12-12T17:23:37.107992".
+<http://data.opendataday.it/resource/dati.bari/pratiche-edilizie>	<http://www.w3.org/ns/dcat#distribution>	<http://data.opendataday.it/resource/dati.bari/pratiche-edilizie/distribution/dis0>.
+<http://data.opendataday.it/resource/dati.bari/pratiche-edilizie/distribution/dis0>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/ns/dcat#Distribution>.
+<http://data.opendataday.it/resource/dati.bari/pratiche-edilizie/distribution/dis0>	<http://www.w3.org/ns/dcat#accessURL>	</storage/f/2012-12-12T172334/Numero-Pratiche-Edilizie-per-Anno-Rione-e-Tipo.xls>.
+<http://data.opendataday.it/resource/dati.bari/pratiche-edilizie/distribution/dis0>	<http://rdfs.org/ns/void#format>	".xls".
+<http://data.opendataday.it/resource/dati.bari/pratiche-edilizie>	<http://www.w3.org/ns/dcat#theme>	<http://data.opendataday.it/resource/tag/dati-statistici>.
+<http://data.opendataday.it/resource/tag/dati-statistici>	<http://purl.org/dc/elements/1.1/creator>	<http://data.opendataday.it/resource/dati.bari>.
+<http://data.opendataday.it/resource/tag/dati-statistici>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept>.
+<http://data.opendataday.it/resource/tag/dati-statistici>	<http://purl.org/dc/elements/1.1/title>	"dati-statistici".
+<http://data.opendataday.it/resource/dati.bari/pratiche-edilizie>	<http://www.w3.org/ns/dcat#theme>	<http://data.opendataday.it/resource/tag/casa-edilizia-territorio>.
+<http://data.opendataday.it/resource/tag/casa-edilizia-territorio>	<http://purl.org/dc/elements/1.1/creator>	<http://data.opendataday.it/resource/dati.bari>.
+<http://data.opendataday.it/resource/tag/casa-edilizia-territorio>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept>.
+<http://data.opendataday.it/resource/tag/casa-edilizia-territorio>	<http://purl.org/dc/elements/1.1/title>	"casa-edilizia-territorio".
+<http://data.opendataday.it/resource/dati.bari>	<http://www.w3.org/ns/dcat#dataset>	<http://data.opendataday.it/resource/dati.bari/guide-turistiche-del-comune-di-bari>.
+<http://data.opendataday.it/resource/dati.bari/guide-turistiche-del-comune-di-bari>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/ns/dcat#Dataset>.
+<http://data.opendataday.it/resource/dati.bari/guide-turistiche-del-comune-di-bari>	<http://purl.org/dc/elements/1.1/title>	"Guide turistiche del Comune di Bari".
+<http://data.opendataday.it/resource/dati.bari/guide-turistiche-del-comune-di-bari>	<http://purl.org/dc/terms/description>	"Elenco delle guide turistiche del Comune di Bari".
+<http://data.opendataday.it/resource/dati.bari/guide-turistiche-del-comune-di-bari>	<http://purl.org/dc/terms/license>	<http://www.opendefinition.org/licenses/cc-zero>.
+<http://data.opendataday.it/resource/dati.bari/guide-turistiche-del-comune-di-bari>	<http://purl.org/dc/terms/publisher>	"ripartizione culture, religioni, pari opportunita', comunicazione, marketing territoriale e sport".
+<http://data.opendataday.it/resource/dati.bari/guide-turistiche-del-comune-di-bari>	<http://purl.org/dc/terms/modified>	"2012-12-18T13:59:06.038808".
+<http://data.opendataday.it/resource/dati.bari/guide-turistiche-del-comune-di-bari>	<http://purl.org/dc/terms/created>	"2012-12-14T13:11:14.753202".
+<http://data.opendataday.it/resource/dati.bari/guide-turistiche-del-comune-di-bari>	<http://www.w3.org/ns/dcat#distribution>	<http://data.opendataday.it/resource/dati.bari/guide-turistiche-del-comune-di-bari/distribution/dis0>.
+<http://data.opendataday.it/resource/dati.bari/guide-turistiche-del-comune-di-bari/distribution/dis0>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/ns/dcat#Distribution>.
+<http://data.opendataday.it/resource/dati.bari/guide-turistiche-del-comune-di-bari/distribution/dis0>	<http://www.w3.org/ns/dcat#accessURL>	</storage/f/2012-12-14T131041/elenco_guide_turistiche.csv>.
+<http://data.opendataday.it/resource/dati.bari/guide-turistiche-del-comune-di-bari/distribution/dis0>	<http://rdfs.org/ns/void#format>	".csv".
+<http://data.opendataday.it/resource/dati.bari/guide-turistiche-del-comune-di-bari>	<http://www.w3.org/ns/dcat#theme>	<http://data.opendataday.it/resource/tag/cultura-marketing-territoriale>.
+<http://data.opendataday.it/resource/tag/cultura-marketing-territoriale>	<http://purl.org/dc/elements/1.1/creator>	<http://data.opendataday.it/resource/dati.bari>.
+<http://data.opendataday.it/resource/tag/cultura-marketing-territoriale>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept>.
+<http://data.opendataday.it/resource/tag/cultura-marketing-territoriale>	<http://purl.org/dc/elements/1.1/title>	"cultura-marketing-territoriale".
+<http://data.opendataday.it/resource/dati.bari>	<http://www.w3.org/ns/dcat#dataset>	<http://data.opendataday.it/resource/dati.bari/organico-comune-di-bari>.
+<http://data.opendataday.it/resource/dati.bari/organico-comune-di-bari>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/ns/dcat#Dataset>.
+<http://data.opendataday.it/resource/dati.bari/organico-comune-di-bari>	<http://purl.org/dc/elements/1.1/title>	"Organico Comune di Bari".
+<http://data.opendataday.it/resource/dati.bari/organico-comune-di-bari>	<http://purl.org/dc/terms/description>	"Organico del personale del Comune di Bari".
+<http://data.opendataday.it/resource/dati.bari/organico-comune-di-bari>	<http://purl.org/dc/terms/license>	<http://www.opendefinition.org/licenses/cc-zero>.
+<http://data.opendataday.it/resource/dati.bari/organico-comune-di-bari>	<http://purl.org/dc/terms/publisher>	"Ripartizione Personale".
+<http://data.opendataday.it/resource/dati.bari/organico-comune-di-bari>	<http://purl.org/dc/terms/modified>	"2013-02-13T14:07:40.983128".
+<http://data.opendataday.it/resource/dati.bari/organico-comune-di-bari>	<http://purl.org/dc/terms/created>	"2012-12-12T17:18:33.008681".
+<http://data.opendataday.it/resource/dati.bari/organico-comune-di-bari>	<http://www.w3.org/ns/dcat#distribution>	<http://data.opendataday.it/resource/dati.bari/organico-comune-di-bari/distribution/dis0>.
+<http://data.opendataday.it/resource/dati.bari/organico-comune-di-bari/distribution/dis0>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/ns/dcat#Distribution>.
+<http://data.opendataday.it/resource/dati.bari/organico-comune-di-bari/distribution/dis0>	<http://www.w3.org/ns/dcat#accessURL>	</storage/f/2013-02-01T084933/organico.xls>.
+<http://data.opendataday.it/resource/dati.bari/organico-comune-di-bari/distribution/dis0>	<http://rdfs.org/ns/void#format>	".xls".
+<http://data.opendataday.it/resource/dati.bari/organico-comune-di-bari>	<http://www.w3.org/ns/dcat#distribution>	<http://data.opendataday.it/resource/dati.bari/organico-comune-di-bari/distribution/dis1>.
+<http://data.opendataday.it/resource/dati.bari/organico-comune-di-bari/distribution/dis1>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/ns/dcat#Distribution>.
+<http://data.opendataday.it/resource/dati.bari/organico-comune-di-bari/distribution/dis1>	<http://www.w3.org/ns/dcat#accessURL>	</storage/f/2013-02-13T140538/organico.csv>.
+<http://data.opendataday.it/resource/dati.bari/organico-comune-di-bari/distribution/dis1>	<http://rdfs.org/ns/void#format>	".csv".
+<http://data.opendataday.it/resource/dati.bari/organico-comune-di-bari>	<http://www.w3.org/ns/dcat#theme>	<http://data.opendataday.it/resource/tag/organizzazione-uffici-contatti>.
+<http://data.opendataday.it/resource/tag/organizzazione-uffici-contatti>	<http://purl.org/dc/elements/1.1/creator>	<http://data.opendataday.it/resource/dati.bari>.
+<http://data.opendataday.it/resource/tag/organizzazione-uffici-contatti>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept>.
+<http://data.opendataday.it/resource/tag/organizzazione-uffici-contatti>	<http://purl.org/dc/elements/1.1/title>	"organizzazione-uffici-contatti".
+<http://data.opendataday.it/resource/dati.bari>	<http://www.w3.org/ns/dcat#dataset>	<http://data.opendataday.it/resource/dati.bari/elezioni-politiche-2013>.
+<http://data.opendataday.it/resource/dati.bari/elezioni-politiche-2013>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/ns/dcat#Dataset>.
+<http://data.opendataday.it/resource/dati.bari/elezioni-politiche-2013>	<http://purl.org/dc/elements/1.1/title>	"Elezioni politiche 2013".
+<http://data.opendataday.it/resource/dati.bari/elezioni-politiche-2013>	<http://purl.org/dc/terms/description>	"Dati relativi alle Elezioni Politiche 2013 nel Comune di Bari".
+<http://data.opendataday.it/resource/dati.bari/elezioni-politiche-2013>	<http://purl.org/dc/terms/license>	<http://www.opendefinition.org/licenses/cc-zero>.
+<http://data.opendataday.it/resource/dati.bari/elezioni-politiche-2013>	<http://www.w3.org/ns/dcat#keyword>	<http://data.opendataday.it/resource/tag/2013>.
+<http://data.opendataday.it/resource/tag/2013>	<http://purl.org/dc/elements/1.1/creator>	<http://data.opendataday.it/resource/dati.bari>.
+<http://data.opendataday.it/resource/tag/2013>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept>.
+<http://data.opendataday.it/resource/tag/2013>	<http://purl.org/dc/elements/1.1/title>	"2013".
+<http://data.opendataday.it/resource/dati.bari/elezioni-politiche-2013>	<http://www.w3.org/ns/dcat#keyword>	<http://data.opendataday.it/resource/tag/elezioni>.
+<http://data.opendataday.it/resource/tag/elezioni>	<http://purl.org/dc/elements/1.1/creator>	<http://data.opendataday.it/resource/dati.bari>.
+<http://data.opendataday.it/resource/tag/elezioni>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept>.
+<http://data.opendataday.it/resource/tag/elezioni>	<http://purl.org/dc/elements/1.1/title>	"elezioni".
+<http://data.opendataday.it/resource/dati.bari/elezioni-politiche-2013>	<http://www.w3.org/ns/dcat#keyword>	<http://data.opendataday.it/resource/tag/politiche>.
+<http://data.opendataday.it/resource/tag/politiche>	<http://purl.org/dc/elements/1.1/creator>	<http://data.opendataday.it/resource/dati.bari>.
+<http://data.opendataday.it/resource/tag/politiche>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept>.
+<http://data.opendataday.it/resource/tag/politiche>	<http://purl.org/dc/elements/1.1/title>	"politiche".
+<http://data.opendataday.it/resource/dati.bari/elezioni-politiche-2013>	<http://purl.org/dc/terms/publisher>	"Ripartizione Servizi Demografici, Elettorali e Statistici".
+<http://data.opendataday.it/resource/dati.bari/elezioni-politiche-2013>	<http://purl.org/dc/terms/modified>	"2013-02-28T16:35:16.822136".
+<http://data.opendataday.it/resource/dati.bari/elezioni-politiche-2013>	<http://purl.org/dc/terms/created>	"2013-02-27T13:19:24.340232".
+<http://data.opendataday.it/resource/dati.bari/elezioni-politiche-2013>	<http://www.w3.org/ns/dcat#distribution>	<http://data.opendataday.it/resource/dati.bari/elezioni-politiche-2013/distribution/dis0>.
+<http://data.opendataday.it/resource/dati.bari/elezioni-politiche-2013/distribution/dis0>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/ns/dcat#Distribution>.
+<http://data.opendataday.it/resource/dati.bari/elezioni-politiche-2013/distribution/dis0>	<http://www.w3.org/ns/dcat#accessURL>	</storage/f/2013-02-27T131917/REP_sezioni_camera.csv>.
+<http://data.opendataday.it/resource/dati.bari/elezioni-politiche-2013/distribution/dis0>	<http://rdfs.org/ns/void#format>	".csv".
+<http://data.opendataday.it/resource/dati.bari/elezioni-politiche-2013>	<http://www.w3.org/ns/dcat#distribution>	<http://data.opendataday.it/resource/dati.bari/elezioni-politiche-2013/distribution/dis1>.
+<http://data.opendataday.it/resource/dati.bari/elezioni-politiche-2013/distribution/dis1>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/ns/dcat#Distribution>.
+<http://data.opendataday.it/resource/dati.bari/elezioni-politiche-2013/distribution/dis1>	<http://www.w3.org/ns/dcat#accessURL>	</storage/f/2013-02-27T132040/REP_sezioni_senato.csv>.
+<http://data.opendataday.it/resource/dati.bari/elezioni-politiche-2013/distribution/dis1>	<http://rdfs.org/ns/void#format>	".csv".
+<http://data.opendataday.it/resource/dati.bari/elezioni-politiche-2013>	<http://www.w3.org/ns/dcat#distribution>	<http://data.opendataday.it/resource/dati.bari/elezioni-politiche-2013/distribution/dis2>.
+<http://data.opendataday.it/resource/dati.bari/elezioni-politiche-2013/distribution/dis2>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/ns/dcat#Distribution>.
+<http://data.opendataday.it/resource/dati.bari/elezioni-politiche-2013/distribution/dis2>	<http://www.w3.org/ns/dcat#accessURL>	</storage/f/2013-02-27T132106/REP_VotiListeCamera.csv>.
+<http://data.opendataday.it/resource/dati.bari/elezioni-politiche-2013/distribution/dis2>	<http://rdfs.org/ns/void#format>	".csv".
+<http://data.opendataday.it/resource/dati.bari/elezioni-politiche-2013>	<http://www.w3.org/ns/dcat#distribution>	<http://data.opendataday.it/resource/dati.bari/elezioni-politiche-2013/distribution/dis3>.
+<http://data.opendataday.it/resource/dati.bari/elezioni-politiche-2013/distribution/dis3>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/ns/dcat#Distribution>.
+<http://data.opendataday.it/resource/dati.bari/elezioni-politiche-2013/distribution/dis3>	<http://www.w3.org/ns/dcat#accessURL>	</storage/f/2013-02-27T132131/REP_VotiListeSenato.csv>.
+<http://data.opendataday.it/resource/dati.bari/elezioni-politiche-2013/distribution/dis3>	<http://rdfs.org/ns/void#format>	".csv".
+<http://data.opendataday.it/resource/dati.bari/elezioni-politiche-2013>	<http://www.w3.org/ns/dcat#theme>	<http://data.opendataday.it/resource/tag/elezioni>.
+<http://data.opendataday.it/resource/tag/elezioni>	<http://purl.org/dc/elements/1.1/creator>	<http://data.opendataday.it/resource/dati.bari>.
+<http://data.opendataday.it/resource/tag/elezioni>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept>.
+<http://data.opendataday.it/resource/tag/elezioni>	<http://purl.org/dc/elements/1.1/title>	"elezioni".
+<http://data.opendataday.it/resource/dati.bari>	<http://www.w3.org/ns/dcat#dataset>	<http://data.opendataday.it/resource/dati.bari/postazioni-bike-sharing>.
+<http://data.opendataday.it/resource/dati.bari/postazioni-bike-sharing>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/ns/dcat#Dataset>.
+<http://data.opendataday.it/resource/dati.bari/postazioni-bike-sharing>	<http://purl.org/dc/elements/1.1/title>	"Postazioni Bike Sharing".
+<http://data.opendataday.it/resource/dati.bari/postazioni-bike-sharing>	<http://purl.org/dc/terms/description>	"Elenco delle postazioni di Bike Sharing con la relativa disponibilità".
+<http://data.opendataday.it/resource/dati.bari/postazioni-bike-sharing>	<http://purl.org/dc/terms/license>	<http://www.opendefinition.org/licenses/cc-zero>.
+<http://data.opendataday.it/resource/dati.bari/postazioni-bike-sharing>	<http://purl.org/dc/terms/publisher>	"Biciincittà".
+<http://data.opendataday.it/resource/dati.bari/postazioni-bike-sharing>	<http://purl.org/dc/terms/created>	"2013-01-22T17:44:23.606517".
+<http://data.opendataday.it/resource/dati.bari/postazioni-bike-sharing>	<http://www.w3.org/ns/dcat#distribution>	<http://data.opendataday.it/resource/dati.bari/postazioni-bike-sharing/distribution/dis0>.
+<http://data.opendataday.it/resource/dati.bari/postazioni-bike-sharing/distribution/dis0>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/ns/dcat#Distribution>.
+<http://data.opendataday.it/resource/dati.bari/postazioni-bike-sharing/distribution/dis0>	<http://www.w3.org/ns/dcat#accessURL>	</storage/f/2013-01-22T180851/postazioni-bike-sharing.xls>.
+<http://data.opendataday.it/resource/dati.bari/postazioni-bike-sharing/distribution/dis0>	<http://rdfs.org/ns/void#format>	".xls".
+<http://data.opendataday.it/resource/dati.bari/postazioni-bike-sharing>	<http://www.w3.org/ns/dcat#distribution>	<http://data.opendataday.it/resource/dati.bari/postazioni-bike-sharing/distribution/dis1>.
+<http://data.opendataday.it/resource/dati.bari/postazioni-bike-sharing/distribution/dis1>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/ns/dcat#Distribution>.
+<http://data.opendataday.it/resource/dati.bari/postazioni-bike-sharing/distribution/dis1>	<http://www.w3.org/ns/dcat#accessURL>	</storage/f/2013-02-15T161951/postazioni-bike-sharing.csv>.
+<http://data.opendataday.it/resource/dati.bari/postazioni-bike-sharing/distribution/dis1>	<http://rdfs.org/ns/void#format>	".csv".
+<http://data.opendataday.it/resource/dati.bari/postazioni-bike-sharing>	<http://www.w3.org/ns/dcat#theme>	<http://data.opendataday.it/resource/tag/dati-geografici>.
+<http://data.opendataday.it/resource/tag/dati-geografici>	<http://purl.org/dc/elements/1.1/creator>	<http://data.opendataday.it/resource/dati.bari>.
+<http://data.opendataday.it/resource/tag/dati-geografici>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept>.
+<http://data.opendataday.it/resource/tag/dati-geografici>	<http://purl.org/dc/elements/1.1/title>	"dati-geografici".
+<http://data.opendataday.it/resource/dati.bari/postazioni-bike-sharing>	<http://www.w3.org/ns/dcat#theme>	<http://data.opendataday.it/resource/tag/mobilit>.
+<http://data.opendataday.it/resource/tag/mobilit>	<http://purl.org/dc/elements/1.1/creator>	<http://data.opendataday.it/resource/dati.bari>.
+<http://data.opendataday.it/resource/tag/mobilit>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept>.
+<http://data.opendataday.it/resource/tag/mobilit>	<http://purl.org/dc/elements/1.1/title>	"mobilit".
+<http://data.opendataday.it/resource/dati.bari/postazioni-bike-sharing>	<http://purl.org/dc/terms/modified>	"2013-02-15T16:20:06.521737".
+<http://data.opendataday.it/resource/dati.bari>	<http://www.w3.org/ns/dcat#dataset>	<http://data.opendataday.it/resource/dati.bari/elenco-professionisti-e-collaudatori>.
+<http://data.opendataday.it/resource/dati.bari/elenco-professionisti-e-collaudatori>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/ns/dcat#Dataset>.
+<http://data.opendataday.it/resource/dati.bari/elenco-professionisti-e-collaudatori>	<http://purl.org/dc/terms/description>	"Elenco dei professionisti di operatori economici a cui affidare servizi attinenti l'architettura e l'ingegneria anche integrata e gli altri servizi tecnici".
+<http://data.opendataday.it/resource/dati.bari/elenco-professionisti-e-collaudatori>	<http://purl.org/dc/terms/license>	<http://www.opendefinition.org/licenses/cc-zero>.
+<http://data.opendataday.it/resource/dati.bari/elenco-professionisti-e-collaudatori>	<http://purl.org/dc/terms/publisher>	"Ripartizione Stazione Unica Appaltante, Contratti e Gestione Lavori Pubblici".
+<http://data.opendataday.it/resource/dati.bari/elenco-professionisti-e-collaudatori>	<http://purl.org/dc/terms/modified>	"2013-02-15T16:04:36.826539".
+<http://data.opendataday.it/resource/dati.bari/elenco-professionisti-e-collaudatori>	<http://purl.org/dc/elements/1.1/title>	"Elenco Professionisti e Collaudatori".
+<http://data.opendataday.it/resource/dati.bari/elenco-professionisti-e-collaudatori>	<http://www.w3.org/ns/dcat#distribution>	<http://data.opendataday.it/resource/dati.bari/elenco-professionisti-e-collaudatori/distribution/dis0>.
+<http://data.opendataday.it/resource/dati.bari/elenco-professionisti-e-collaudatori/distribution/dis0>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/ns/dcat#Distribution>.
+<http://data.opendataday.it/resource/dati.bari/elenco-professionisti-e-collaudatori/distribution/dis0>	<http://www.w3.org/ns/dcat#accessURL>	</storage/f/2012-12-12T171158/elenco-Collaudatori.xls>.
+<http://data.opendataday.it/resource/dati.bari/elenco-professionisti-e-collaudatori/distribution/dis0>	<http://rdfs.org/ns/void#format>	".xls".
+<http://data.opendataday.it/resource/dati.bari/elenco-professionisti-e-collaudatori>	<http://www.w3.org/ns/dcat#distribution>	<http://data.opendataday.it/resource/dati.bari/elenco-professionisti-e-collaudatori/distribution/dis1>.
+<http://data.opendataday.it/resource/dati.bari/elenco-professionisti-e-collaudatori/distribution/dis1>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/ns/dcat#Distribution>.
+<http://data.opendataday.it/resource/dati.bari/elenco-professionisti-e-collaudatori/distribution/dis1>	<http://www.w3.org/ns/dcat#accessURL>	</storage/f/2012-12-12T171246/elenco-GiovaniProgettisti.xls>.
+<http://data.opendataday.it/resource/dati.bari/elenco-professionisti-e-collaudatori/distribution/dis1>	<http://rdfs.org/ns/void#format>	".xls".
+<http://data.opendataday.it/resource/dati.bari/elenco-professionisti-e-collaudatori>	<http://www.w3.org/ns/dcat#distribution>	<http://data.opendataday.it/resource/dati.bari/elenco-professionisti-e-collaudatori/distribution/dis2>.
+<http://data.opendataday.it/resource/dati.bari/elenco-professionisti-e-collaudatori/distribution/dis2>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/ns/dcat#Distribution>.
+<http://data.opendataday.it/resource/dati.bari/elenco-professionisti-e-collaudatori/distribution/dis2>	<http://www.w3.org/ns/dcat#accessURL>	</storage/f/2012-12-12T171341/elenco-Progettisti.xls>.
+<http://data.opendataday.it/resource/dati.bari/elenco-professionisti-e-collaudatori/distribution/dis2>	<http://rdfs.org/ns/void#format>	".xls".
+<http://data.opendataday.it/resource/dati.bari/elenco-professionisti-e-collaudatori>	<http://www.w3.org/ns/dcat#distribution>	<http://data.opendataday.it/resource/dati.bari/elenco-professionisti-e-collaudatori/distribution/dis3>.
+<http://data.opendataday.it/resource/dati.bari/elenco-professionisti-e-collaudatori/distribution/dis3>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/ns/dcat#Distribution>.
+<http://data.opendataday.it/resource/dati.bari/elenco-professionisti-e-collaudatori/distribution/dis3>	<http://www.w3.org/ns/dcat#accessURL>	</storage/f/2013-02-15T160248/elenco-GiovaniProgettisti.csv>.
+<http://data.opendataday.it/resource/dati.bari/elenco-professionisti-e-collaudatori/distribution/dis3>	<http://rdfs.org/ns/void#format>	".csv".
+<http://data.opendataday.it/resource/dati.bari/elenco-professionisti-e-collaudatori>	<http://www.w3.org/ns/dcat#distribution>	<http://data.opendataday.it/resource/dati.bari/elenco-professionisti-e-collaudatori/distribution/dis4>.
+<http://data.opendataday.it/resource/dati.bari/elenco-professionisti-e-collaudatori/distribution/dis4>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/ns/dcat#Distribution>.
+<http://data.opendataday.it/resource/dati.bari/elenco-professionisti-e-collaudatori/distribution/dis4>	<http://www.w3.org/ns/dcat#accessURL>	</storage/f/2013-02-15T160340/elenco-Collaudatori.csv>.
+<http://data.opendataday.it/resource/dati.bari/elenco-professionisti-e-collaudatori/distribution/dis4>	<http://rdfs.org/ns/void#format>	".csv".
+<http://data.opendataday.it/resource/dati.bari/elenco-professionisti-e-collaudatori>	<http://www.w3.org/ns/dcat#distribution>	<http://data.opendataday.it/resource/dati.bari/elenco-professionisti-e-collaudatori/distribution/dis5>.
+<http://data.opendataday.it/resource/dati.bari/elenco-professionisti-e-collaudatori/distribution/dis5>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/ns/dcat#Distribution>.
+<http://data.opendataday.it/resource/dati.bari/elenco-professionisti-e-collaudatori/distribution/dis5>	<http://www.w3.org/ns/dcat#accessURL>	</storage/f/2013-02-15T160425/elenco-Progettisti.csv>.
+<http://data.opendataday.it/resource/dati.bari/elenco-professionisti-e-collaudatori/distribution/dis5>	<http://rdfs.org/ns/void#format>	".csv".
+<http://data.opendataday.it/resource/dati.bari/elenco-professionisti-e-collaudatori>	<http://www.w3.org/ns/dcat#theme>	<http://data.opendataday.it/resource/tag/fornitori-e-professionisti>.
+<http://data.opendataday.it/resource/tag/fornitori-e-professionisti>	<http://purl.org/dc/elements/1.1/creator>	<http://data.opendataday.it/resource/dati.bari>.
+<http://data.opendataday.it/resource/tag/fornitori-e-professionisti>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept>.
+<http://data.opendataday.it/resource/tag/fornitori-e-professionisti>	<http://purl.org/dc/elements/1.1/title>	"fornitori-e-professionisti".
+<http://data.opendataday.it/resource/dati.bari/elenco-professionisti-e-collaudatori>	<http://purl.org/dc/terms/created>	"2012-12-12T17:12:32.202474".
+<http://data.opendataday.it/resource/dati.bari/nosmoke>	<http://purl.org/dc/elements/1.1/title>	"nosmoke".
+<http://data.opendataday.it/resource/dati.bari>	<http://www.w3.org/ns/dcat#dataset>	<http://data.opendataday.it/resource/dati.bari/nosmoke>.
+<http://data.opendataday.it/resource/dati.bari/nosmoke>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/ns/dcat#Dataset>.
+<http://data.opendataday.it/resource/dati.bari/nosmoke>	<http://purl.org/dc/terms/description>	"e-cigg e-ciggaretter".
+<http://data.opendataday.it/resource/dati.bari/nosmoke>	<http://purl.org/dc/terms/modified>	"2013-03-05T08:32:47.659655".
+<http://data.opendataday.it/resource/dati.bari/nosmoke>	<http://purl.org/dc/terms/created>	"2013-03-05T08:32:47.659655".
+<http://data.opendataday.it/resource/dati.bari>	<http://www.w3.org/ns/dcat#dataset>	<http://data.opendataday.it/resource/dati.bari/scuole-del-comune-di-bari>.
+<http://data.opendataday.it/resource/dati.bari/scuole-del-comune-di-bari>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/ns/dcat#Dataset>.
+<http://data.opendataday.it/resource/dati.bari/scuole-del-comune-di-bari>	<http://purl.org/dc/elements/1.1/title>	"Scuole del Comune di Bari".
+<http://data.opendataday.it/resource/dati.bari/scuole-del-comune-di-bari>	<http://purl.org/dc/terms/description>	"Sistema Informativo Territoriale: scuole del Comune di Bari".
+<http://data.opendataday.it/resource/dati.bari/scuole-del-comune-di-bari>	<http://purl.org/dc/terms/license>	<http://www.opendefinition.org/licenses/cc-zero>.
+<http://data.opendataday.it/resource/dati.bari/scuole-del-comune-di-bari>	<http://purl.org/dc/terms/publisher>	"Ripartizione Infrastrutture, Viabilità e Opere Pubbliche".
+<http://data.opendataday.it/resource/dati.bari/scuole-del-comune-di-bari>	<http://purl.org/dc/terms/modified>	"2012-12-18T14:23:54.831944".
+<http://data.opendataday.it/resource/dati.bari/scuole-del-comune-di-bari>	<http://purl.org/dc/terms/created>	"2012-12-12T16:27:36.473464".
+<http://data.opendataday.it/resource/dati.bari/scuole-del-comune-di-bari>	<http://www.w3.org/ns/dcat#distribution>	<http://data.opendataday.it/resource/dati.bari/scuole-del-comune-di-bari/distribution/dis0>.
+<http://data.opendataday.it/resource/dati.bari/scuole-del-comune-di-bari/distribution/dis0>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/ns/dcat#Distribution>.
+<http://data.opendataday.it/resource/dati.bari/scuole-del-comune-di-bari/distribution/dis0>	<http://www.w3.org/ns/dcat#accessURL>	</storage/f/2012-12-12T162704/Scuole.zip>.
+<http://data.opendataday.it/resource/dati.bari/scuole-del-comune-di-bari/distribution/dis0>	<http://rdfs.org/ns/void#format>	".zip".
+<http://data.opendataday.it/resource/dati.bari/scuole-del-comune-di-bari>	<http://www.w3.org/ns/dcat#theme>	<http://data.opendataday.it/resource/tag/dati-geografici>.
+<http://data.opendataday.it/resource/tag/dati-geografici>	<http://purl.org/dc/elements/1.1/creator>	<http://data.opendataday.it/resource/dati.bari>.
+<http://data.opendataday.it/resource/tag/dati-geografici>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept>.
+<http://data.opendataday.it/resource/tag/dati-geografici>	<http://purl.org/dc/elements/1.1/title>	"dati-geografici".
+<http://data.opendataday.it/resource/dati.bari>	<http://www.w3.org/ns/dcat#dataset>	<http://data.opendataday.it/resource/dati.bari/cassonetti-amiu>.
+<http://data.opendataday.it/resource/dati.bari/cassonetti-amiu>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/ns/dcat#Dataset>.
+<http://data.opendataday.it/resource/dati.bari/cassonetti-amiu>	<http://purl.org/dc/elements/1.1/title>	"Cassonetti AMIU".
+<http://data.opendataday.it/resource/dati.bari/cassonetti-amiu>	<http://purl.org/dc/terms/description>	"Mappa dei cassonetti AMIU del Comune di Bari".
+<http://data.opendataday.it/resource/dati.bari/cassonetti-amiu>	<http://purl.org/dc/terms/license>	<http://www.opendefinition.org/licenses/cc-zero>.
+<http://data.opendataday.it/resource/dati.bari/cassonetti-amiu>	<http://www.w3.org/ns/dcat#keyword>	<http://data.opendataday.it/resource/tag/amiu>.
+<http://data.opendataday.it/resource/tag/amiu>	<http://purl.org/dc/elements/1.1/creator>	<http://data.opendataday.it/resource/dati.bari>.
+<http://data.opendataday.it/resource/tag/amiu>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept>.
+<http://data.opendataday.it/resource/tag/amiu>	<http://purl.org/dc/elements/1.1/title>	"amiu".
+<http://data.opendataday.it/resource/dati.bari/cassonetti-amiu>	<http://www.w3.org/ns/dcat#keyword>	<http://data.opendataday.it/resource/tag/cassonetti>.
+<http://data.opendataday.it/resource/tag/cassonetti>	<http://purl.org/dc/elements/1.1/creator>	<http://data.opendataday.it/resource/dati.bari>.
+<http://data.opendataday.it/resource/tag/cassonetti>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept>.
+<http://data.opendataday.it/resource/tag/cassonetti>	<http://purl.org/dc/elements/1.1/title>	"cassonetti".
+<http://data.opendataday.it/resource/dati.bari/cassonetti-amiu>	<http://purl.org/dc/terms/publisher>	"Ripartizione Tutela Ambiente, Sanità e Igiene".
+<http://data.opendataday.it/resource/dati.bari/cassonetti-amiu>	<http://purl.org/dc/terms/modified>	"2013-02-22T13:46:32.923965".
+<http://data.opendataday.it/resource/dati.bari/cassonetti-amiu>	<http://purl.org/dc/terms/created>	"2013-02-22T13:40:17.553854".
+<http://data.opendataday.it/resource/dati.bari/cassonetti-amiu>	<http://www.w3.org/ns/dcat#distribution>	<http://data.opendataday.it/resource/dati.bari/cassonetti-amiu/distribution/dis0>.
+<http://data.opendataday.it/resource/dati.bari/cassonetti-amiu/distribution/dis0>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/ns/dcat#Distribution>.
+<http://data.opendataday.it/resource/dati.bari/cassonetti-amiu/distribution/dis0>	<http://www.w3.org/ns/dcat#accessURL>	</storage/f/2013-02-22T133959/AMIU_cassonetti.zip>.
+<http://data.opendataday.it/resource/dati.bari/cassonetti-amiu/distribution/dis0>	<http://rdfs.org/ns/void#format>	".zip".
+<http://data.opendataday.it/resource/dati.bari/cassonetti-amiu>	<http://www.w3.org/ns/dcat#theme>	<http://data.opendataday.it/resource/tag/dati-geografici>.
+<http://data.opendataday.it/resource/tag/dati-geografici>	<http://purl.org/dc/elements/1.1/creator>	<http://data.opendataday.it/resource/dati.bari>.
+<http://data.opendataday.it/resource/tag/dati-geografici>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept>.
+<http://data.opendataday.it/resource/tag/dati-geografici>	<http://purl.org/dc/elements/1.1/title>	"dati-geografici".
+<http://data.opendataday.it/resource/dati.bari>	<http://www.w3.org/ns/dcat#dataset>	<http://data.opendataday.it/resource/dati.bari/farmacie>.
+<http://data.opendataday.it/resource/dati.bari/farmacie>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/ns/dcat#Dataset>.
+<http://data.opendataday.it/resource/dati.bari/farmacie>	<http://purl.org/dc/elements/1.1/title>	"Farmacie".
+<http://data.opendataday.it/resource/dati.bari/farmacie>	<http://purl.org/dc/terms/description>	"Mappa delle farmacie del Comune di Bari".
+<http://data.opendataday.it/resource/dati.bari/farmacie>	<http://purl.org/dc/terms/license>	<http://www.opendefinition.org/licenses/cc-zero>.
+<http://data.opendataday.it/resource/dati.bari/farmacie>	<http://www.w3.org/ns/dcat#keyword>	<http://data.opendataday.it/resource/tag/farmacie>.
+<http://data.opendataday.it/resource/tag/farmacie>	<http://purl.org/dc/elements/1.1/creator>	<http://data.opendataday.it/resource/dati.bari>.
+<http://data.opendataday.it/resource/tag/farmacie>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept>.
+<http://data.opendataday.it/resource/tag/farmacie>	<http://purl.org/dc/elements/1.1/title>	"farmacie".
+<http://data.opendataday.it/resource/dati.bari/farmacie>	<http://purl.org/dc/terms/publisher>	"Ripartizione Tutela Ambiente, Sanità e Igiene".
+<http://data.opendataday.it/resource/dati.bari/farmacie>	<http://purl.org/dc/terms/modified>	"2013-02-22T14:12:34.382920".
+<http://data.opendataday.it/resource/dati.bari/farmacie>	<http://purl.org/dc/terms/created>	"2013-02-22T14:09:27.119213".
+<http://data.opendataday.it/resource/dati.bari/farmacie>	<http://www.w3.org/ns/dcat#distribution>	<http://data.opendataday.it/resource/dati.bari/farmacie/distribution/dis0>.
+<http://data.opendataday.it/resource/dati.bari/farmacie/distribution/dis0>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/ns/dcat#Distribution>.
+<http://data.opendataday.it/resource/dati.bari/farmacie/distribution/dis0>	<http://www.w3.org/ns/dcat#accessURL>	</storage/f/2013-02-22T140919/Farmacie_AMIU.zip>.
+<http://data.opendataday.it/resource/dati.bari/farmacie>	<http://www.w3.org/ns/dcat#theme>	<http://data.opendataday.it/resource/tag/dati-geografici>.
+<http://data.opendataday.it/resource/tag/dati-geografici>	<http://purl.org/dc/elements/1.1/creator>	<http://data.opendataday.it/resource/dati.bari>.
+<http://data.opendataday.it/resource/tag/dati-geografici>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept>.
+<http://data.opendataday.it/resource/tag/dati-geografici>	<http://purl.org/dc/elements/1.1/title>	"dati-geografici".
+<http://data.opendataday.it/resource/dati.bari>	<http://www.w3.org/ns/dcat#dataset>	<http://data.opendataday.it/resource/dati.bari/stradario>.
+<http://data.opendataday.it/resource/dati.bari/stradario>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/ns/dcat#Dataset>.
+<http://data.opendataday.it/resource/dati.bari/stradario>	<http://purl.org/dc/elements/1.1/title>	"Stradario".
+<http://data.opendataday.it/resource/dati.bari/stradario>	<http://purl.org/dc/terms/description>	"Stradario del Comune di Bari".
+<http://data.opendataday.it/resource/dati.bari/stradario>	<http://purl.org/dc/terms/license>	<http://www.opendefinition.org/licenses/cc-zero>.
+<http://data.opendataday.it/resource/dati.bari/stradario>	<http://purl.org/dc/terms/publisher>	"Ripartizione Servizi Demografici, Elettorali e Statistici".
+<http://data.opendataday.it/resource/dati.bari/stradario>	<http://purl.org/dc/terms/modified>	"2012-12-18T14:27:14.909892".
+<http://data.opendataday.it/resource/dati.bari/stradario>	<http://purl.org/dc/terms/created>	"2012-12-12T17:09:42.851082".
+<http://data.opendataday.it/resource/dati.bari/stradario>	<http://www.w3.org/ns/dcat#distribution>	<http://data.opendataday.it/resource/dati.bari/stradario/distribution/dis0>.
+<http://data.opendataday.it/resource/dati.bari/stradario/distribution/dis0>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/ns/dcat#Distribution>.
+<http://data.opendataday.it/resource/dati.bari/stradario/distribution/dis0>	<http://www.w3.org/ns/dcat#accessURL>	</storage/f/2012-12-12T170905/stradario.xls>.
+<http://data.opendataday.it/resource/dati.bari/stradario/distribution/dis0>	<http://rdfs.org/ns/void#format>	".xls".
+<http://data.opendataday.it/resource/dati.bari/stradario>	<http://www.w3.org/ns/dcat#theme>	<http://data.opendataday.it/resource/tag/dati-geografici>.
+<http://data.opendataday.it/resource/tag/dati-geografici>	<http://purl.org/dc/elements/1.1/creator>	<http://data.opendataday.it/resource/dati.bari>.
+<http://data.opendataday.it/resource/tag/dati-geografici>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept>.
+<http://data.opendataday.it/resource/tag/dati-geografici>	<http://purl.org/dc/elements/1.1/title>	"dati-geografici".
+<http://data.opendataday.it/resource/dati.bari>	<http://www.w3.org/ns/dcat#dataset>	<http://data.opendataday.it/resource/dati.bari/elezioni-regionali-2010>.
+<http://data.opendataday.it/resource/dati.bari/elezioni-regionali-2010>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/ns/dcat#Dataset>.
+<http://data.opendataday.it/resource/dati.bari/elezioni-regionali-2010>	<http://purl.org/dc/elements/1.1/title>	"Elezioni Regionali 2010".
+<http://data.opendataday.it/resource/dati.bari/elezioni-regionali-2010>	<http://purl.org/dc/terms/description>	"Dati relativi alle Elezioni Regionali 2010 nel Comune di Bari".
+<http://data.opendataday.it/resource/dati.bari/elezioni-regionali-2010>	<http://purl.org/dc/terms/license>	<http://www.opendefinition.org/licenses/cc-zero>.
+<http://data.opendataday.it/resource/dati.bari/elezioni-regionali-2010>	<http://www.w3.org/ns/dcat#keyword>	<http://data.opendataday.it/resource/tag/2010>.
+<http://data.opendataday.it/resource/tag/2010>	<http://purl.org/dc/elements/1.1/creator>	<http://data.opendataday.it/resource/dati.bari>.
+<http://data.opendataday.it/resource/tag/2010>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept>.
+<http://data.opendataday.it/resource/tag/2010>	<http://purl.org/dc/elements/1.1/title>	"2010".
+<http://data.opendataday.it/resource/dati.bari/elezioni-regionali-2010>	<http://www.w3.org/ns/dcat#keyword>	<http://data.opendataday.it/resource/tag/elezioni>.
+<http://data.opendataday.it/resource/tag/elezioni>	<http://purl.org/dc/elements/1.1/creator>	<http://data.opendataday.it/resource/dati.bari>.
+<http://data.opendataday.it/resource/tag/elezioni>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept>.
+<http://data.opendataday.it/resource/tag/elezioni>	<http://purl.org/dc/elements/1.1/title>	"elezioni".
+<http://data.opendataday.it/resource/dati.bari/elezioni-regionali-2010>	<http://www.w3.org/ns/dcat#keyword>	<http://data.opendataday.it/resource/tag/regionali>.
+<http://data.opendataday.it/resource/tag/regionali>	<http://purl.org/dc/elements/1.1/creator>	<http://data.opendataday.it/resource/dati.bari>.
+<http://data.opendataday.it/resource/tag/regionali>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept>.
+<http://data.opendataday.it/resource/tag/regionali>	<http://purl.org/dc/elements/1.1/title>	"regionali".
+<http://data.opendataday.it/resource/dati.bari/elezioni-regionali-2010>	<http://purl.org/dc/terms/publisher>	"Ripartizione Servizi Demografici, Elettorali e Statistici".
+<http://data.opendataday.it/resource/dati.bari/elezioni-regionali-2010>	<http://purl.org/dc/terms/modified>	"2013-02-28T16:36:24.220172".
+<http://data.opendataday.it/resource/dati.bari/elezioni-regionali-2010>	<http://purl.org/dc/terms/created>	"2013-02-27T13:36:18.383133".
+<http://data.opendataday.it/resource/dati.bari/elezioni-regionali-2010>	<http://www.w3.org/ns/dcat#distribution>	<http://data.opendataday.it/resource/dati.bari/elezioni-regionali-2010/distribution/dis0>.
+<http://data.opendataday.it/resource/dati.bari/elezioni-regionali-2010/distribution/dis0>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/ns/dcat#Distribution>.
+<http://data.opendataday.it/resource/dati.bari/elezioni-regionali-2010/distribution/dis0>	<http://www.w3.org/ns/dcat#accessURL>	</storage/f/2013-02-27T133443/EXPORT_Sezioni.csv>.
+<http://data.opendataday.it/resource/dati.bari/elezioni-regionali-2010/distribution/dis0>	<http://rdfs.org/ns/void#format>	".csv".
+<http://data.opendataday.it/resource/dati.bari/elezioni-regionali-2010>	<http://www.w3.org/ns/dcat#distribution>	<http://data.opendataday.it/resource/dati.bari/elezioni-regionali-2010/distribution/dis1>.
+<http://data.opendataday.it/resource/dati.bari/elezioni-regionali-2010/distribution/dis1>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/ns/dcat#Distribution>.
+<http://data.opendataday.it/resource/dati.bari/elezioni-regionali-2010/distribution/dis1>	<http://www.w3.org/ns/dcat#accessURL>	</storage/f/2013-02-27T140411/EXPORT_VotiAiPresidenti.csv>.
+<http://data.opendataday.it/resource/dati.bari/elezioni-regionali-2010/distribution/dis1>	<http://rdfs.org/ns/void#format>	".csv".
+<http://data.opendataday.it/resource/dati.bari/elezioni-regionali-2010>	<http://www.w3.org/ns/dcat#distribution>	<http://data.opendataday.it/resource/dati.bari/elezioni-regionali-2010/distribution/dis2>.
+<http://data.opendataday.it/resource/dati.bari/elezioni-regionali-2010/distribution/dis2>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/ns/dcat#Distribution>.
+<http://data.opendataday.it/resource/dati.bari/elezioni-regionali-2010/distribution/dis2>	<http://www.w3.org/ns/dcat#accessURL>	</storage/f/2013-02-27T140436/EXPORT_VotiAlleListe.csv>.
+<http://data.opendataday.it/resource/dati.bari/elezioni-regionali-2010/distribution/dis2>	<http://rdfs.org/ns/void#format>	".csv".
+<http://data.opendataday.it/resource/dati.bari/elezioni-regionali-2010>	<http://www.w3.org/ns/dcat#theme>	<http://data.opendataday.it/resource/tag/elezioni>.
+<http://data.opendataday.it/resource/tag/elezioni>	<http://purl.org/dc/elements/1.1/creator>	<http://data.opendataday.it/resource/dati.bari>.
+<http://data.opendataday.it/resource/tag/elezioni>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept>.
+<http://data.opendataday.it/resource/tag/elezioni>	<http://purl.org/dc/elements/1.1/title>	"elezioni".
+<http://data.opendataday.it/resource/dati.bari>	<http://www.w3.org/ns/dcat#dataset>	<http://data.opendataday.it/resource/dati.bari/numero-di-abitanti-per-rione>.
+<http://data.opendataday.it/resource/dati.bari/numero-di-abitanti-per-rione>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/ns/dcat#Dataset>.
+<http://data.opendataday.it/resource/dati.bari/numero-di-abitanti-per-rione>	<http://purl.org/dc/elements/1.1/title>	"Numero di abitanti per rione".
+<http://data.opendataday.it/resource/dati.bari/numero-di-abitanti-per-rione>	<http://purl.org/dc/terms/description>	"Elenco dei rioni del Comune di Bari e relativa popolazione".
+<http://data.opendataday.it/resource/dati.bari/numero-di-abitanti-per-rione>	<http://purl.org/dc/terms/license>	<http://www.opendefinition.org/licenses/cc-zero>.
+<http://data.opendataday.it/resource/dati.bari/numero-di-abitanti-per-rione>	<http://purl.org/dc/terms/publisher>	"Ripartizione Urbanistica ed Edilizia Privata".
+<http://data.opendataday.it/resource/dati.bari/numero-di-abitanti-per-rione>	<http://purl.org/dc/terms/modified>	"2013-02-18T13:59:40.799614".
+<http://data.opendataday.it/resource/dati.bari/numero-di-abitanti-per-rione>	<http://purl.org/dc/terms/created>	"2012-12-12T17:16:39.138696".
+<http://data.opendataday.it/resource/dati.bari/numero-di-abitanti-per-rione>	<http://www.w3.org/ns/dcat#distribution>	<http://data.opendataday.it/resource/dati.bari/numero-di-abitanti-per-rione/distribution/dis0>.
+<http://data.opendataday.it/resource/dati.bari/numero-di-abitanti-per-rione/distribution/dis0>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/ns/dcat#Distribution>.
+<http://data.opendataday.it/resource/dati.bari/numero-di-abitanti-per-rione/distribution/dis0>	<http://www.w3.org/ns/dcat#accessURL>	</storage/f/2012-12-12T171613/Numero-Abitanti-per-Rione.xls>.
+<http://data.opendataday.it/resource/dati.bari/numero-di-abitanti-per-rione/distribution/dis0>	<http://rdfs.org/ns/void#format>	".xls".
+<http://data.opendataday.it/resource/dati.bari/numero-di-abitanti-per-rione>	<http://www.w3.org/ns/dcat#distribution>	<http://data.opendataday.it/resource/dati.bari/numero-di-abitanti-per-rione/distribution/dis1>.
+<http://data.opendataday.it/resource/dati.bari/numero-di-abitanti-per-rione/distribution/dis1>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/ns/dcat#Distribution>.
+<http://data.opendataday.it/resource/dati.bari/numero-di-abitanti-per-rione/distribution/dis1>	<http://www.w3.org/ns/dcat#accessURL>	</storage/f/2013-02-18T135932/Numero-Abitanti-per-Rione.csv>.
+<http://data.opendataday.it/resource/dati.bari/numero-di-abitanti-per-rione/distribution/dis1>	<http://rdfs.org/ns/void#format>	".csv".
+<http://data.opendataday.it/resource/dati.bari/numero-di-abitanti-per-rione>	<http://www.w3.org/ns/dcat#theme>	<http://data.opendataday.it/resource/tag/dati-statistici>.
+<http://data.opendataday.it/resource/tag/dati-statistici>	<http://purl.org/dc/elements/1.1/creator>	<http://data.opendataday.it/resource/dati.bari>.
+<http://data.opendataday.it/resource/tag/dati-statistici>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept>.
+<http://data.opendataday.it/resource/tag/dati-statistici>	<http://purl.org/dc/elements/1.1/title>	"dati-statistici".
+<http://data.opendataday.it/resource/dati.bari>	<http://www.w3.org/ns/dcat#dataset>	<http://data.opendataday.it/resource/dati.bari/associazioni-culturali>.
+<http://data.opendataday.it/resource/dati.bari/associazioni-culturali>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/ns/dcat#Dataset>.
+<http://data.opendataday.it/resource/dati.bari/associazioni-culturali>	<http://purl.org/dc/elements/1.1/title>	"Associazioni Culturali".
+<http://data.opendataday.it/resource/dati.bari/associazioni-culturali>	<http://purl.org/dc/terms/description>	"Elenco delle Associazioni Culturali del Comune di Bari".
+<http://data.opendataday.it/resource/dati.bari/associazioni-culturali>	<http://purl.org/dc/terms/license>	<http://www.opendefinition.org/licenses/cc-zero>.
+<http://data.opendataday.it/resource/dati.bari/associazioni-culturali>	<http://purl.org/dc/terms/publisher>	"ripartizione culture, religioni, pari opportunita', comunicazione, marketing territoriale e sport".
+<http://data.opendataday.it/resource/dati.bari/associazioni-culturali>	<http://purl.org/dc/terms/modified>	"2013-02-15T16:29:28.013327".
+<http://data.opendataday.it/resource/dati.bari/associazioni-culturali>	<http://purl.org/dc/terms/created>	"2012-12-14T11:24:41.317769".
+<http://data.opendataday.it/resource/dati.bari/associazioni-culturali>	<http://www.w3.org/ns/dcat#distribution>	<http://data.opendataday.it/resource/dati.bari/associazioni-culturali/distribution/dis0>.
+<http://data.opendataday.it/resource/dati.bari/associazioni-culturali/distribution/dis0>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/ns/dcat#Distribution>.
+<http://data.opendataday.it/resource/dati.bari/associazioni-culturali/distribution/dis0>	<http://www.w3.org/ns/dcat#accessURL>	</storage/f/2013-02-15T162910/Albo_Associazioni_Culturali.csv>.
+<http://data.opendataday.it/resource/dati.bari/associazioni-culturali/distribution/dis0>	<http://rdfs.org/ns/void#format>	".csv".
+<http://data.opendataday.it/resource/dati.bari/associazioni-culturali>	<http://www.w3.org/ns/dcat#theme>	<http://data.opendataday.it/resource/tag/cultura-marketing-territoriale>.
+<http://data.opendataday.it/resource/tag/cultura-marketing-territoriale>	<http://purl.org/dc/elements/1.1/creator>	<http://data.opendataday.it/resource/dati.bari>.
+<http://data.opendataday.it/resource/tag/cultura-marketing-territoriale>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept>.
+<http://data.opendataday.it/resource/tag/cultura-marketing-territoriale>	<http://purl.org/dc/elements/1.1/title>	"cultura-marketing-territoriale".
+<http://data.opendataday.it/resource/dati.bari>	<http://www.w3.org/ns/dcat#dataset>	<http://data.opendataday.it/resource/dati.bari/impianti-pubblicitari-del-comune-di-bari>.
+<http://data.opendataday.it/resource/dati.bari/impianti-pubblicitari-del-comune-di-bari>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/ns/dcat#Dataset>.
+<http://data.opendataday.it/resource/dati.bari/impianti-pubblicitari-del-comune-di-bari>	<http://purl.org/dc/elements/1.1/title>	"Impianti pubblicitari del Comune di Bari".
+<http://data.opendataday.it/resource/dati.bari/impianti-pubblicitari-del-comune-di-bari>	<http://purl.org/dc/terms/description>	"Sistema Informativo Territoriale: impianti pubblicitari del Comune di Bari".
+<http://data.opendataday.it/resource/dati.bari/impianti-pubblicitari-del-comune-di-bari>	<http://purl.org/dc/terms/license>	<http://www.opendefinition.org/licenses/cc-zero>.
+<http://data.opendataday.it/resource/dati.bari/impianti-pubblicitari-del-comune-di-bari>	<http://purl.org/dc/terms/publisher>	"Ripartizione Infrastrutture, Viabilità e Opere Pubbliche".
+<http://data.opendataday.it/resource/dati.bari/impianti-pubblicitari-del-comune-di-bari>	<http://purl.org/dc/terms/modified>	"2012-12-18T14:22:39.763223".
+<http://data.opendataday.it/resource/dati.bari/impianti-pubblicitari-del-comune-di-bari>	<http://purl.org/dc/terms/created>	"2012-12-12T16:44:16.408979".
+<http://data.opendataday.it/resource/dati.bari/impianti-pubblicitari-del-comune-di-bari>	<http://www.w3.org/ns/dcat#distribution>	<http://data.opendataday.it/resource/dati.bari/impianti-pubblicitari-del-comune-di-bari/distribution/dis0>.
+<http://data.opendataday.it/resource/dati.bari/impianti-pubblicitari-del-comune-di-bari/distribution/dis0>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/ns/dcat#Distribution>.
+<http://data.opendataday.it/resource/dati.bari/impianti-pubblicitari-del-comune-di-bari/distribution/dis0>	<http://www.w3.org/ns/dcat#accessURL>	</storage/f/2012-12-12T164340/Impianti_Pubblicitari.zip>.
+<http://data.opendataday.it/resource/dati.bari/impianti-pubblicitari-del-comune-di-bari/distribution/dis0>	<http://rdfs.org/ns/void#format>	".zip".
+<http://data.opendataday.it/resource/dati.bari/impianti-pubblicitari-del-comune-di-bari>	<http://www.w3.org/ns/dcat#theme>	<http://data.opendataday.it/resource/tag/dati-geografici>.
+<http://data.opendataday.it/resource/tag/dati-geografici>	<http://purl.org/dc/elements/1.1/creator>	<http://data.opendataday.it/resource/dati.bari>.
+<http://data.opendataday.it/resource/tag/dati-geografici>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept>.
+<http://data.opendataday.it/resource/tag/dati-geografici>	<http://purl.org/dc/elements/1.1/title>	"dati-geografici".
+<http://data.opendataday.it/resource/dati.bari>	<http://www.w3.org/ns/dcat#dataset>	<http://data.opendataday.it/resource/dati.bari/artisti-di-strada-e-writers>.
+<http://data.opendataday.it/resource/dati.bari/artisti-di-strada-e-writers>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/ns/dcat#Dataset>.
+<http://data.opendataday.it/resource/dati.bari/artisti-di-strada-e-writers>	<http://purl.org/dc/elements/1.1/title>	"Artisti di strada e writers".
+<http://data.opendataday.it/resource/dati.bari/artisti-di-strada-e-writers>	<http://purl.org/dc/terms/description>	"Elenco degli artisti di strada e dei writers del Comune di Bari".
+<http://data.opendataday.it/resource/dati.bari/artisti-di-strada-e-writers>	<http://purl.org/dc/terms/license>	<http://www.opendefinition.org/licenses/cc-zero>.
+<http://data.opendataday.it/resource/dati.bari/artisti-di-strada-e-writers>	<http://purl.org/dc/terms/publisher>	"ripartizione culture, religioni, pari opportunita', comunicazione, marketing territoriale e sport".
+<http://data.opendataday.it/resource/dati.bari/artisti-di-strada-e-writers>	<http://purl.org/dc/terms/modified>	"2013-02-15T16:25:11.953858".
+<http://data.opendataday.it/resource/dati.bari/artisti-di-strada-e-writers>	<http://purl.org/dc/terms/created>	"2012-12-14T13:17:07.191577".
+<http://data.opendataday.it/resource/dati.bari/artisti-di-strada-e-writers>	<http://www.w3.org/ns/dcat#distribution>	<http://data.opendataday.it/resource/dati.bari/artisti-di-strada-e-writers/distribution/dis0>.
+<http://data.opendataday.it/resource/dati.bari/artisti-di-strada-e-writers/distribution/dis0>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/ns/dcat#Distribution>.
+<http://data.opendataday.it/resource/dati.bari/artisti-di-strada-e-writers/distribution/dis0>	<http://www.w3.org/ns/dcat#accessURL>	</storage/f/2013-02-15T162500/Elenco_dei_Writers_e_degli_Artisti_di_Strada.csv>.
+<http://data.opendataday.it/resource/dati.bari/artisti-di-strada-e-writers/distribution/dis0>	<http://rdfs.org/ns/void#format>	".csv".
+<http://data.opendataday.it/resource/dati.bari/artisti-di-strada-e-writers>	<http://www.w3.org/ns/dcat#theme>	<http://data.opendataday.it/resource/tag/cultura-marketing-territoriale>.
+<http://data.opendataday.it/resource/tag/cultura-marketing-territoriale>	<http://purl.org/dc/elements/1.1/creator>	<http://data.opendataday.it/resource/dati.bari>.
+<http://data.opendataday.it/resource/tag/cultura-marketing-territoriale>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept>.
+<http://data.opendataday.it/resource/tag/cultura-marketing-territoriale>	<http://purl.org/dc/elements/1.1/title>	"cultura-marketing-territoriale".
+<http://data.opendataday.it/resource/dati.bari>	<http://www.w3.org/ns/dcat#dataset>	<http://data.opendataday.it/resource/dati.bari/ospedali>.
+<http://data.opendataday.it/resource/dati.bari/ospedali>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/ns/dcat#Dataset>.
+<http://data.opendataday.it/resource/dati.bari/ospedali>	<http://purl.org/dc/elements/1.1/title>	"Ospedali".
+<http://data.opendataday.it/resource/dati.bari/ospedali>	<http://purl.org/dc/terms/description>	"Mappa degli Ospedali del Comune di Bari".
+<http://data.opendataday.it/resource/dati.bari/ospedali>	<http://purl.org/dc/terms/license>	<http://www.opendefinition.org/licenses/cc-zero>.
+<http://data.opendataday.it/resource/dati.bari/ospedali>	<http://www.w3.org/ns/dcat#keyword>	<http://data.opendataday.it/resource/tag/ospedali>.
+<http://data.opendataday.it/resource/tag/ospedali>	<http://purl.org/dc/elements/1.1/creator>	<http://data.opendataday.it/resource/dati.bari>.
+<http://data.opendataday.it/resource/tag/ospedali>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept>.
+<http://data.opendataday.it/resource/tag/ospedali>	<http://purl.org/dc/elements/1.1/title>	"ospedali".
+<http://data.opendataday.it/resource/dati.bari/ospedali>	<http://purl.org/dc/terms/publisher>	"Ripartizione Tutela Ambiente, Sanità e Igiene".
+<http://data.opendataday.it/resource/dati.bari/ospedali>	<http://purl.org/dc/terms/modified>	"2013-02-22T14:29:57.842480".
+<http://data.opendataday.it/resource/dati.bari/ospedali>	<http://purl.org/dc/terms/created>	"2013-02-22T14:27:23.481691".
+<http://data.opendataday.it/resource/dati.bari/ospedali>	<http://www.w3.org/ns/dcat#distribution>	<http://data.opendataday.it/resource/dati.bari/ospedali/distribution/dis0>.
+<http://data.opendataday.it/resource/dati.bari/ospedali/distribution/dis0>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/ns/dcat#Distribution>.
+<http://data.opendataday.it/resource/dati.bari/ospedali/distribution/dis0>	<http://www.w3.org/ns/dcat#accessURL>	</storage/f/2013-02-22T142713/ESA_Ospedali.zip>.
+<http://data.opendataday.it/resource/dati.bari/ospedali/distribution/dis0>	<http://rdfs.org/ns/void#format>	".zip".
+<http://data.opendataday.it/resource/dati.bari/ospedali>	<http://www.w3.org/ns/dcat#theme>	<http://data.opendataday.it/resource/tag/dati-geografici>.
+<http://data.opendataday.it/resource/tag/dati-geografici>	<http://purl.org/dc/elements/1.1/creator>	<http://data.opendataday.it/resource/dati.bari>.
+<http://data.opendataday.it/resource/tag/dati-geografici>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept>.
+<http://data.opendataday.it/resource/tag/dati-geografici>	<http://purl.org/dc/elements/1.1/title>	"dati-geografici".
+<http://data.opendataday.it/resource/dati.bari>	<http://www.w3.org/ns/dcat#dataset>	<http://data.opendataday.it/resource/dati.bari/siti-raccolta-farmaci-pile-esauste-e-umido>.
+<http://data.opendataday.it/resource/dati.bari/siti-raccolta-farmaci-pile-esauste-e-umido>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/ns/dcat#Dataset>.
+<http://data.opendataday.it/resource/dati.bari/siti-raccolta-farmaci-pile-esauste-e-umido>	<http://purl.org/dc/elements/1.1/title>	"Siti raccolta farmaci, pile esauste e umido".
+<http://data.opendataday.it/resource/dati.bari/siti-raccolta-farmaci-pile-esauste-e-umido>	<http://purl.org/dc/terms/description>	"Mappa dei siti di raccolta farmaci, pile esauste e umido del Comune di Bari".
+<http://data.opendataday.it/resource/dati.bari/siti-raccolta-farmaci-pile-esauste-e-umido>	<http://purl.org/dc/terms/license>	<http://www.opendefinition.org/licenses/cc-zero>.
+<http://data.opendataday.it/resource/dati.bari/siti-raccolta-farmaci-pile-esauste-e-umido>	<http://www.w3.org/ns/dcat#keyword>	<http://data.opendataday.it/resource/tag/farmaci>.
+<http://data.opendataday.it/resource/tag/farmaci>	<http://purl.org/dc/elements/1.1/creator>	<http://data.opendataday.it/resource/dati.bari>.
+<http://data.opendataday.it/resource/tag/farmaci>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept>.
+<http://data.opendataday.it/resource/tag/farmaci>	<http://purl.org/dc/elements/1.1/title>	"farmaci".
+<http://data.opendataday.it/resource/dati.bari/siti-raccolta-farmaci-pile-esauste-e-umido>	<http://www.w3.org/ns/dcat#keyword>	<http://data.opendataday.it/resource/tag/pile-esauste>.
+<http://data.opendataday.it/resource/tag/pile-esauste>	<http://purl.org/dc/elements/1.1/creator>	<http://data.opendataday.it/resource/dati.bari>.
+<http://data.opendataday.it/resource/tag/pile-esauste>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept>.
+<http://data.opendataday.it/resource/tag/pile-esauste>	<http://purl.org/dc/elements/1.1/title>	"pile esauste".
+<http://data.opendataday.it/resource/dati.bari/siti-raccolta-farmaci-pile-esauste-e-umido>	<http://www.w3.org/ns/dcat#keyword>	<http://data.opendataday.it/resource/tag/raccolta>.
+<http://data.opendataday.it/resource/tag/raccolta>	<http://purl.org/dc/elements/1.1/creator>	<http://data.opendataday.it/resource/dati.bari>.
+<http://data.opendataday.it/resource/tag/raccolta>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept>.
+<http://data.opendataday.it/resource/tag/raccolta>	<http://purl.org/dc/elements/1.1/title>	"raccolta".
+<http://data.opendataday.it/resource/dati.bari/siti-raccolta-farmaci-pile-esauste-e-umido>	<http://www.w3.org/ns/dcat#keyword>	<http://data.opendataday.it/resource/tag/umido>.
+<http://data.opendataday.it/resource/tag/umido>	<http://purl.org/dc/elements/1.1/creator>	<http://data.opendataday.it/resource/dati.bari>.
+<http://data.opendataday.it/resource/tag/umido>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept>.
+<http://data.opendataday.it/resource/tag/umido>	<http://purl.org/dc/elements/1.1/title>	"umido".
+<http://data.opendataday.it/resource/dati.bari/siti-raccolta-farmaci-pile-esauste-e-umido>	<http://purl.org/dc/terms/publisher>	"Ripartizione Tutela Ambiente, Sanità e Igiene".
+<http://data.opendataday.it/resource/dati.bari/siti-raccolta-farmaci-pile-esauste-e-umido>	<http://purl.org/dc/terms/modified>	"2013-02-22T13:55:11.159850".
+<http://data.opendataday.it/resource/dati.bari/siti-raccolta-farmaci-pile-esauste-e-umido>	<http://purl.org/dc/terms/created>	"2013-02-22T13:50:14.778830".
+<http://data.opendataday.it/resource/dati.bari/siti-raccolta-farmaci-pile-esauste-e-umido>	<http://www.w3.org/ns/dcat#distribution>	<http://data.opendataday.it/resource/dati.bari/siti-raccolta-farmaci-pile-esauste-e-umido/distribution/dis0>.
+<http://data.opendataday.it/resource/dati.bari/siti-raccolta-farmaci-pile-esauste-e-umido/distribution/dis0>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/ns/dcat#Distribution>.
+<http://data.opendataday.it/resource/dati.bari/siti-raccolta-farmaci-pile-esauste-e-umido/distribution/dis0>	<http://www.w3.org/ns/dcat#accessURL>	</storage/f/2013-02-22T135005/AMIU_racc_farm_pile_umidi.zip>.
+<http://data.opendataday.it/resource/dati.bari/siti-raccolta-farmaci-pile-esauste-e-umido>	<http://www.w3.org/ns/dcat#theme>	<http://data.opendataday.it/resource/tag/dati-geografici>.
+<http://data.opendataday.it/resource/tag/dati-geografici>	<http://purl.org/dc/elements/1.1/creator>	<http://data.opendataday.it/resource/dati.bari>.
+<http://data.opendataday.it/resource/tag/dati-geografici>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept>.
+<http://data.opendataday.it/resource/tag/dati-geografici>	<http://purl.org/dc/elements/1.1/title>	"dati-geografici".
+<http://data.opendataday.it/resource/dati.bari>	<http://www.w3.org/ns/dcat#dataset>	<http://data.opendataday.it/resource/dati.bari/ubicazione-sezioni-elettorali>.
+<http://data.opendataday.it/resource/dati.bari/ubicazione-sezioni-elettorali>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/ns/dcat#Dataset>.
+<http://data.opendataday.it/resource/dati.bari/ubicazione-sezioni-elettorali>	<http://purl.org/dc/elements/1.1/title>	"Ubicazione sezioni elettorali".
+<http://data.opendataday.it/resource/dati.bari/ubicazione-sezioni-elettorali>	<http://purl.org/dc/terms/description>	"Elenco delle sezioni elettorali del Comune di Bari".
+<http://data.opendataday.it/resource/dati.bari/ubicazione-sezioni-elettorali>	<http://purl.org/dc/terms/license>	<http://www.opendefinition.org/licenses/cc-zero>.
+<http://data.opendataday.it/resource/dati.bari/ubicazione-sezioni-elettorali>	<http://purl.org/dc/terms/publisher>	"Ripartizione Servizi Demografici, Elettorali e Statistici".
+<http://data.opendataday.it/resource/dati.bari/ubicazione-sezioni-elettorali>	<http://purl.org/dc/terms/modified>	"2013-02-15T15:59:53.453662".
+<http://data.opendataday.it/resource/dati.bari/ubicazione-sezioni-elettorali>	<http://purl.org/dc/terms/created>	"2012-12-12T17:26:26.786811".
+<http://data.opendataday.it/resource/dati.bari/ubicazione-sezioni-elettorali>	<http://www.w3.org/ns/dcat#distribution>	<http://data.opendataday.it/resource/dati.bari/ubicazione-sezioni-elettorali/distribution/dis0>.
+<http://data.opendataday.it/resource/dati.bari/ubicazione-sezioni-elettorali/distribution/dis0>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/ns/dcat#Distribution>.
+<http://data.opendataday.it/resource/dati.bari/ubicazione-sezioni-elettorali/distribution/dis0>	<http://www.w3.org/ns/dcat#accessURL>	</storage/f/2012-12-12T172559/UBICAZIONE-SEZIONI--a-ottobre-2012.xls>.
+<http://data.opendataday.it/resource/dati.bari/ubicazione-sezioni-elettorali/distribution/dis0>	<http://rdfs.org/ns/void#format>	".xls".
+<http://data.opendataday.it/resource/dati.bari/ubicazione-sezioni-elettorali>	<http://www.w3.org/ns/dcat#distribution>	<http://data.opendataday.it/resource/dati.bari/ubicazione-sezioni-elettorali/distribution/dis1>.
+<http://data.opendataday.it/resource/dati.bari/ubicazione-sezioni-elettorali/distribution/dis1>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/ns/dcat#Distribution>.
+<http://data.opendataday.it/resource/dati.bari/ubicazione-sezioni-elettorali/distribution/dis1>	<http://www.w3.org/ns/dcat#accessURL>	</storage/f/2013-02-15T155931/UBICAZIONE-SEZIONI--a-ottobre-2012.csv>.
+<http://data.opendataday.it/resource/dati.bari/ubicazione-sezioni-elettorali/distribution/dis1>	<http://rdfs.org/ns/void#format>	".csv".
+<http://data.opendataday.it/resource/dati.bari/ubicazione-sezioni-elettorali>	<http://www.w3.org/ns/dcat#theme>	<http://data.opendataday.it/resource/tag/organizzazione-uffici-contatti>.
+<http://data.opendataday.it/resource/tag/organizzazione-uffici-contatti>	<http://purl.org/dc/elements/1.1/creator>	<http://data.opendataday.it/resource/dati.bari>.
+<http://data.opendataday.it/resource/tag/organizzazione-uffici-contatti>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept>.
+<http://data.opendataday.it/resource/tag/organizzazione-uffici-contatti>	<http://purl.org/dc/elements/1.1/title>	"organizzazione-uffici-contatti".
+<http://data.opendataday.it/resource/dati.bari>	<http://www.w3.org/ns/dcat#dataset>	<http://data.opendataday.it/resource/dati.bari/circoscrizioni>.
+<http://data.opendataday.it/resource/dati.bari/circoscrizioni>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/ns/dcat#Dataset>.
+<http://data.opendataday.it/resource/dati.bari/circoscrizioni>	<http://purl.org/dc/elements/1.1/title>	"Circoscrizioni".
+<http://data.opendataday.it/resource/dati.bari/circoscrizioni>	<http://purl.org/dc/terms/description>	"Mappa delle circoscrizioni del Comune di Bari".
+<http://data.opendataday.it/resource/dati.bari/circoscrizioni>	<http://purl.org/dc/terms/license>	<http://www.opendefinition.org/licenses/cc-zero>.
+<http://data.opendataday.it/resource/dati.bari/circoscrizioni>	<http://www.w3.org/ns/dcat#keyword>	<http://data.opendataday.it/resource/tag/circoscrizioni>.
+<http://data.opendataday.it/resource/tag/circoscrizioni>	<http://purl.org/dc/elements/1.1/creator>	<http://data.opendataday.it/resource/dati.bari>.
+<http://data.opendataday.it/resource/tag/circoscrizioni>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept>.
+<http://data.opendataday.it/resource/tag/circoscrizioni>	<http://purl.org/dc/elements/1.1/title>	"circoscrizioni".
+<http://data.opendataday.it/resource/dati.bari/circoscrizioni>	<http://purl.org/dc/terms/publisher>	"Ripartizione Tutela Ambiente, Sanità e Igiene".
+<http://data.opendataday.it/resource/dati.bari/circoscrizioni>	<http://purl.org/dc/terms/modified>	"2013-02-22T14:07:14.026586".
+<http://data.opendataday.it/resource/dati.bari/circoscrizioni>	<http://purl.org/dc/terms/created>	"2013-02-22T14:05:21.758015".
+<http://data.opendataday.it/resource/dati.bari/circoscrizioni>	<http://www.w3.org/ns/dcat#distribution>	<http://data.opendataday.it/resource/dati.bari/circoscrizioni/distribution/dis0>.
+<http://data.opendataday.it/resource/dati.bari/circoscrizioni/distribution/dis0>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/ns/dcat#Distribution>.
+<http://data.opendataday.it/resource/dati.bari/circoscrizioni/distribution/dis0>	<http://www.w3.org/ns/dcat#accessURL>	</storage/f/2013-02-22T140509/Circoscrizioni.zip>.
+<http://data.opendataday.it/resource/dati.bari/circoscrizioni/distribution/dis0>	<http://rdfs.org/ns/void#format>	".zip".
+<http://data.opendataday.it/resource/dati.bari/circoscrizioni>	<http://www.w3.org/ns/dcat#theme>	<http://data.opendataday.it/resource/tag/dati-geografici>.
+<http://data.opendataday.it/resource/tag/dati-geografici>	<http://purl.org/dc/elements/1.1/creator>	<http://data.opendataday.it/resource/dati.bari>.
+<http://data.opendataday.it/resource/tag/dati-geografici>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept>.
+<http://data.opendataday.it/resource/tag/dati-geografici>	<http://purl.org/dc/elements/1.1/title>	"dati-geografici".
+<http://data.opendataday.it/resource/dati.bari>	<http://www.w3.org/ns/dcat#dataset>	<http://data.opendataday.it/resource/dati.bari/i-fornitori-di-beni-e-servizi>.
+<http://data.opendataday.it/resource/dati.bari/i-fornitori-di-beni-e-servizi>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/ns/dcat#Dataset>.
+<http://data.opendataday.it/resource/dati.bari/i-fornitori-di-beni-e-servizi>	<http://purl.org/dc/elements/1.1/title>	"I fornitori di beni e servizi".
+<http://data.opendataday.it/resource/dati.bari/i-fornitori-di-beni-e-servizi>	<http://purl.org/dc/terms/description>	"Elenco dei fornitori del Comune di Bari".
+<http://data.opendataday.it/resource/dati.bari/i-fornitori-di-beni-e-servizi>	<http://purl.org/dc/terms/license>	<http://www.opendefinition.org/licenses/cc-zero>.
+<http://data.opendataday.it/resource/dati.bari/i-fornitori-di-beni-e-servizi>	<http://purl.org/dc/terms/publisher>	"ripartizione stazione unica appaltante, contratti e gestione lavori pubblici".
+<http://data.opendataday.it/resource/dati.bari/i-fornitori-di-beni-e-servizi>	<http://purl.org/dc/terms/created>	"2012-12-12T16:33:34.253157".
+<http://data.opendataday.it/resource/dati.bari/i-fornitori-di-beni-e-servizi>	<http://www.w3.org/ns/dcat#distribution>	<http://data.opendataday.it/resource/dati.bari/i-fornitori-di-beni-e-servizi/distribution/dis0>.
+<http://data.opendataday.it/resource/dati.bari/i-fornitori-di-beni-e-servizi/distribution/dis0>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/ns/dcat#Distribution>.
+<http://data.opendataday.it/resource/dati.bari/i-fornitori-di-beni-e-servizi/distribution/dis0>	<http://www.w3.org/ns/dcat#accessURL>	</storage/f/2012-12-12T163303/ALBO.xls>.
+<http://data.opendataday.it/resource/dati.bari/i-fornitori-di-beni-e-servizi/distribution/dis0>	<http://rdfs.org/ns/void#format>	".xls".
+<http://data.opendataday.it/resource/dati.bari/i-fornitori-di-beni-e-servizi>	<http://www.w3.org/ns/dcat#distribution>	<http://data.opendataday.it/resource/dati.bari/i-fornitori-di-beni-e-servizi/distribution/dis1>.
+<http://data.opendataday.it/resource/dati.bari/i-fornitori-di-beni-e-servizi/distribution/dis1>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/ns/dcat#Distribution>.
+<http://data.opendataday.it/resource/dati.bari/i-fornitori-di-beni-e-servizi/distribution/dis1>	<http://www.w3.org/ns/dcat#accessURL>	</storage/f/2013-02-15T160905/ALBO.csv>.
+<http://data.opendataday.it/resource/dati.bari/i-fornitori-di-beni-e-servizi/distribution/dis1>	<http://rdfs.org/ns/void#format>	".csv".
+<http://data.opendataday.it/resource/dati.bari/i-fornitori-di-beni-e-servizi>	<http://www.w3.org/ns/dcat#theme>	<http://data.opendataday.it/resource/tag/fornitori-e-professionisti>.
+<http://data.opendataday.it/resource/tag/fornitori-e-professionisti>	<http://purl.org/dc/elements/1.1/creator>	<http://data.opendataday.it/resource/dati.bari>.
+<http://data.opendataday.it/resource/tag/fornitori-e-professionisti>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept>.
+<http://data.opendataday.it/resource/tag/fornitori-e-professionisti>	<http://purl.org/dc/elements/1.1/title>	"fornitori-e-professionisti".
+<http://data.opendataday.it/resource/dati.bari/i-fornitori-di-beni-e-servizi>	<http://purl.org/dc/terms/modified>	"2013-02-15T16:09:18.597223".
+<http://data.opendataday.it/resource/dati.bari>	<http://www.w3.org/ns/dcat#dataset>	<http://data.opendataday.it/resource/dati.bari/park-and-ride-del-comune-di-bari>.
+<http://data.opendataday.it/resource/dati.bari/park-and-ride-del-comune-di-bari>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/ns/dcat#Dataset>.
+<http://data.opendataday.it/resource/dati.bari/park-and-ride-del-comune-di-bari>	<http://purl.org/dc/elements/1.1/title>	"Park and Ride del Comune di Bari".
+<http://data.opendataday.it/resource/dati.bari/park-and-ride-del-comune-di-bari>	<http://purl.org/dc/terms/description>	"Sistema Informativo Territoriale: park and ride del Comune di Bari".
+<http://data.opendataday.it/resource/dati.bari/park-and-ride-del-comune-di-bari>	<http://purl.org/dc/terms/license>	<http://www.opendefinition.org/licenses/cc-zero>.
+<http://data.opendataday.it/resource/dati.bari/park-and-ride-del-comune-di-bari>	<http://purl.org/dc/terms/publisher>	"Ripartizione Infrastrutture, Viabilità e Opere Pubbliche".
+<http://data.opendataday.it/resource/dati.bari/park-and-ride-del-comune-di-bari>	<http://purl.org/dc/terms/modified>	"2012-12-18T14:23:19.460632".
+<http://data.opendataday.it/resource/dati.bari/park-and-ride-del-comune-di-bari>	<http://purl.org/dc/terms/created>	"2012-12-12T16:48:31.162820".
+<http://data.opendataday.it/resource/dati.bari/park-and-ride-del-comune-di-bari>	<http://www.w3.org/ns/dcat#distribution>	<http://data.opendataday.it/resource/dati.bari/park-and-ride-del-comune-di-bari/distribution/dis0>.
+<http://data.opendataday.it/resource/dati.bari/park-and-ride-del-comune-di-bari/distribution/dis0>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/ns/dcat#Distribution>.
+<http://data.opendataday.it/resource/dati.bari/park-and-ride-del-comune-di-bari/distribution/dis0>	<http://www.w3.org/ns/dcat#accessURL>	</storage/f/2012-12-12T164754/Park.zip>.
+<http://data.opendataday.it/resource/dati.bari/park-and-ride-del-comune-di-bari/distribution/dis0>	<http://rdfs.org/ns/void#format>	".zip".
+<http://data.opendataday.it/resource/dati.bari/park-and-ride-del-comune-di-bari>	<http://www.w3.org/ns/dcat#theme>	<http://data.opendataday.it/resource/tag/dati-geografici>.
+<http://data.opendataday.it/resource/tag/dati-geografici>	<http://purl.org/dc/elements/1.1/creator>	<http://data.opendataday.it/resource/dati.bari>.
+<http://data.opendataday.it/resource/tag/dati-geografici>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept>.
+<http://data.opendataday.it/resource/tag/dati-geografici>	<http://purl.org/dc/elements/1.1/title>	"dati-geografici".
+<http://data.opendataday.it/resource/dati.bari>	<http://www.w3.org/ns/dcat#dataset>	<http://data.opendataday.it/resource/dati.bari/edifici-sensibile>.
+<http://data.opendataday.it/resource/dati.bari/edifici-sensibile>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/ns/dcat#Dataset>.
+<http://data.opendataday.it/resource/dati.bari/edifici-sensibile>	<http://purl.org/dc/elements/1.1/title>	"Edifici sensibile".
+<http://data.opendataday.it/resource/dati.bari/edifici-sensibile>	<http://purl.org/dc/terms/description>	"Mappa degli edifici sensibili del Comune di Bari".
+<http://data.opendataday.it/resource/dati.bari/edifici-sensibile>	<http://purl.org/dc/terms/publisher>	"Ripartizione Tutela Ambiente, Sanità e Igiene".
+<http://data.opendataday.it/resource/dati.bari/edifici-sensibile>	<http://purl.org/dc/terms/created>	"2013-02-22T15:01:28.641283".
+<http://data.opendataday.it/resource/dati.bari/edifici-sensibile>	<http://www.w3.org/ns/dcat#distribution>	<http://data.opendataday.it/resource/dati.bari/edifici-sensibile/distribution/dis0>.
+<http://data.opendataday.it/resource/dati.bari/edifici-sensibile/distribution/dis0>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/ns/dcat#Distribution>.
+<http://data.opendataday.it/resource/dati.bari/edifici-sensibile/distribution/dis0>	<http://www.w3.org/ns/dcat#accessURL>	</storage/f/2013-02-22T150115/VELA_Edifici_sensibili.zip>.
+<http://data.opendataday.it/resource/dati.bari/edifici-sensibile/distribution/dis0>	<http://rdfs.org/ns/void#format>	".zip".
+<http://data.opendataday.it/resource/dati.bari/edifici-sensibile>	<http://www.w3.org/ns/dcat#theme>	<http://data.opendataday.it/resource/tag/dati-geografici>.
+<http://data.opendataday.it/resource/tag/dati-geografici>	<http://purl.org/dc/elements/1.1/creator>	<http://data.opendataday.it/resource/dati.bari>.
+<http://data.opendataday.it/resource/tag/dati-geografici>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept>.
+<http://data.opendataday.it/resource/tag/dati-geografici>	<http://purl.org/dc/elements/1.1/title>	"dati-geografici".
+<http://data.opendataday.it/resource/dati.bari/edifici-sensibile>	<http://purl.org/dc/terms/modified>	"2013-02-22T15:03:29.941900".
+<http://data.opendataday.it/resource/dati.bari/edifici-sensibile>	<http://purl.org/dc/terms/license>	<http://www.opendefinition.org/licenses/cc-zero>.
+<http://data.opendataday.it/resource/dati.bari/edifici-sensibile>	<http://www.w3.org/ns/dcat#keyword>	<http://data.opendataday.it/resource/tag/edifici>.
+<http://data.opendataday.it/resource/tag/edifici>	<http://purl.org/dc/elements/1.1/creator>	<http://data.opendataday.it/resource/dati.bari>.
+<http://data.opendataday.it/resource/tag/edifici>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept>.
+<http://data.opendataday.it/resource/tag/edifici>	<http://purl.org/dc/elements/1.1/title>	"edifici".
+<http://data.opendataday.it/resource/dati.bari>	<http://www.w3.org/ns/dcat#dataset>	<http://data.opendataday.it/resource/dati.bari/microattivita>.
+<http://data.opendataday.it/resource/dati.bari/microattivita>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/ns/dcat#Dataset>.
+<http://data.opendataday.it/resource/dati.bari/microattivita>	<http://purl.org/dc/elements/1.1/title>	"Microattività".
+<http://data.opendataday.it/resource/dati.bari/microattivita>	<http://purl.org/dc/terms/description>	"Mappa delle microattività del Comune di Bari".
+<http://data.opendataday.it/resource/dati.bari/microattivita>	<http://purl.org/dc/terms/license>	<http://www.opendefinition.org/licenses/cc-zero>.
+<http://data.opendataday.it/resource/dati.bari/microattivita>	<http://www.w3.org/ns/dcat#keyword>	<http://data.opendataday.it/resource/tag/microattivita>.
+<http://data.opendataday.it/resource/tag/microattivita>	<http://purl.org/dc/elements/1.1/creator>	<http://data.opendataday.it/resource/dati.bari>.
+<http://data.opendataday.it/resource/tag/microattivita>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept>.
+<http://data.opendataday.it/resource/tag/microattivita>	<http://purl.org/dc/elements/1.1/title>	"microattivita".
+<http://data.opendataday.it/resource/dati.bari/microattivita>	<http://purl.org/dc/terms/publisher>	"Ripartizione Tutela Ambiente, Sanità e Igiene".
+<http://data.opendataday.it/resource/dati.bari/microattivita>	<http://purl.org/dc/terms/modified>	"2013-02-22T14:44:57.953206".
+<http://data.opendataday.it/resource/dati.bari/microattivita>	<http://purl.org/dc/terms/created>	"2013-02-22T14:41:53.301338".
+<http://data.opendataday.it/resource/dati.bari/microattivita>	<http://www.w3.org/ns/dcat#distribution>	<http://data.opendataday.it/resource/dati.bari/microattivita/distribution/dis0>.
+<http://data.opendataday.it/resource/dati.bari/microattivita/distribution/dis0>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/ns/dcat#Distribution>.
+<http://data.opendataday.it/resource/dati.bari/microattivita/distribution/dis0>	<http://www.w3.org/ns/dcat#accessURL>	</storage/f/2013-02-22T144141/ESA_Microattivita.zip>.
+<http://data.opendataday.it/resource/dati.bari/microattivita/distribution/dis0>	<http://rdfs.org/ns/void#format>	".zip".
+<http://data.opendataday.it/resource/dati.bari/microattivita>	<http://www.w3.org/ns/dcat#theme>	<http://data.opendataday.it/resource/tag/dati-geografici>.
+<http://data.opendataday.it/resource/tag/dati-geografici>	<http://purl.org/dc/elements/1.1/creator>	<http://data.opendataday.it/resource/dati.bari>.
+<http://data.opendataday.it/resource/tag/dati-geografici>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept>.
+<http://data.opendataday.it/resource/tag/dati-geografici>	<http://purl.org/dc/elements/1.1/title>	"dati-geografici".
+<http://data.opendataday.it/resource/dati.bari>	<http://www.w3.org/ns/dcat#dataset>	<http://data.opendataday.it/resource/dati.bari/pratiche-attivit-economiche>.
+<http://data.opendataday.it/resource/dati.bari/pratiche-attivit-economiche>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/ns/dcat#Dataset>.
+<http://data.opendataday.it/resource/dati.bari/pratiche-attivit-economiche>	<http://purl.org/dc/elements/1.1/title>	"Pratiche Attività Economiche".
+<http://data.opendataday.it/resource/dati.bari/pratiche-attivit-economiche>	<http://purl.org/dc/terms/description>	"Elenco pratiche per l'avvio, l'apertura, la variazione, il trasferimento, la cessazione, ecc, di attività economiche nel Comune di Bari".
+<http://data.opendataday.it/resource/dati.bari/pratiche-attivit-economiche>	<http://purl.org/dc/terms/license>	<http://www.opendefinition.org/licenses/cc-zero>.
+<http://data.opendataday.it/resource/dati.bari/pratiche-attivit-economiche>	<http://purl.org/dc/terms/publisher>	"Ripartizione Urbanistica ed Edilizia Privata".
+<http://data.opendataday.it/resource/dati.bari/pratiche-attivit-economiche>	<http://purl.org/dc/terms/modified>	"2013-02-15T16:21:10.533865".
+<http://data.opendataday.it/resource/dati.bari/pratiche-attivit-economiche>	<http://purl.org/dc/terms/created>	"2012-12-12T17:21:09.581060".
+<http://data.opendataday.it/resource/dati.bari/pratiche-attivit-economiche>	<http://www.w3.org/ns/dcat#distribution>	<http://data.opendataday.it/resource/dati.bari/pratiche-attivit-economiche/distribution/dis0>.
+<http://data.opendataday.it/resource/dati.bari/pratiche-attivit-economiche/distribution/dis0>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/ns/dcat#Distribution>.
+<http://data.opendataday.it/resource/dati.bari/pratiche-attivit-economiche/distribution/dis0>	<http://www.w3.org/ns/dcat#accessURL>	</storage/f/2012-12-12T172038/Numero-Pratiche-per-Anno-Rione-e-Tipo.xls>.
+<http://data.opendataday.it/resource/dati.bari/pratiche-attivit-economiche/distribution/dis0>	<http://rdfs.org/ns/void#format>	".xls".
+<http://data.opendataday.it/resource/dati.bari/pratiche-attivit-economiche>	<http://www.w3.org/ns/dcat#distribution>	<http://data.opendataday.it/resource/dati.bari/pratiche-attivit-economiche/distribution/dis1>.
+<http://data.opendataday.it/resource/dati.bari/pratiche-attivit-economiche/distribution/dis1>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/ns/dcat#Distribution>.
+<http://data.opendataday.it/resource/dati.bari/pratiche-attivit-economiche/distribution/dis1>	<http://www.w3.org/ns/dcat#accessURL>	</storage/f/2013-02-15T162055/Numero-Pratiche-per-Anno-Rione-e-Tipo.csv>.
+<http://data.opendataday.it/resource/dati.bari/pratiche-attivit-economiche/distribution/dis1>	<http://rdfs.org/ns/void#format>	".csv".
+<http://data.opendataday.it/resource/dati.bari/pratiche-attivit-economiche>	<http://www.w3.org/ns/dcat#theme>	<http://data.opendataday.it/resource/tag/dati-statistici>.
+<http://data.opendataday.it/resource/tag/dati-statistici>	<http://purl.org/dc/elements/1.1/creator>	<http://data.opendataday.it/resource/dati.bari>.
+<http://data.opendataday.it/resource/tag/dati-statistici>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept>.
+<http://data.opendataday.it/resource/tag/dati-statistici>	<http://purl.org/dc/elements/1.1/title>	"dati-statistici".
+<http://data.opendataday.it/resource/dati.bari>	<http://www.w3.org/ns/dcat#dataset>	<http://data.opendataday.it/resource/dati.bari/monumenti>.
+<http://data.opendataday.it/resource/dati.bari/monumenti>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/ns/dcat#Dataset>.
+<http://data.opendataday.it/resource/dati.bari/monumenti>	<http://purl.org/dc/elements/1.1/title>	"Monumenti".
+<http://data.opendataday.it/resource/dati.bari/monumenti>	<http://purl.org/dc/terms/description>	"Mappa dei Monumenti del Comune di Bari".
+<http://data.opendataday.it/resource/dati.bari/monumenti>	<http://purl.org/dc/terms/license>	<http://www.opendefinition.org/licenses/cc-zero>.
+<http://data.opendataday.it/resource/dati.bari/monumenti>	<http://www.w3.org/ns/dcat#keyword>	<http://data.opendataday.it/resource/tag/monumenti>.
+<http://data.opendataday.it/resource/tag/monumenti>	<http://purl.org/dc/elements/1.1/creator>	<http://data.opendataday.it/resource/dati.bari>.
+<http://data.opendataday.it/resource/tag/monumenti>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept>.
+<http://data.opendataday.it/resource/tag/monumenti>	<http://purl.org/dc/elements/1.1/title>	"monumenti".
+<http://data.opendataday.it/resource/dati.bari/monumenti>	<http://purl.org/dc/terms/publisher>	"Ripartizione Tutela Ambiente, Sanità e Igiene".
+<http://data.opendataday.it/resource/dati.bari/monumenti>	<http://purl.org/dc/terms/modified>	"2013-02-22T14:19:51.820289".
+<http://data.opendataday.it/resource/dati.bari/monumenti>	<http://purl.org/dc/terms/created>	"2013-02-22T14:17:47.044299".
+<http://data.opendataday.it/resource/dati.bari/monumenti>	<http://www.w3.org/ns/dcat#distribution>	<http://data.opendataday.it/resource/dati.bari/monumenti/distribution/dis0>.
+<http://data.opendataday.it/resource/dati.bari/monumenti/distribution/dis0>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/ns/dcat#Distribution>.
+<http://data.opendataday.it/resource/dati.bari/monumenti/distribution/dis0>	<http://www.w3.org/ns/dcat#accessURL>	</storage/f/2013-02-22T141735/ESA_Monumenti.zip>.
+<http://data.opendataday.it/resource/dati.bari/monumenti/distribution/dis0>	<http://rdfs.org/ns/void#format>	".zip".
+<http://data.opendataday.it/resource/dati.bari/monumenti>	<http://www.w3.org/ns/dcat#theme>	<http://data.opendataday.it/resource/tag/dati-geografici>.
+<http://data.opendataday.it/resource/tag/dati-geografici>	<http://purl.org/dc/elements/1.1/creator>	<http://data.opendataday.it/resource/dati.bari>.
+<http://data.opendataday.it/resource/tag/dati-geografici>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept>.
+<http://data.opendataday.it/resource/tag/dati-geografici>	<http://purl.org/dc/elements/1.1/title>	"dati-geografici".
+<http://data.opendataday.it/resource/dati.bari>	<http://www.w3.org/ns/dcat#dataset>	<http://data.opendataday.it/resource/dati.bari/aree-verdi>.
+<http://data.opendataday.it/resource/dati.bari/aree-verdi>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/ns/dcat#Dataset>.
+<http://data.opendataday.it/resource/dati.bari/aree-verdi>	<http://purl.org/dc/elements/1.1/title>	"Aree verdi".
+<http://data.opendataday.it/resource/dati.bari/aree-verdi>	<http://purl.org/dc/terms/description>	"Sistema Informativo Territoriale: aree verdi del Comune di Bari".
+<http://data.opendataday.it/resource/dati.bari/aree-verdi>	<http://purl.org/dc/terms/license>	<http://www.opendefinition.org/licenses/cc-zero>.
+<http://data.opendataday.it/resource/dati.bari/aree-verdi>	<http://purl.org/dc/terms/publisher>	"Ripartizione Infrastrutture, Viabilità e Opere Pubbliche".
+<http://data.opendataday.it/resource/dati.bari/aree-verdi>	<http://purl.org/dc/terms/modified>	"2013-01-31T23:11:27.255001".
+<http://data.opendataday.it/resource/dati.bari/aree-verdi>	<http://purl.org/dc/terms/created>	"2012-12-12T16:38:41.170581".
+<http://data.opendataday.it/resource/dati.bari/aree-verdi>	<http://www.w3.org/ns/dcat#distribution>	<http://data.opendataday.it/resource/dati.bari/aree-verdi/distribution/dis0>.
+<http://data.opendataday.it/resource/dati.bari/aree-verdi/distribution/dis0>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/ns/dcat#Distribution>.
+<http://data.opendataday.it/resource/dati.bari/aree-verdi/distribution/dis0>	<http://www.w3.org/ns/dcat#accessURL>	</storage/f/2012-12-12T163759/Aree_verdi.zip>.
+<http://data.opendataday.it/resource/dati.bari/aree-verdi/distribution/dis0>	<http://rdfs.org/ns/void#format>	".zip".
+<http://data.opendataday.it/resource/dati.bari/aree-verdi>	<http://www.w3.org/ns/dcat#theme>	<http://data.opendataday.it/resource/tag/dati-geografici>.
+<http://data.opendataday.it/resource/tag/dati-geografici>	<http://purl.org/dc/elements/1.1/creator>	<http://data.opendataday.it/resource/dati.bari>.
+<http://data.opendataday.it/resource/tag/dati-geografici>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept>.
+<http://data.opendataday.it/resource/tag/dati-geografici>	<http://purl.org/dc/elements/1.1/title>	"dati-geografici".
+<http://data.opendataday.it/resource/dati.bari>	<http://www.w3.org/ns/dcat#dataset>	<http://data.opendataday.it/resource/dati.bari/parchi-poligoni-punti>.
+<http://data.opendataday.it/resource/dati.bari/parchi-poligoni-punti>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/ns/dcat#Dataset>.
+<http://data.opendataday.it/resource/dati.bari/parchi-poligoni-punti>	<http://purl.org/dc/elements/1.1/title>	"Parchi (poligoni, punti)".
+<http://data.opendataday.it/resource/dati.bari/parchi-poligoni-punti>	<http://purl.org/dc/terms/description>	"Mappe dei parchi (poligoni, punti) del Comune di Bari".
+<http://data.opendataday.it/resource/dati.bari/parchi-poligoni-punti>	<http://purl.org/dc/terms/license>	<http://www.opendefinition.org/licenses/cc-zero>.
+<http://data.opendataday.it/resource/dati.bari/parchi-poligoni-punti>	<http://www.w3.org/ns/dcat#keyword>	<http://data.opendataday.it/resource/tag/parchi>.
+<http://data.opendataday.it/resource/tag/parchi>	<http://purl.org/dc/elements/1.1/creator>	<http://data.opendataday.it/resource/dati.bari>.
+<http://data.opendataday.it/resource/tag/parchi>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept>.
+<http://data.opendataday.it/resource/tag/parchi>	<http://purl.org/dc/elements/1.1/title>	"parchi".
+<http://data.opendataday.it/resource/dati.bari/parchi-poligoni-punti>	<http://www.w3.org/ns/dcat#keyword>	<http://data.opendataday.it/resource/tag/poligoni>.
+<http://data.opendataday.it/resource/tag/poligoni>	<http://purl.org/dc/elements/1.1/creator>	<http://data.opendataday.it/resource/dati.bari>.
+<http://data.opendataday.it/resource/tag/poligoni>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept>.
+<http://data.opendataday.it/resource/tag/poligoni>	<http://purl.org/dc/elements/1.1/title>	"poligoni".
+<http://data.opendataday.it/resource/dati.bari/parchi-poligoni-punti>	<http://www.w3.org/ns/dcat#keyword>	<http://data.opendataday.it/resource/tag/punti>.
+<http://data.opendataday.it/resource/tag/punti>	<http://purl.org/dc/elements/1.1/creator>	<http://data.opendataday.it/resource/dati.bari>.
+<http://data.opendataday.it/resource/tag/punti>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept>.
+<http://data.opendataday.it/resource/tag/punti>	<http://purl.org/dc/elements/1.1/title>	"punti".
+<http://data.opendataday.it/resource/dati.bari/parchi-poligoni-punti>	<http://purl.org/dc/terms/modified>	"2013-02-22T14:59:12.805975".
+<http://data.opendataday.it/resource/dati.bari/parchi-poligoni-punti>	<http://purl.org/dc/terms/created>	"2013-02-22T14:22:01.474995".
+<http://data.opendataday.it/resource/dati.bari/parchi-poligoni-punti>	<http://www.w3.org/ns/dcat#distribution>	<http://data.opendataday.it/resource/dati.bari/parchi-poligoni-punti/distribution/dis0>.
+<http://data.opendataday.it/resource/dati.bari/parchi-poligoni-punti/distribution/dis0>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/ns/dcat#Distribution>.
+<http://data.opendataday.it/resource/dati.bari/parchi-poligoni-punti/distribution/dis0>	<http://www.w3.org/ns/dcat#accessURL>	</storage/f/2013-02-22T145859/Parchi_Svago_Punti.zip>.
+<http://data.opendataday.it/resource/dati.bari/parchi-poligoni-punti/distribution/dis0>	<http://rdfs.org/ns/void#format>	".zip".
+<http://data.opendataday.it/resource/dati.bari/parchi-poligoni-punti>	<http://www.w3.org/ns/dcat#theme>	<http://data.opendataday.it/resource/tag/dati-geografici>.
+<http://data.opendataday.it/resource/tag/dati-geografici>	<http://purl.org/dc/elements/1.1/creator>	<http://data.opendataday.it/resource/dati.bari>.
+<http://data.opendataday.it/resource/tag/dati-geografici>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept>.
+<http://data.opendataday.it/resource/tag/dati-geografici>	<http://purl.org/dc/elements/1.1/title>	"dati-geografici".
+<http://data.opendataday.it/resource/dati.bari/parchi-poligoni-punti>	<http://purl.org/dc/terms/publisher>	"Ripartizione Tutela Ambiente, Sanità e Igiene".
+<http://data.opendataday.it/resource/dati.bari>	<http://www.w3.org/ns/dcat#dataset>	<http://data.opendataday.it/resource/dati.bari/rilevazione-dei-prezzi-al-consumo>.
+<http://data.opendataday.it/resource/dati.bari/rilevazione-dei-prezzi-al-consumo>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/ns/dcat#Dataset>.
+<http://data.opendataday.it/resource/dati.bari/rilevazione-dei-prezzi-al-consumo>	<http://purl.org/dc/elements/1.1/title>	"Rilevazione dei prezzi al consumo".
+<http://data.opendataday.it/resource/dati.bari/rilevazione-dei-prezzi-al-consumo>	<http://purl.org/dc/terms/description>	"Rilevazione dei prezzi al consumo del Comune di Bari del 2013".
+<http://data.opendataday.it/resource/dati.bari/rilevazione-dei-prezzi-al-consumo>	<http://purl.org/dc/terms/license>	<http://www.opendefinition.org/licenses/cc-zero>.
+<http://data.opendataday.it/resource/dati.bari/rilevazione-dei-prezzi-al-consumo>	<http://www.w3.org/ns/dcat#keyword>	<http://data.opendataday.it/resource/tag/indici>.
+<http://data.opendataday.it/resource/tag/indici>	<http://purl.org/dc/elements/1.1/creator>	<http://data.opendataday.it/resource/dati.bari>.
+<http://data.opendataday.it/resource/tag/indici>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept>.
+<http://data.opendataday.it/resource/tag/indici>	<http://purl.org/dc/elements/1.1/title>	"indici".
+<http://data.opendataday.it/resource/dati.bari/rilevazione-dei-prezzi-al-consumo>	<http://www.w3.org/ns/dcat#keyword>	<http://data.opendataday.it/resource/tag/prezzi-al-consumo>.
+<http://data.opendataday.it/resource/tag/prezzi-al-consumo>	<http://purl.org/dc/elements/1.1/creator>	<http://data.opendataday.it/resource/dati.bari>.
+<http://data.opendataday.it/resource/tag/prezzi-al-consumo>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept>.
+<http://data.opendataday.it/resource/tag/prezzi-al-consumo>	<http://purl.org/dc/elements/1.1/title>	"prezzi al consumo".
+<http://data.opendataday.it/resource/dati.bari/rilevazione-dei-prezzi-al-consumo>	<http://purl.org/dc/terms/publisher>	"Ripartizione Servizi Demografici, Elettorali e Statistici".
+<http://data.opendataday.it/resource/dati.bari/rilevazione-dei-prezzi-al-consumo>	<http://purl.org/dc/terms/modified>	"2013-02-21T11:03:07.555451".
+<http://data.opendataday.it/resource/dati.bari/rilevazione-dei-prezzi-al-consumo>	<http://purl.org/dc/terms/created>	"2013-02-21T10:51:19.976688".
+<http://data.opendataday.it/resource/dati.bari/rilevazione-dei-prezzi-al-consumo>	<http://www.w3.org/ns/dcat#distribution>	<http://data.opendataday.it/resource/dati.bari/rilevazione-dei-prezzi-al-consumo/distribution/dis0>.
+<http://data.opendataday.it/resource/dati.bari/rilevazione-dei-prezzi-al-consumo/distribution/dis0>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/ns/dcat#Distribution>.
+<http://data.opendataday.it/resource/dati.bari/rilevazione-dei-prezzi-al-consumo/distribution/dis0>	<http://www.w3.org/ns/dcat#accessURL>	</storage/f/2013-02-21T105052/Anticipazione-NIC.csv>.
+<http://data.opendataday.it/resource/dati.bari/rilevazione-dei-prezzi-al-consumo/distribution/dis0>	<http://rdfs.org/ns/void#format>	".csv".
+<http://data.opendataday.it/resource/dati.bari/rilevazione-dei-prezzi-al-consumo>	<http://www.w3.org/ns/dcat#theme>	<http://data.opendataday.it/resource/tag/dati-statistici>.
+<http://data.opendataday.it/resource/tag/dati-statistici>	<http://purl.org/dc/elements/1.1/creator>	<http://data.opendataday.it/resource/dati.bari>.
+<http://data.opendataday.it/resource/tag/dati-statistici>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept>.
+<http://data.opendataday.it/resource/tag/dati-statistici>	<http://purl.org/dc/elements/1.1/title>	"dati-statistici".
+<http://data.opendataday.it/resource/dati.bari/superfici-e-siti-amiantati>	<http://www.w3.org/ns/dcat#keyword>	<http://data.opendataday.it/resource/tag/superfici>.
+<http://data.opendataday.it/resource/tag/superfici>	<http://purl.org/dc/elements/1.1/creator>	<http://data.opendataday.it/resource/dati.bari>.
+<http://data.opendataday.it/resource/tag/superfici>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept>.
+<http://data.opendataday.it/resource/tag/superfici>	<http://purl.org/dc/elements/1.1/title>	"superfici".
+<http://data.opendataday.it/resource/dati.bari/superfici-e-siti-amiantati>	<http://www.w3.org/ns/dcat#keyword>	<http://data.opendataday.it/resource/tag/siti-amiantati>.
+<http://data.opendataday.it/resource/tag/siti-amiantati>	<http://purl.org/dc/elements/1.1/creator>	<http://data.opendataday.it/resource/dati.bari>.
+<http://data.opendataday.it/resource/tag/siti-amiantati>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept>.
+<http://data.opendataday.it/resource/tag/siti-amiantati>	<http://purl.org/dc/elements/1.1/title>	"siti amiantati".
+<http://data.opendataday.it/resource/dati.bari/superfici-e-siti-amiantati>	<http://purl.org/dc/terms/license>	<http://www.opendefinition.org/licenses/cc-zero>.
+<http://data.opendataday.it/resource/dati.bari/superfici-e-siti-amiantati>	<http://purl.org/dc/terms/description>	"Mappa delle superfici e siti amiantati del Comune di Bari".
+<http://data.opendataday.it/resource/dati.bari/superfici-e-siti-amiantati>	<http://purl.org/dc/terms/publisher>	"Ripartizione Tutela Ambiente, Sanità e Igiene".
+<http://data.opendataday.it/resource/dati.bari/superfici-e-siti-amiantati>	<http://purl.org/dc/terms/modified>	"2013-02-22T13:56:56.224746".
+<http://data.opendataday.it/resource/dati.bari/superfici-e-siti-amiantati>	<http://purl.org/dc/terms/created>	"2013-02-22T13:31:03.295801".
+<http://data.opendataday.it/resource/dati.bari/superfici-e-siti-amiantati>	<http://www.w3.org/ns/dcat#distribution>	<http://data.opendataday.it/resource/dati.bari/superfici-e-siti-amiantati/distribution/dis0>.
+<http://data.opendataday.it/resource/dati.bari/superfici-e-siti-amiantati/distribution/dis0>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/ns/dcat#Distribution>.
+<http://data.opendataday.it/resource/dati.bari/superfici-e-siti-amiantati/distribution/dis0>	<http://www.w3.org/ns/dcat#accessURL>	</storage/f/2013-02-22T133044/superfici_e_siti_amiantati.zip>.
+<http://data.opendataday.it/resource/dati.bari/superfici-e-siti-amiantati/distribution/dis0>	<http://rdfs.org/ns/void#format>	".zip".
+<http://data.opendataday.it/resource/dati.bari/superfici-e-siti-amiantati>	<http://www.w3.org/ns/dcat#theme>	<http://data.opendataday.it/resource/tag/dati-geografici>.
+<http://data.opendataday.it/resource/tag/dati-geografici>	<http://purl.org/dc/elements/1.1/creator>	<http://data.opendataday.it/resource/dati.bari>.
+<http://data.opendataday.it/resource/tag/dati-geografici>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept>.
+<http://data.opendataday.it/resource/tag/dati-geografici>	<http://purl.org/dc/elements/1.1/title>	"dati-geografici".
+<http://data.opendataday.it/resource/dati.bari>	<http://www.w3.org/ns/dcat#dataset>	<http://data.opendataday.it/resource/dati.bari/superfici-e-siti-amiantati>.
+<http://data.opendataday.it/resource/dati.bari/superfici-e-siti-amiantati>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/ns/dcat#Dataset>.
+<http://data.opendataday.it/resource/dati.bari/superfici-e-siti-amiantati>	<http://purl.org/dc/elements/1.1/title>	"Superfici e siti amiantati".
+<http://data.opendataday.it/resource/dati.bari>	<http://www.w3.org/ns/dcat#dataset>	<http://data.opendataday.it/resource/dati.bari/cimiteri>.
+<http://data.opendataday.it/resource/dati.bari/cimiteri>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/ns/dcat#Dataset>.
+<http://data.opendataday.it/resource/dati.bari/cimiteri>	<http://purl.org/dc/elements/1.1/title>	"Cimiteri".
+<http://data.opendataday.it/resource/dati.bari/cimiteri>	<http://purl.org/dc/terms/description>	"Mappa dei cimiteri del Comune di Bari".
+<http://data.opendataday.it/resource/dati.bari/cimiteri>	<http://purl.org/dc/terms/license>	<http://www.opendefinition.org/licenses/cc-zero>.
+<http://data.opendataday.it/resource/dati.bari/cimiteri>	<http://www.w3.org/ns/dcat#keyword>	<http://data.opendataday.it/resource/tag/amiu>.
+<http://data.opendataday.it/resource/tag/amiu>	<http://purl.org/dc/elements/1.1/creator>	<http://data.opendataday.it/resource/dati.bari>.
+<http://data.opendataday.it/resource/tag/amiu>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept>.
+<http://data.opendataday.it/resource/tag/amiu>	<http://purl.org/dc/elements/1.1/title>	"amiu".
+<http://data.opendataday.it/resource/dati.bari/cimiteri>	<http://www.w3.org/ns/dcat#keyword>	<http://data.opendataday.it/resource/tag/cimiteri>.
+<http://data.opendataday.it/resource/tag/cimiteri>	<http://purl.org/dc/elements/1.1/creator>	<http://data.opendataday.it/resource/dati.bari>.
+<http://data.opendataday.it/resource/tag/cimiteri>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept>.
+<http://data.opendataday.it/resource/tag/cimiteri>	<http://purl.org/dc/elements/1.1/title>	"cimiteri".
+<http://data.opendataday.it/resource/dati.bari/cimiteri>	<http://purl.org/dc/terms/publisher>	"Ripartizione Tutela Ambiente, Sanità e Igiene".
+<http://data.opendataday.it/resource/dati.bari/cimiteri>	<http://purl.org/dc/terms/modified>	"2013-02-22T13:46:38.547147".
+<http://data.opendataday.it/resource/dati.bari/cimiteri>	<http://purl.org/dc/terms/created>	"2013-02-22T13:43:40.617404".
+<http://data.opendataday.it/resource/dati.bari/cimiteri>	<http://www.w3.org/ns/dcat#distribution>	<http://data.opendataday.it/resource/dati.bari/cimiteri/distribution/dis0>.
+<http://data.opendataday.it/resource/dati.bari/cimiteri/distribution/dis0>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/ns/dcat#Distribution>.
+<http://data.opendataday.it/resource/dati.bari/cimiteri/distribution/dis0>	<http://www.w3.org/ns/dcat#accessURL>	</storage/f/2013-02-22T134356/AMIU_Cimiteri.zip>.
+<http://data.opendataday.it/resource/dati.bari/cimiteri/distribution/dis0>	<http://rdfs.org/ns/void#format>	".zip".
+<http://data.opendataday.it/resource/dati.bari/cimiteri>	<http://www.w3.org/ns/dcat#theme>	<http://data.opendataday.it/resource/tag/dati-geografici>.
+<http://data.opendataday.it/resource/tag/dati-geografici>	<http://purl.org/dc/elements/1.1/creator>	<http://data.opendataday.it/resource/dati.bari>.
+<http://data.opendataday.it/resource/tag/dati-geografici>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept>.
+<http://data.opendataday.it/resource/tag/dati-geografici>	<http://purl.org/dc/elements/1.1/title>	"dati-geografici".
+<http://data.opendataday.it/resource/dati.bari>	<http://www.w3.org/ns/dcat#dataset>	<http://data.opendataday.it/resource/dati.bari/suoli-non-recintati>.
+<http://data.opendataday.it/resource/dati.bari/suoli-non-recintati>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/ns/dcat#Dataset>.
+<http://data.opendataday.it/resource/dati.bari/suoli-non-recintati>	<http://purl.org/dc/elements/1.1/title>	"Suoli non recintati".
+<http://data.opendataday.it/resource/dati.bari/suoli-non-recintati>	<http://purl.org/dc/terms/description>	"Mappa dei suoli non recintati del Comune di Bari".
+<http://data.opendataday.it/resource/dati.bari/suoli-non-recintati>	<http://purl.org/dc/terms/license>	<http://www.opendefinition.org/licenses/cc-zero>.
+<http://data.opendataday.it/resource/dati.bari/suoli-non-recintati>	<http://www.w3.org/ns/dcat#keyword>	<http://data.opendataday.it/resource/tag/suoli>.
+<http://data.opendataday.it/resource/tag/suoli>	<http://purl.org/dc/elements/1.1/creator>	<http://data.opendataday.it/resource/dati.bari>.
+<http://data.opendataday.it/resource/tag/suoli>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept>.
+<http://data.opendataday.it/resource/tag/suoli>	<http://purl.org/dc/elements/1.1/title>	"suoli".
+<http://data.opendataday.it/resource/dati.bari/suoli-non-recintati>	<http://www.w3.org/ns/dcat#keyword>	<http://data.opendataday.it/resource/tag/suolo>.
+<http://data.opendataday.it/resource/tag/suolo>	<http://purl.org/dc/elements/1.1/creator>	<http://data.opendataday.it/resource/dati.bari>.
+<http://data.opendataday.it/resource/tag/suolo>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept>.
+<http://data.opendataday.it/resource/tag/suolo>	<http://purl.org/dc/elements/1.1/title>	"suolo".
+<http://data.opendataday.it/resource/dati.bari/suoli-non-recintati>	<http://purl.org/dc/terms/publisher>	"Ripartizione Tutela Ambiente, Sanità e Igiene".
+<http://data.opendataday.it/resource/dati.bari/suoli-non-recintati>	<http://purl.org/dc/terms/modified>	"2013-02-22T14:00:51.662581".
+<http://data.opendataday.it/resource/dati.bari/suoli-non-recintati>	<http://purl.org/dc/terms/created>	"2013-02-22T13:58:21.621320".
+<http://data.opendataday.it/resource/dati.bari/suoli-non-recintati>	<http://www.w3.org/ns/dcat#distribution>	<http://data.opendataday.it/resource/dati.bari/suoli-non-recintati/distribution/dis0>.
+<http://data.opendataday.it/resource/dati.bari/suoli-non-recintati/distribution/dis0>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/ns/dcat#Distribution>.
+<http://data.opendataday.it/resource/dati.bari/suoli-non-recintati/distribution/dis0>	<http://www.w3.org/ns/dcat#accessURL>	</storage/f/2013-02-22T135810/AMIU_Suoli_Non_Recintati.zip>.
+<http://data.opendataday.it/resource/dati.bari/suoli-non-recintati/distribution/dis0>	<http://rdfs.org/ns/void#format>	".zip".
+<http://data.opendataday.it/resource/dati.bari/suoli-non-recintati>	<http://www.w3.org/ns/dcat#theme>	<http://data.opendataday.it/resource/tag/dati-geografici>.
+<http://data.opendataday.it/resource/tag/dati-geografici>	<http://purl.org/dc/elements/1.1/creator>	<http://data.opendataday.it/resource/dati.bari>.
+<http://data.opendataday.it/resource/tag/dati-geografici>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept>.
+<http://data.opendataday.it/resource/tag/dati-geografici>	<http://purl.org/dc/elements/1.1/title>	"dati-geografici".
+<http://data.opendataday.it/resource/dati.bari>	<http://www.w3.org/ns/dcat#dataset>	<http://data.opendataday.it/resource/dati.bari/scuole>.
+<http://data.opendataday.it/resource/dati.bari/scuole>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/ns/dcat#Dataset>.
+<http://data.opendataday.it/resource/dati.bari/scuole>	<http://purl.org/dc/elements/1.1/title>	"Scuole".
+<http://data.opendataday.it/resource/dati.bari/scuole>	<http://purl.org/dc/terms/description>	"Mappa delle scuole del Comune di Bari".
+<http://data.opendataday.it/resource/dati.bari/scuole>	<http://purl.org/dc/terms/license>	<http://www.opendefinition.org/licenses/cc-zero>.
+<http://data.opendataday.it/resource/dati.bari/scuole>	<http://www.w3.org/ns/dcat#keyword>	<http://data.opendataday.it/resource/tag/scuole>.
+<http://data.opendataday.it/resource/tag/scuole>	<http://purl.org/dc/elements/1.1/creator>	<http://data.opendataday.it/resource/dati.bari>.
+<http://data.opendataday.it/resource/tag/scuole>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept>.
+<http://data.opendataday.it/resource/tag/scuole>	<http://purl.org/dc/elements/1.1/title>	"scuole".
+<http://data.opendataday.it/resource/dati.bari/scuole>	<http://purl.org/dc/terms/publisher>	"Ripartizione Tutela Ambiente, Sanità e Igiene".
+<http://data.opendataday.it/resource/dati.bari/scuole>	<http://purl.org/dc/terms/modified>	"2013-02-22T14:40:02.158687".
+<http://data.opendataday.it/resource/dati.bari/scuole>	<http://www.w3.org/ns/dcat#distribution>	<http://data.opendataday.it/resource/dati.bari/scuole/distribution/dis0>.
+<http://data.opendataday.it/resource/dati.bari/scuole/distribution/dis0>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/ns/dcat#Distribution>.
+<http://data.opendataday.it/resource/dati.bari/scuole/distribution/dis0>	<http://www.w3.org/ns/dcat#accessURL>	</storage/f/2013-02-22T143128/ESA_Scuole.zip>.
+<http://data.opendataday.it/resource/dati.bari/scuole/distribution/dis0>	<http://rdfs.org/ns/void#format>	".zip".
+<http://data.opendataday.it/resource/dati.bari/scuole>	<http://www.w3.org/ns/dcat#theme>	<http://data.opendataday.it/resource/tag/dati-geografici>.
+<http://data.opendataday.it/resource/tag/dati-geografici>	<http://purl.org/dc/elements/1.1/creator>	<http://data.opendataday.it/resource/dati.bari>.
+<http://data.opendataday.it/resource/tag/dati-geografici>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept>.
+<http://data.opendataday.it/resource/tag/dati-geografici>	<http://purl.org/dc/elements/1.1/title>	"dati-geografici".
+<http://data.opendataday.it/resource/dati.bari/scuole>	<http://purl.org/dc/terms/created>	"2013-02-22T14:31:46.136989".

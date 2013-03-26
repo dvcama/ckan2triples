@@ -1,0 +1,43 @@
+var a = {
+	"id" : "1107",
+	"name" : "1107",
+	"title" : "Altimetria 1:100.000 - Isoipse - Storico",
+	"version" : "",
+	"url" : "http://www.dati.piemonte.it/catalogodati/dato/1107-altimetria-1-100-000-isoipse-storico.html",
+	"resources" : [ {
+		"id" : "",
+		"url" : "http://gis.csi.it/repertorio/sitad_wgs84/Isolinee/isolinee.zip",
+		"format" : "SHP",
+		"description" : "",
+		"hash" : "",
+		"package_id" : "1107"
+	} ],
+	"author" : "Regione Piemonte - Programmazione strategica, Politiche territoriali ed Edilizia - Cartografia e Sistema Informativo Territoriale",
+	"author_email" : "",
+	"maintainer" : "Regione Piemonte - Programmazione strategica, Politiche territoriali ed Edilizia - Cartografia e Sistema Informativo Territoriale",
+	"maintainer_email" : "",
+	"license_id" : "",
+	"license" : "CC-BY",
+	"metadata_created" : "2011-06-01T02:00:00+0200",
+	"tags" : [ "Terreno", "storico", "rocce", "morfologia", "isoipse", "ghiacciaio", "altimetria" ],
+	"notes" : "<ds><a href=\"#\" onClick=\"MM_openBrWindow('http://gis.csi.it/metadati/documentazione/dataset/ds13.htm','Doc','status=yes,scrollbars=yes,resizable=yes,width=500,heigth=700'); return false;\"><b>Altimetria 1:100.000: </b></a>Dati relativi all'altimetria del territorio piemontese, sulla base dei rilievi IGM alla scala 1:100.000, costituiti da isoipse (con equidistanza 100 metri), aree speciali con quota non definita (rocce e ghiacciai) e punti quotati. </ds><p><b>Isoipse: </b><classe>Curve di livello ogni 100 m rilevate dalle selezioni IGM 1:100000.</classe>",
+	"extras" : {
+		"topic" : "Risorse naturali - informazioni geologiche e geofisiche",
+		"metadata_created" : "2011-06-01T02:00:00+0200",
+		"hidden_field" : "Risorse naturali informazioni geologiche e geofisiche",
+		"package_modified" : "2004-07-28T02:00:00+0200",
+		"tag" : "Terreno|storico|rocce|morfologia|isoipse|ghiacciaio|altimetria",
+		"visualization_url" : "http://www.sistemapiemonte.it/sitad/ricercaEntita.do?idEntita=6035&interfaccia=sispie&ricerca=off&authType=guest",
+		"url" : "http://www.dati.piemonte.it/catalogodati/dato/1107-altimetria-1-100-000-isoipse-storico.html",
+		"author" : "Regione Piemonte - Programmazione strategica, Politiche territoriali ed Edilizia - Cartografia e Sistema Informativo Territoriale",
+		"title" : "Altimetria 1:100.000 - Isoipse - Storico",
+		"package_created" : "1996-01-01T01:00:00+0100",
+		"source" : "SITAD",
+		"description" : "<ds><a href=\"#\" onClick=\"MM_openBrWindow('http://gis.csi.it/metadati/documentazione/dataset/ds13.htm','Doc','status=yes,scrollbars=yes,resizable=yes,width=500,heigth=700'); return false;\"><b>Altimetria 1:100.000: </b></a>Dati relativi all'altimetria del territorio piemontese, sulla base dei rilievi IGM alla scala 1:100.000, costituiti da isoipse (con equidistanza 100 metri), aree speciali con quota non definita (rocce e ghiacciai) e punti quotati. </ds><p><b>Isoipse: </b><classe>Curve di livello ogni 100 m rilevate dalle selezioni IGM 1:100000.</classe>",
+		"package_type" : "Dato geografico",
+		"license_id" : "CC-BY",
+		"package_id" : "1107",
+		"metadata_modified" : "2013-02-04T01:00:00+0100",
+		"metadata_source_modified" : "1997-09-15T02:00:00+0200"
+	}
+}
