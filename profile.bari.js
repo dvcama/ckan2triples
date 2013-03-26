@@ -55,7 +55,11 @@
 			"uri" : "<http://www.w3.org/ns/dcat#distribution>",
 			"url" : {
 				"uri" : "<http://www.w3.org/ns/dcat#accessURL>",
-				"type" : "uri"
+				"type" : "uri",
+				"resourceUriSubstitutor" : [{
+					"find" : "^/",
+					"replace" :  "http://opendata.comune.bari.it/"
+				}]
 			},
 			"description" : {
 				"uri" : "<http://purl.org/dc/terms/description>",
